@@ -1,0 +1,13 @@
+langchain==0.3.23
+langchain-openai==0.3.12
+langchain-community==0.3.21
+python-dotenv==1.1.0
+beautifulsoup4==4.13.4
+jinja2
+pyyaml
+pandas==2.2.3
+rich==14.0.0
+streamlit==1.45.0
+playwright
+requests==2.32.3
+swifter==1.4.0
