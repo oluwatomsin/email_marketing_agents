@@ -3,7 +3,7 @@ import pandas as pd
 from dotenv import load_dotenv
 from modules.utils import TextExtractor
 from modules.agents import SDRAgent1, SDRAgent2, SDRAgent3, CallLineAgent, LC1Agent, LC2Agent
-import swifter
+# import swifter
 
 # Load environment variables
 load_dotenv()
@@ -30,9 +30,6 @@ def enrich_dataset(data: pd.DataFrame) -> pd.DataFrame:
     enriched_df["Website Content"] = enriched_df["Website"].apply(lambda url: text_extractor.from_website(str(url)))
     # 1. Create "Lead_info" column by combining First Name, Last Name, and Title
     enriched_df["Lead_info"] = enriched_df["First Name"].fillna('') + " " + enriched_df["Last Name"].fillna('') + " - " + enriched_df["Title"].fillna('')
-
-    # 2. Create "Second_Lead_info" column by combining fellow title and fellow Name
-    enriched_df["Second_Lead_info"] = enriched_df["fellow title"].fillna('') + " - " + enriched_df["fellow  Name"].fillna('')
     return enriched_df
 
 
@@ -40,11 +37,11 @@ if uploaded_file:
     df = pd.read_csv(uploaded_file)
     df = df.head(3)  # Limit for testing
 
-    required_columns = ["Job post Link", "Website", "First Name", "fellow  Name", "fellow title",
+    required_columns = ["Job post Link", "Website", "First Name", "Second_Lead_info",
                         "Last Name", "Title", "Job Post", "Job post Link"]
     if not all(col in df.columns for col in required_columns):
         st.error("The CSV must contain the following columns: 'Title', 'Job post Link', 'Job Post', 'Job post Link', "
-                 "'fellow title' ,'Website', 'First Name' and 'fellow  Name'")
+                 "'fellow title' ,'Website', and 'Second_Lead_info'")
     else:
         st.info("⏳ Step 1: Enriching with company's website homepage content")
 
@@ -90,7 +87,7 @@ if uploaded_file:
                         second_lead=row['Second_Lead_info']
                     )
 
-                    full_email = f"Hello {row.get('First Name', '').strip()}\n\n{p1}\n\n{p2}\n\n{p3}".strip()
+                    full_email = f"Hi {row.get('First Name', '').strip()}\n\n{p1}\n\n{p2}\n\n{p3}".strip()
 
                     call_line = call_agent.generate(
                         email_text=full_email,

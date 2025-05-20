@@ -113,7 +113,7 @@ Paragraph 2: {paragraph_2}
 Job URL: {job_url}
 Job Post: {job_post}
 Target Lead Info: {lead_info}
-Already reached out to lead: {second_lead}
+Already reached out to leads: {second_lead}
 Target Company Homepage: {target_company_homepage}
 Salaria FAQ: {salaria_homepage_faq}
 
