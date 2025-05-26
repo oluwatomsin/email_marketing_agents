@@ -628,3 +628,23 @@
 2025-05-26 15:26:43,631 [INFO] 🤖 All agents initialized.
 2025-05-26 15:26:43,633 [INFO] 📄 File uploaded.
 2025-05-26 15:26:43,637 [INFO] 📥 CSV read successfully.
+2025-05-26 15:39:21,933 [INFO] ✅ Environment variables loaded.
+2025-05-26 15:39:21,933 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 15:39:22,635 [INFO] 🤖 All agents initialized.
+2025-05-26 15:39:27,652 [INFO] ✅ Environment variables loaded.
+2025-05-26 15:39:27,653 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 15:39:28,349 [INFO] 🤖 All agents initialized.
+2025-05-26 15:39:28,351 [INFO] 📄 File uploaded.
+2025-05-26 15:39:28,363 [INFO] 📥 CSV read successfully.
+2025-05-26 15:39:28,373 [INFO] 🔍 Starting data enrichment...
+2025-05-26 15:39:34,727 [INFO] ✅ Data enrichment completed.
+2025-05-26 15:40:21,871 [INFO] ✅ Environment variables loaded.
+2025-05-26 15:40:21,872 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 15:40:22,568 [INFO] 🤖 All agents initialized.
+2025-05-26 15:40:22,573 [INFO] 📄 File uploaded.
+2025-05-26 15:40:22,577 [INFO] 📥 CSV read successfully.
+2025-05-26 15:40:39,521 [INFO] ✅ Environment variables loaded.
+2025-05-26 15:40:39,522 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 15:40:40,214 [INFO] 🤖 All agents initialized.
+2025-05-26 15:40:40,216 [INFO] 📄 File uploaded.
+2025-05-26 15:40:40,221 [INFO] 📥 CSV read successfully.

@@ -81,6 +81,9 @@ if uploaded_file:
             df = enrich_dataset(df)
             st.success("✅ Data enrichment completed!")
             st.subheader("📄 Preview Enriched Data")
+            st.warning('In some cases, the bot might not be able to automatically get the information from some '
+                       'websites. Cross check the **["Website Content"]** column for such cases and kindly replace the '
+                       'data where and error occurred.', icon="⚠️")
             df = st.data_editor(df)
             if st.button("🚀 Generate AI Email Paragraphs"):
                 log_and_print("🚀 AI Email generation started.")
