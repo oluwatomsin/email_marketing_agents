@@ -426,3 +426,116 @@
 2025-05-23 13:13:44,876 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2025-05-23 13:13:44,894 [INFO] ✅ AI Email generation completed successfully.
 2025-05-23 13:13:44,932 [INFO] 📥 CSV download button rendered.
+2025-05-26 13:43:44,312 [INFO] ✅ Environment variables loaded.
+2025-05-26 13:43:44,312 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 13:43:45,019 [INFO] 🤖 All agents initialized.
+2025-05-26 13:47:06,780 [INFO] ✅ Environment variables loaded.
+2025-05-26 13:47:06,781 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 13:47:07,715 [INFO] 🤖 All agents initialized.
+2025-05-26 13:47:07,721 [INFO] 📄 File uploaded.
+2025-05-26 13:47:07,753 [INFO] 📥 CSV read successfully.
+2025-05-26 13:47:07,757 [ERROR] ❗ CSV missing required columns.
+2025-05-26 13:47:37,537 [INFO] ✅ Environment variables loaded.
+2025-05-26 13:47:37,537 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 13:47:38,205 [INFO] 🤖 All agents initialized.
+2025-05-26 13:47:38,208 [INFO] 📄 File uploaded.
+2025-05-26 13:47:38,212 [INFO] 📥 CSV read successfully.
+2025-05-26 13:47:38,212 [ERROR] ❗ CSV missing required columns.
+2025-05-26 13:47:57,438 [INFO] ✅ Environment variables loaded.
+2025-05-26 13:47:57,438 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 13:47:58,117 [INFO] 🤖 All agents initialized.
+2025-05-26 13:47:58,120 [INFO] 📄 File uploaded.
+2025-05-26 13:47:58,125 [INFO] 📥 CSV read successfully.
+2025-05-26 13:47:58,126 [ERROR] ❗ CSV missing required columns.
+2025-05-26 13:48:07,910 [INFO] ✅ Environment variables loaded.
+2025-05-26 13:48:07,910 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 13:48:08,572 [INFO] 🤖 All agents initialized.
+2025-05-26 13:48:08,575 [INFO] 📄 File uploaded.
+2025-05-26 13:48:08,581 [INFO] 📥 CSV read successfully.
+2025-05-26 13:48:08,581 [ERROR] ❗ CSV missing required columns.
+2025-05-26 13:52:01,289 [INFO] ✅ Environment variables loaded.
+2025-05-26 13:52:01,290 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 13:52:01,965 [INFO] 🤖 All agents initialized.
+2025-05-26 13:52:01,968 [INFO] 📄 File uploaded.
+2025-05-26 13:52:01,971 [INFO] 📥 CSV read successfully.
+2025-05-26 13:52:01,972 [ERROR] ❗ CSV missing required columns.
+2025-05-26 13:52:39,099 [INFO] ✅ Environment variables loaded.
+2025-05-26 13:52:39,099 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 13:52:39,755 [INFO] 🤖 All agents initialized.
+2025-05-26 13:52:39,758 [INFO] 📄 File uploaded.
+2025-05-26 13:52:39,761 [INFO] 📥 CSV read successfully.
+2025-05-26 13:52:39,762 [ERROR] ❗ CSV missing required columns.
+2025-05-26 13:53:09,532 [INFO] ✅ Environment variables loaded.
+2025-05-26 13:53:09,533 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 13:53:10,184 [INFO] 🤖 All agents initialized.
+2025-05-26 13:53:10,187 [INFO] 📄 File uploaded.
+2025-05-26 13:53:10,190 [INFO] 📥 CSV read successfully.
+2025-05-26 13:53:10,190 [ERROR] ❗ CSV missing required columns.
+2025-05-26 13:53:20,488 [INFO] ✅ Environment variables loaded.
+2025-05-26 13:53:20,489 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 13:53:21,138 [INFO] 🤖 All agents initialized.
+2025-05-26 13:53:21,141 [INFO] 📄 File uploaded.
+2025-05-26 13:53:21,144 [INFO] 📥 CSV read successfully.
+2025-05-26 13:53:21,144 [ERROR] ❗ CSV missing required columns.
+2025-05-26 13:53:42,085 [INFO] ✅ Environment variables loaded.
+2025-05-26 13:53:42,085 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 13:53:42,755 [INFO] 🤖 All agents initialized.
+2025-05-26 13:53:42,758 [INFO] 📄 File uploaded.
+2025-05-26 13:53:42,763 [INFO] 📥 CSV read successfully.
+2025-05-26 13:53:42,763 [ERROR] ❗ CSV missing required columns.
+2025-05-26 13:54:04,263 [INFO] ✅ Environment variables loaded.
+2025-05-26 13:54:04,265 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 13:54:04,939 [INFO] 🤖 All agents initialized.
+2025-05-26 13:54:04,941 [INFO] 📄 File uploaded.
+2025-05-26 13:54:04,945 [INFO] 📥 CSV read successfully.
+2025-05-26 13:54:04,945 [ERROR] ❗ CSV missing required columns.
+2025-05-26 13:54:13,211 [INFO] ✅ Environment variables loaded.
+2025-05-26 13:54:13,212 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 13:54:13,873 [INFO] 🤖 All agents initialized.
+2025-05-26 13:54:13,874 [INFO] 📄 File uploaded.
+2025-05-26 13:54:13,886 [INFO] 📥 CSV read successfully.
+2025-05-26 13:54:13,905 [INFO] 🔍 Starting data enrichment...
+2025-05-26 13:55:24,845 [INFO] ✅ Data enrichment completed.
+2025-05-26 13:55:39,446 [INFO] ✅ Environment variables loaded.
+2025-05-26 13:55:39,446 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 13:55:40,140 [INFO] 🤖 All agents initialized.
+2025-05-26 13:55:40,143 [INFO] 📄 File uploaded.
+2025-05-26 13:55:40,147 [INFO] 📥 CSV read successfully.
+2025-05-26 13:55:40,155 [INFO] 🔍 Starting data enrichment...
+2025-05-26 13:55:45,584 [INFO] ✅ Data enrichment completed.
+2025-05-26 13:56:04,950 [INFO] ✅ Environment variables loaded.
+2025-05-26 13:56:04,950 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 13:56:05,690 [INFO] 🤖 All agents initialized.
+2025-05-26 13:56:05,692 [INFO] 📄 File uploaded.
+2025-05-26 13:56:05,698 [INFO] 📥 CSV read successfully.
+2025-05-26 13:56:05,721 [INFO] 🚀 AI Email generation started.
+2025-05-26 13:56:05,723 [INFO] ✉️ Generating email for: Adam  Steinhandler
+2025-05-26 13:56:30,323 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 13:57:06,364 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 13:57:37,825 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 13:58:06,013 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 13:59:14,484 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 13:59:43,110 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 13:59:43,114 [INFO] ✉️ Generating email for: John  Cox
+2025-05-26 13:59:54,616 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 14:00:10,297 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 14:00:31,284 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 14:00:45,108 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 14:00:53,297 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 14:01:09,173 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 14:01:09,177 [INFO] ✉️ Generating email for: Vikram  Ranade
+2025-05-26 14:01:22,352 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 14:01:45,065 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 14:02:02,287 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 14:02:25,479 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 14:03:17,680 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 14:03:33,039 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 14:03:33,044 [INFO] ✉️ Generating email for: Damean  Freas
+2025-05-26 14:03:49,009 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 14:04:13,487 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 14:04:50,346 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 14:05:24,695 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 14:06:22,637 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 14:06:44,007 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 14:06:44,024 [INFO] ✅ AI Email generation completed successfully.
+2025-05-26 14:06:44,065 [INFO] 📥 CSV download button rendered.

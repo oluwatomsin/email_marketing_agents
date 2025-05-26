@@ -1,20 +1,1092 @@
-Company,Website,Company Linkedin Page,LinkedIn Profile,First Name,Last Name,Title,Email Address,Lead Tier,Lead's Time Zone,Job post Link
-Cush Suspensions,cushcorp.com,https://www.linkedin.com/company/cush-suspensions/about/,https://www.linkedin.com/in/kevinschlack,Kevin ,Schlack,Co-Founder ,kevin.schlack@cushcorp.com,1,UT,https://www.glassdoor.com/partner/jobListing.htm?pos=125&ao=1136043&s=58&guid=000001963ab8a9b9bb0c0a7af1cc702a&src=GD_JOB_AD&t=SR&vt=w&uido=8D15F27FEC7C8D7EB3AB74CF5E921609&ea=1&cs=1_c63f1d2c&cb=1744741903182&jobListingId=1009710608703&jrtk=5-yul1-0-1iotbhag3kuru800-eb13e72c5257dde1
-Rychiger Canada ,rychiger.com,https://www.linkedin.com/company/rychigercanada/about/,https://www.linkedin.com/in/jonfowkes,Jon ,Fowkes,Chief Executive Officer,jon.fowkes@rychiger.com,1,ET,https://www.linkedin.com/jobs/view/4210693099/?alternateChannel=search&refId=kdIm8M%2FpzLTjzQherMg39w%3D%3D&trackingId=46UITeunQWjlmcheN18Ofw%3D%3D&trk=d_flagship3_search_srp_jobs&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3BCCg6rS8wQr%2B6TVIofuR1XA%3D%3D
-Rychiger Canada ,rychiger.com,https://www.linkedin.com/company/rychigercanada/about/,https://www.linkedin.com/in/abialler,Alexander ,Bialler,Head Of Sales ,alexander.bialler@rychiger.com,1,ET,https://www.linkedin.com/jobs/view/4210693099/?alternateChannel=search&refId=kdIm8M%2FpzLTjzQherMg39w%3D%3D&trackingId=46UITeunQWjlmcheN18Ofw%3D%3D&trk=d_flagship3_search_srp_jobs&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3BCCg6rS8wQr%2B6TVIofuR1XA%3D%3D
-Rychiger Canada ,rychiger.com,https://www.linkedin.com/company/rychigercanada/about/,https://www.linkedin.com/in/dan-elent,Dan ,Elent,Head of Marketing,dan.elent@rychiger.com,1,ET,https://www.linkedin.com/jobs/view/4210693099/?alternateChannel=search&refId=kdIm8M%2FpzLTjzQherMg39w%3D%3D&trackingId=46UITeunQWjlmcheN18Ofw%3D%3D&trk=d_flagship3_search_srp_jobs&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3BCCg6rS8wQr%2B6TVIofuR1XA%3D%3D
-"Foldscope Instruments, Inc.",foldscope.com,https://www.linkedin.com/company/foldscope/about/,https://www.linkedin.com/in/jim-cybulski-60a26320,Jim ,Cybulski,Chief Executive Officer and Co-founder,jim@foldscope.com,1,PT,https://www.linkedin.com/jobs/view/4210979956/?alternateChannel=search&refId=%2BXUeF0Fd6f6raoNSo1K%2F0w%3D%3D&trackingId=aokyl6Z%2FIJ5fjuF3aHvY1Q%3D%3D&trk=d_flagship3_company&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3Bj%2FQhRdvcRbyunVhwn9dErQ%3D%3D
-STS360,sts360.com,https://www.linkedin.com/company/sigma-sts-360/about/,https://www.linkedin.com/in/john-paul-hoffman-57762327,John ,Hoffman,Vice President of Sales,john@sts360.com,1,CT,https://www.linkedin.com/jobs/view/4207645441/?alternateChannel=search&refId=AN%2FdNz7Cd0%2FNjebUu3vhAA%3D%3D&trackingId=4D%2FD9iCXJJu7YpRu1zGPaw%3D%3D&trk=d_flagship3_company&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3B5PQ2Vv8zTIqD571k7W0vmQ%3D%3D
-PureTek Corporation,puretekcorp.com,https://www.linkedin.com/company/puretek/about/,https://www.linkedin.com/in/barry-pressman-1888149,Barry ,Pressman,CEO,bpressman@puretekcorp.com,1,PT,https://www.linkedin.com/jobs/view/4209321345/?alternateChannel=search&refId=ubaqFivgmHIT9jm8IjBCew%3D%3D&trackingId=gViFW4nPeNbdHAV6Wv9KAw%3D%3D&trk=d_flagship3_search_srp_jobs&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3BNF2s%2BJilR460hnH%2FibobHg%3D%3D
-Massumi + Consoli ,mcllp.com,https://www.linkedin.com/company/mcllp/about/,https://www.linkedin.com/in/anthonyconsoli,Anthony ,Consoli,co-founder and Managing Partner,aconsoli@mcllp.com,1,ET,https://www.linkedin.com/company/mcllp/life?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3BwF59TvdPSpeGdISve1%2B%2BcA%3D%3D
-Massumi + Consoli ,mcllp.com,https://www.linkedin.com/company/mcllp/about/,https://www.linkedin.com/in/bgallagher92,Brian ,Gallagher,Director of Marketing,bgallagher@mcllp.com,1,ET,https://www.linkedin.com/company/mcllp/life?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3BwF59TvdPSpeGdISve1%2B%2BcA%3D%3D
-Clockworks Analytics,clockworksanalytics.com,https://www.linkedin.com/company/clockworks-analytics/about/,https://www.linkedin.com/in/sarahmariefisher,Sarah ,Fisher,Head Of Marketing,sfisher@clockworksanalytics.com,1,MA,https://www.linkedin.com/jobs/view/4210988293/?alternateChannel=search&refId=S6ZeQfe5qO2qZDEXb8Q8hQ%3D%3D&trackingId=8zdVXx%2FOuzdnwdH0cgdF7A%3D%3D&trk=d_flagship3_company&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3B3%2FKrNW0cSGmZAHV9CDpsbw%3D%3D
-Clockworks Analytics,clockworksanalytics.com,https://www.linkedin.com/company/clockworks-analytics/about/,https://www.linkedin.com/in/alexdgrace1,Alex ,Grace,Chief Commercial Officer,alex@clockworksanalytics.com,1,MA,https://www.linkedin.com/jobs/view/4210988293/?alternateChannel=search&refId=S6ZeQfe5qO2qZDEXb8Q8hQ%3D%3D&trackingId=8zdVXx%2FOuzdnwdH0cgdF7A%3D%3D&trk=d_flagship3_company&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3B3%2FKrNW0cSGmZAHV9CDpsbw%3D%3D
-"Play Piper, LLC",playpiper.com,https://www.linkedin.com/company/piper-inc/about/,https://www.linkedin.com/in/shree-bose-0149109b,Shree ,Bose,Co-Chief Executive Officer,shree@playpiper.com,1,ET,https://www.linkedin.com/jobs/view/4207610476/?alternateChannel=search&refId=R0TQjZDNjpDWFBVN4rZ5Ag%3D%3D&trackingId=TbLW2SuTIbuaaisxG6gf9g%3D%3D&trk=d_flagship3_search_srp_jobs&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3BTsLaMsUJQLCcBsWOD%2FHcEA%3D%3D
-Play Piper,playpiper.com,https://www.linkedin.com/company/piper-inc/about/,https://www.linkedin.com/in/chrisbouman,Chris ,Bouman,Chief Marketing Officer,chris@playpiper.com,1,PT,https://www.linkedin.com/jobs/view/4207610476/?alternateChannel=search&refId=R0TQjZDNjpDWFBVN4rZ5Ag%3D%3D&trackingId=TbLW2SuTIbuaaisxG6gf9g%3D%3D&trk=d_flagship3_search_srp_jobs&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3BTsLaMsUJQLCcBsWOD%2FHcEA%3D%3D
-The Kersheh Group,thekershehgroup.com,https://www.linkedin.com/company/thekershehgroup/about/,https://www.linkedin.com/in/sam-kersheh-56a5401b,Sam ,Kersheh,CEO,skersheh@thekershehgroup.com,1,ET,https://www.linkedin.com/jobs/view/4211013033/?alternateChannel=search&refId=Eig2FIOEkMNmPnkR8Aka3g%3D%3D&trackingId=iPEOdLPSwVwLxkjFc0LrXA%3D%3D&trk=d_flagship3_search_srp_jobs&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3BNF2s%2BJilR460hnH%2FibobHg%3D%3D
-The Kersheh Group,thekershehgroup.com,https://www.linkedin.com/company/thekershehgroup/about/,https://www.linkedin.com/in/adamsteinhandler,Adam ,Steinhandler,Vice President of Sales,asteinhandler@thekershehgroup.com,1,ET,https://www.linkedin.com/jobs/view/4211013033/?alternateChannel=search&refId=Eig2FIOEkMNmPnkR8Aka3g%3D%3D&trackingId=iPEOdLPSwVwLxkjFc0LrXA%3D%3D&trk=d_flagship3_search_srp_jobs&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3BNF2s%2BJilR460hnH%2FibobHg%3D%3D
-Dyne Therapeutics ,dyne-tx.com,https://www.linkedin.com/company/dynetx/about/,https://www.linkedin.com/in/john-cox-g,John ,Cox,Chief Executive Officer,john.cox@dyne-tx.com,1,ET,https://www.linkedin.com/jobs/view/4210978686/?alternateChannel=search&refId=xL2yXT3mTXhEyoCrl6Y3hQ%3D%3D&trackingId=BVisR7io8NwpHs9cibIwvA%3D%3D&trk=d_flagship3_company&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3BaCNjR4GyRFawM25mOBkIhg%3D%3D
-Dyne Therapeutics ,dyne-tx.com,https://www.linkedin.com/company/dynetx/about/,https://www.linkedin.com/in/vikram-ranade-100b9b37,Vikram ,Ranade,Chief Business Officer ,vikram.ranade@dyne-tx.com,1,ET,https://www.linkedin.com/jobs/view/4210978686/?alternateChannel=search&refId=xL2yXT3mTXhEyoCrl6Y3hQ%3D%3D&trackingId=BVisR7io8NwpHs9cibIwvA%3D%3D&trk=d_flagship3_company&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3BaCNjR4GyRFawM25mOBkIhg%3D%3D
-integrate.ai,integrate.ai,https://www.linkedin.com/company/integrate.ai/about/,https://www.linkedin.com/in/bobbuch,Bob ,Buch,Chief Revenue Officer (CRO) ,bob.buch@integrate.ai,1,CA,https://www.linkedin.com/jobs/view/4208948771/?alternateChannel=search&refId=lYhoSzQlOj0e0QBe0Et1zA%3D%3D&trackingId=Ah4pf7Na6x6Cyvn5%2FBFo5A%3D%3D&trk=d_flagship3_company&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3BHbAUOsxjSSqRd7b7HthNcQ%3D%3D
-Clearway Pain Solutions,clearwaypain.com,https://www.linkedin.com/company/clearwaypain/about/,https://www.linkedin.com/in/dameanfreas,Damean ,Freas,Chief Executive Officer,dfreas@clearwaypain.com,1,ET,https://www.linkedin.com/jobs/view/4208828940/?alternateChannel=search&refId=5Y3AlqPQ2%2FwzyN5smO7Xpw%3D%3D&trackingId=nlb2KqDITmfT3mWpikKGQA%3D%3D&trk=d_flagship3_search_srp_jobs&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3B%2BFSrTw4fRXabyJRClA1Ugg%3D%3D
+Company,Website,Second_Lead_info,First Name,Last Name,Title,Email Address,Job Post,Job post Link,HQ Phone,Direct Phone
+Cush Suspensions,cushcorp.com,"Bob Alen - Head of Marketing, Alen Maxinmum - Head of Sales",Kevin ,Schlack,Co-Founder ,kevin.schlack@cushcorp.com,"Cush Suspensions
+Business Development Representative
+
+
+
+Easy Apply
+Nixa, MO
+·
+$70K (Employer est.)
+
+
+Easy Apply
+About Us
+
+Cush Suspensions is a leading provider of advanced trailer suspension systems, delivering innovative, reliable, and efficient solutions to the transportation and logistics industries. We are committed to excellence in engineering, customer service, and long-term partnerships. As we continue to grow, we're looking for a results-driven Business Development Representative to expand our reach and strengthen relationships within the trailer manufacturing and aftermarket segments.
+
+Position Overview
+
+As a Business Development Representative (BDR), you will play a critical role in driving growth by identifying new business opportunities, building strategic relationships with key partners, and promoting our trailer suspension solutions to OEMs, fleet operators, and distributors.
+
+Key Responsibilities
+
+Identify and qualify new sales opportunities in the trailer and heavy-duty transportation market.
+Conduct outbound prospecting through phone calls, emails, and trade events.
+Develop and maintain a strong pipeline of leads and potential clients.
+Understand customer needs and present tailored trailer suspension solutions.
+Work closely with the sales and engineering teams to ensure client satisfaction.
+Track and report on sales metrics, lead progress, and market trends.
+Represent the company at trade shows, industry events, and client meetings.
+Requirements
+
+2+ years of experience in B2B sales, business development, or technical sales (experience in trailer suspension, automotive, or manufacturing a plus).
+Strong knowledge of trailer components and commercial vehicle systems is highly preferred.
+Excellent communication, negotiation, and presentation skills.
+Ability to travel as needed (Approx. 25%).
+Self-motivated, organized, and results-oriented.
+Proficiency in CRM/ERP tools (e.g., Salesforce, HubSpot).
+What We Offer
+
+Competitive base salary + commission
+Comprehensive benefits (health, dental, vision, 401(k))
+Ongoing training and professional development
+Opportunity to be part of a growing and innovative team
+Apply Now
+If you're passionate about the trailer industry and excited to help customers find the best suspension solutions, we’d love to hear from you.
+
+Job Type: Full-time
+
+Pay: From $70,000.00 per year
+
+Benefits:
+
+401(k)
+401(k) matching
+Dental insurance
+Flexible schedule
+Health insurance
+Life insurance
+Paid time off
+Parental leave
+Referral program
+Vision insurance
+Schedule:
+
+8 hour shift
+Day shift
+Monday to Friday
+Supplemental Pay:
+
+Commission pay
+Work Location: In person",https://www.glassdoor.com/partner/jobListing.htm?pos=125&ao=1136043&s=58&guid=000001963ab8a9b9bb0c0a7af1cc702a&src=GD_JOB_AD&t=SR&vt=w&uido=8D15F27FEC7C8D7EB3AB74CF5E921609&ea=1&cs=1_c63f1d2c&cb=1744741903182&jobListingId=1009710608703&jrtk=5-yul1-0-1iotbhag3kuru800-eb13e72c5257dde1,800-407-4137,7852154240
+Rychiger Canada ,rychiger.com,Bob Alen - Head of Marketing,Jon ,Fowkes,Chief Executive Officer,jon.fowkes@rychiger.com,"Rychiger Canada Inc. logo
+Rychiger Canada Inc.
+Share
+Show more options
+Account Manager
+North York, ON · 1 month ago
+
+ Hybrid
+Matches your job preferences, workplace type is Hybrid.
+
+ Full-time
+Matches your job preferences, job type is Full-time.
+No longer accepting applications
+About the job
+We are currently seeking an Account Manager who will be responsible for driving revenue growth through the creation and execution of a sales plan that focuses on relationship building, business development and account management. Read on!
+
+
+Responsibilities
+
+Creating and implementing a sales plan that aligns with our corporate vision and objectives while taking ownership of sales activities and targeted revenue.
+Building long-lasting business relationships that are beneficial to the client and profitable to our business.
+Keeping abreast of supply and demand, changing market trends and economic indicators.
+Keeping current on competitors’ pricing and product offerings to maintain a competitive position in all market areas.
+Identifying, driving, and capitalizing on a pipeline of new opportunities through targeted account selling across Canada.
+Managing sales opportunities through our internal sales process from prospecting new clients through to the closing of a sale across Canada and or North America.
+Maintaining current sales and technical knowledge through various learning opportunities (e.g. workshops, networking events, publications).
+Other duties and responsibilities as required.
+
+
+Qualifications
+
+
+
+A post-secondary education in sales management or a related discipline.
+Three (3) to five (5) years of experience in B2B selling; capital industrial expenditures preferred.
+Experience in the Packaging Machinery Industry is required.
+Demonstrated ability to consistently meet or exceed sales targets.
+Strong interpersonal skills with a proven track record of building strong business relationships with customers using effective communication skills to identify and understand their needs.
+Excellent negotiation and presentation skills coupled with the proven ability to influence others.
+
+
+We offer:
+
+☒ Dental Care
+☒ Extended Health Care
+☒ On Site Parking
+☒ Paid Time Off
+☒ Vision Care
+☒ RRSP
+
+
+Why Join Rychiger Canada Inc.?
+
+
+
+Rychiger Canada Inc. converts complex engineering designs into flexible, real-world solutions. We design and build versatile, practical packaging and automation equipment for the food, pharmaceutical, personal care, consumer goods and automotive markets.
+Located in a modern manufacturing facility in Toronto, you will have an opportunity to work in a newly renovated facility, gain unique experience with a wide variety of automation, and career success within a larger family of companies.
+
+
+Rychiger Canada Inc., welcomes and encourages applications from people with disabilities. Accommodation is available upon request for candidates taking part in all aspects of the selection process.",https://www.linkedin.com/jobs/view/4210693099/?alternateChannel=search&refId=kdIm8M%2FpzLTjzQherMg39w%3D%3D&trackingId=46UITeunQWjlmcheN18Ofw%3D%3D&trk=d_flagship3_search_srp_jobs&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3BCCg6rS8wQr%2B6TVIofuR1XA%3D%3D,,5617037898
+Rychiger Canada ,rychiger.com,,Alexander ,Bialler,Head Of Sales ,alexander.bialler@rychiger.com,"Rychiger Canada Inc. logo
+Rychiger Canada Inc.
+Share
+Show more options
+Account Manager
+North York, ON · 1 month ago
+
+ Hybrid
+Matches your job preferences, workplace type is Hybrid.
+
+ Full-time
+Matches your job preferences, job type is Full-time.
+No longer accepting applications
+About the job
+We are currently seeking an Account Manager who will be responsible for driving revenue growth through the creation and execution of a sales plan that focuses on relationship building, business development and account management. Read on!
+
+
+Responsibilities
+
+Creating and implementing a sales plan that aligns with our corporate vision and objectives while taking ownership of sales activities and targeted revenue.
+Building long-lasting business relationships that are beneficial to the client and profitable to our business.
+Keeping abreast of supply and demand, changing market trends and economic indicators.
+Keeping current on competitors’ pricing and product offerings to maintain a competitive position in all market areas.
+Identifying, driving, and capitalizing on a pipeline of new opportunities through targeted account selling across Canada.
+Managing sales opportunities through our internal sales process from prospecting new clients through to the closing of a sale across Canada and or North America.
+Maintaining current sales and technical knowledge through various learning opportunities (e.g. workshops, networking events, publications).
+Other duties and responsibilities as required.
+
+
+Qualifications
+
+
+
+A post-secondary education in sales management or a related discipline.
+Three (3) to five (5) years of experience in B2B selling; capital industrial expenditures preferred.
+Experience in the Packaging Machinery Industry is required.
+Demonstrated ability to consistently meet or exceed sales targets.
+Strong interpersonal skills with a proven track record of building strong business relationships with customers using effective communication skills to identify and understand their needs.
+Excellent negotiation and presentation skills coupled with the proven ability to influence others.
+
+
+We offer:
+
+☒ Dental Care
+☒ Extended Health Care
+☒ On Site Parking
+☒ Paid Time Off
+☒ Vision Care
+☒ RRSP
+
+
+Why Join Rychiger Canada Inc.?
+
+
+
+Rychiger Canada Inc. converts complex engineering designs into flexible, real-world solutions. We design and build versatile, practical packaging and automation equipment for the food, pharmaceutical, personal care, consumer goods and automotive markets.
+Located in a modern manufacturing facility in Toronto, you will have an opportunity to work in a newly renovated facility, gain unique experience with a wide variety of automation, and career success within a larger family of companies.
+
+
+Rychiger Canada Inc., welcomes and encourages applications from people with disabilities. Accommodation is available upon request for candidates taking part in all aspects of the selection process.",https://www.linkedin.com/jobs/view/4210693099/?alternateChannel=search&refId=kdIm8M%2FpzLTjzQherMg39w%3D%3D&trackingId=46UITeunQWjlmcheN18Ofw%3D%3D&trk=d_flagship3_search_srp_jobs&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3BCCg6rS8wQr%2B6TVIofuR1XA%3D%3D,(972) 713-3700,9195905918
+Rychiger Canada ,rychiger.com,,Dan ,Elent,Head of Marketing,dan.elent@rychiger.com,"Rychiger Canada Inc. logo
+Rychiger Canada Inc.
+Share
+Show more options
+Account Manager
+North York, ON · 1 month ago
+
+ Hybrid
+Matches your job preferences, workplace type is Hybrid.
+
+ Full-time
+Matches your job preferences, job type is Full-time.
+No longer accepting applications
+About the job
+We are currently seeking an Account Manager who will be responsible for driving revenue growth through the creation and execution of a sales plan that focuses on relationship building, business development and account management. Read on!
+
+
+Responsibilities
+
+Creating and implementing a sales plan that aligns with our corporate vision and objectives while taking ownership of sales activities and targeted revenue.
+Building long-lasting business relationships that are beneficial to the client and profitable to our business.
+Keeping abreast of supply and demand, changing market trends and economic indicators.
+Keeping current on competitors’ pricing and product offerings to maintain a competitive position in all market areas.
+Identifying, driving, and capitalizing on a pipeline of new opportunities through targeted account selling across Canada.
+Managing sales opportunities through our internal sales process from prospecting new clients through to the closing of a sale across Canada and or North America.
+Maintaining current sales and technical knowledge through various learning opportunities (e.g. workshops, networking events, publications).
+Other duties and responsibilities as required.
+
+
+Qualifications
+
+
+
+A post-secondary education in sales management or a related discipline.
+Three (3) to five (5) years of experience in B2B selling; capital industrial expenditures preferred.
+Experience in the Packaging Machinery Industry is required.
+Demonstrated ability to consistently meet or exceed sales targets.
+Strong interpersonal skills with a proven track record of building strong business relationships with customers using effective communication skills to identify and understand their needs.
+Excellent negotiation and presentation skills coupled with the proven ability to influence others.
+
+
+We offer:
+
+☒ Dental Care
+☒ Extended Health Care
+☒ On Site Parking
+☒ Paid Time Off
+☒ Vision Care
+☒ RRSP
+
+
+Why Join Rychiger Canada Inc.?
+
+
+
+Rychiger Canada Inc. converts complex engineering designs into flexible, real-world solutions. We design and build versatile, practical packaging and automation equipment for the food, pharmaceutical, personal care, consumer goods and automotive markets.
+Located in a modern manufacturing facility in Toronto, you will have an opportunity to work in a newly renovated facility, gain unique experience with a wide variety of automation, and career success within a larger family of companies.
+
+
+Rychiger Canada Inc., welcomes and encourages applications from people with disabilities. Accommodation is available upon request for candidates taking part in all aspects of the selection process.",https://www.linkedin.com/jobs/view/4210693099/?alternateChannel=search&refId=kdIm8M%2FpzLTjzQherMg39w%3D%3D&trackingId=46UITeunQWjlmcheN18Ofw%3D%3D&trk=d_flagship3_search_srp_jobs&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3BCCg6rS8wQr%2B6TVIofuR1XA%3D%3D,610-495-6695,3019942434
+"Foldscope Instruments, Inc.",foldscope.com,Bob Alen - Head of Marketing,Jim ,Cybulski,Chief Executive Officer and Co-founder,jim@foldscope.com,"Foldscope Instruments, Inc. logo
+Foldscope Instruments, Inc.
+Share
+Show more options
+Business Development & Sales Specialist
+United States · Reposted 3 weeks ago
+
+ Remote
+Matches your job preferences, workplace type is Remote.
+
+ Full-time
+Matches your job preferences, job type is Full-time.
+No longer accepting applications
+About the job
+Location: Remote, with moderate travel
+Schedule: 9am-5pm local time
+Compensation: $55,000-$85,000 + Substantial Bonus for Large Sales Growth
+
+
+Are you ready to change the world of science education? Foldscope Instruments, a global leader in ultra-affordable scientific tools, is seeking a driven Business Development & Sales Specialist to accelerate our mission: making STEM products accessible to everyone, everywhere. If you thrive on challenges, are passionate about global impact, and want your work to matter, this is your opportunity.
+
+
+About Foldscope Instruments
+Foldscope is not your typical company. We operate at razor-thin margins to ensure our revolutionary paper microscopes and STEM tools reach classrooms, clinics, and communities in over 160 countries. Our mission is to break down the price barrier between people and science, making high-quality, low-cost tools available to all—because access to science is a human right.
+
+
+Your Responsibilities
+Drive Immediate Sales Growth: You will be the engine behind a major sales uptick – deliver substantial sales growth aligned with a pre-determined quota for your first six months, and even more to unlock a significant year-end bonus
+Expand Global Reach: Identify and engage new markets, partners, and customer segments—especially in underserved regions and educational sectors
+Champion Accessibility: Advocate for Foldscope’s mission, ensuring our products reach those who need them most, from rural schools to global NGOs.
+Innovate Sales Strategies: Develop and execute creative, data-driven sales campaigns and partnerships that align with our mission and low-margin model.
+Build Lasting Relationships: Cultivate and nurture relationships with educators, distributors, NGOs, and institutional buyers worldwide
+Collaborate Across Teams: Work closely with marketing, operations, and partnership staff to position Foldscope as the go-to solution for accessible STEM education.
+
+What Makes You a Great Fit
+Passionate: Committed to creating impact, making education accessible to all and cultivating curious minds.
+Excellent Salesmanship: 3+ years of experience in business development, sales, or customer success, ideally with a focus on inbound lead conversion
+Great Communication Skills
+Strategic & Analytical
+Exceptional Networking Skills: Able to build lasting relationships with educators, NGOs, and institutional partners.
+Self-Starter: Highly organized and comfortable working independently in a remote, fast-paced, impact-driven environment.
+Global Mindset: Experience with or strong interest in working with international or underserved communities.
+
+
+Why Join Foldscope?
+Remote Work: No need to commute or move to a new location
+Moderate Travel: Explore the world while pursuing leads and opportunities
+Create Real Global Impact: Every sale directly empowers students and educators around the world
+Performance-Based Rewards: Substantial bonus tied to your sales success
+Fun and Innovative Team: Join a passionate, collaborative group reshaping science education
+
+
+Preferred Qualifications
+Experience with education buyers (e.g., schools, teachers, NGOs)
+Familiarity with CRMs like HubSpot or Salesforce
+Background in educational tools, STEM, or edtech
+Multilingual is a plus
+Analytical skills and comfort interpreting sales metrics
+ 
+Ready to help millions see the microcosmos—and their own potential? Apply now and be part of a movement that’s transforming science education for all.",https://www.linkedin.com/jobs/view/4210979956/?alternateChannel=search&refId=%2BXUeF0Fd6f6raoNSo1K%2F0w%3D%3D&trackingId=aokyl6Z%2FIJ5fjuF3aHvY1Q%3D%3D&trk=d_flagship3_company&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3Bj%2FQhRdvcRbyunVhwn9dErQ%3D%3D,610-495-6695,6108587339
+STS360,sts360.com,,John ,Hoffman,Vice President of Sales,john@sts360.com,"STS360 logo
+STS360
+Share
+Show more options
+Sales Development Representative
+Dallas, TX · 1 month ago
+
+ Hybrid
+Matches your job preferences, workplace type is Hybrid.
+
+ Full-time
+Matches your job preferences, job type is Full-time.
+No longer accepting applications
+About the job
+About STS360
+
+
+STS360 is a Texas-based security integrator specializing in comprehensive security solutions for public sector clients, including state agencies, cities, independent school districts (ISDs), and other governmental entities across the state. Founded in 2005 as Sigma Surveillance, Inc., the company has grown into a recognized leader in the security industry, offering a wide range of services tailored to meet the unique needs of public sector clients
+We’re building a category-defining company, and our outbound sales engine is the tip of the spear. If you're driven, strategic, and ready to help scale a world-class go-to-market motion from the ground up, this role is for you.
+
+
+Position Summary
+As a Sales Development Representative (SDR), you are responsible for executing outbound prospecting efforts, driving lead qualification, and initiating top-of-funnel engagement across key target verticals. This role demands high-volume outreach, strategic targeting, and ownership of early-stage pipeline generation. It’s the first critical function in our GTM plan — and performance in this role directly determines deal flow and revenue scalability.
+
+
+Job Functions & Responsibilities
+- Make 60–100 outbound calls per day to prospects across all state of Texas SLED agencies- Send 75+ personalized email sequences and conduct 50+ LinkedIn outreach touches daily as part of multi-channel campaigns.
+- Conduct research to identify and validate accounts and decision-makers using Seamless AI and LinkedIn Sales Navigator.
+- Qualify inbound and outbound leads through structured discovery calls, following standardized qualification criteria.
+- Conduct initial discovery initial meetings when appropriate, tailored to each prospect’s pain points and operational needs.
+- Log all activity and maintain accurate records in CRM — including lead statuses, campaign membership, and follow-up tasks.
+- Set meetings for Account Executives, track conversion rates, and hit a monthly target of at least 16 qualified meetings.
+- Collaborate with Sales and Marketing to refine messaging and campaign targeting based on real-world prospect feedback.
+- Maintain campaign discipline — ensuring campaign member statuses are updated and reporting is clean.
+- Own the top of the funnel and provide weekly reports on outreach activity, lead conversion, and forecasted meetings.
+- Stay up to date on industry trends, competitor positioning, and internal tools in use.
+
+
+How You Make It Happen
+This job requires precision, stamina, and consistency. Here's what is involved day-to-day to meet performance expectations:
+- Start each day by reviewing and prioritizing task queues inside CRM
+- Research leads/accounts and confirm fit using Seamless AI, internal lists, and vertical playbooks.
+- Execute outbound activity: 60–100 dials, 75+ targeted emails, and 50+ LinkedIn touches daily.
+- Maintain structured cadences across phone/email/social based on prospect behavior and vertical.
+- Tailor messaging for each campaign based on vertical pain points, compliance needs, and risk concerns.
+- Document all lead activity in CRM to ensure real-time accuracy in tracking pipeline development.
+- Follow up on no-shows, reschedules, or cooling leads to ensure no drop-offs in the funnel.
+- Conduct light demos when necessary, set up discovery calls, and escalate qualified opportunities to AEs with full context.
+- Keep a tight feedback loop with the Sales Director on campaign effectiveness, messaging performance, and objections encountered.
+
+
+Qualifications
+- 1–3 years of experience in outbound B2B sales, SDR, or inside sales roles
+- Proven ability to manage outbound activity at volume while maintaining quality
+- Strong verbal and written communication skills
+- Experience using a multitude of sales engagement tools
+- Ability to follow a processes and meet clearly defined metrics
+- Highly self-motivated, accountable, and coachable
+
+
+Compensation & Benefits
+- Competitive base salary + uncapped commission
+- Medical, dental, and vision coverage
+- PTO + paid holidays
+- Clear career path toward outside AE roles",https://www.linkedin.com/jobs/view/4207645441/?alternateChannel=search&refId=AN%2FdNz7Cd0%2FNjebUu3vhAA%3D%3D&trackingId=4D%2FD9iCXJJu7YpRu1zGPaw%3D%3D&trk=d_flagship3_company&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3B5PQ2Vv8zTIqD571k7W0vmQ%3D%3D,610-495-6695,4848865411
+PureTek Corporation,puretekcorp.com,Bob Alen - Head of Marketing,Barry ,Pressman,CEO,bpressman@puretekcorp.com,"PureTek Corporation logo
+PureTek Corporation
+Share
+Show more options
+Lead Generation Representative
+San Fernando, CA · 1 month ago
+
+On-site
+
+ Full-time
+Matches your job preferences, job type is Full-time.
+No longer accepting applications
+About the job
+About the Role:
+
+The Lead Generation Representative plays a crucial role in driving sales and generating leads for our organization. This position involves reaching out to potential customers via phone calls to promote our products and services, ultimately aiming to convert leads into sales. The Representative will be responsible for maintaining a positive and professional demeanor while engaging with customers, ensuring that they understand the value of our offerings. Success in this role is measured by the number of successful conversions and the overall contribution to the company's revenue goals. Additionally, this individual will gather valuable feedback from customers that can help shape future marketing strategies.
+
+
+
+Minimum Qualifications:
+
+High school diploma or equivalent.
+Proven experience in lead generation or sales, preferably in a similar industry.
+Strong verbal communication skills and a persuasive speaking style.
+Preferred Qualifications:
+
+Experience with CRM software and sales tracking tools.
+Familiarity with the products and services offered by the company.
+Ability to work in a fast-paced environment and handle rejection professionally.
+Responsibilities:
+
+Conduct outbound calls to potential customers to promote products and services.
+Engage in meaningful conversations to understand customer needs and provide tailored solutions.
+Maintain accurate records of calls, customer interactions, and sales conversions in the CRM system.
+Follow up with leads and nurture relationships to encourage future sales opportunities.
+Collaborate with the sales and marketing teams to refine outreach strategies and improve conversion rates.
+Skills:
+
+The required skills for this role include excellent communication and interpersonal abilities, which are essential for building rapport with potential customers. Persuasion and negotiation skills will be utilized daily to effectively convey the benefits of our products and services. Organizational skills are necessary for maintaining accurate records and following up on leads in a timely manner. Preferred skills, such as familiarity with CRM software, will enhance efficiency in tracking customer interactions and sales progress. Overall, a combination of these skills will contribute to achieving individual and team targets.
+Pay:
+
+$20-$23 per hour",https://www.linkedin.com/jobs/view/4209321345/?alternateChannel=search&refId=ubaqFivgmHIT9jm8IjBCew%3D%3D&trackingId=gViFW4nPeNbdHAV6Wv9KAw%3D%3D&trk=d_flagship3_search_srp_jobs&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3BNF2s%2BJilR460hnH%2FibobHg%3D%3D,,
+Clockworks Analytics,clockworksanalytics.com,,Sarah ,Fisher,Head Of Marketing,sfisher@clockworksanalytics.com,"Clockworks Analytics logo
+Clockworks Analytics
+Share
+Show more options
+Enterprise Account Executive
+United States · 1 month ago
+
+ Remote
+Matches your job preferences, workplace type is Remote.
+
+ Full-time
+Matches your job preferences, job type is Full-time.
+No longer accepting applications
+Meet the hiring team
+Alex Grace
+Alex Grace  
+ 3rd
+Chief Commercial Officer at Clockworks Analytics
+Job poster
+
+Message
+About the job
+Enterprise Account Executive
+
+Location: Remote (US-based) | Travel: 30–50%
+
+About Clockworks Analytics
+
+Clockworks Analytics is transforming the way facilities are maintained, optimized, and decarbonized. Our software enables facilities organizations to implement condition based maintenance, proactively maintain building systems, and reduce energy consumption, while ensuring reliability of HVAC performance.
+About the Role
+
+We’re looking for an experienced, mission-driven Enterprise Account Executive to join our growing team. This is a high-impact, greenfield opportunity in an emerging market. You’ll be responsible for leading strategic, consultative sales engagements with sophisticated facilities leaders—educating and advising as much as selling. You'll be backed by a highly capable team, a strong inbound marketing engine, expert sales engineering and a robust list of referenceable accounts.
+You’re someone who thrives in complex sales environments and is excited by the challenge of introducing transformative technology that requires buy-in across multiple stakeholders, often driving cultural and operational change.
+What You’ll Do
+
+Own the full sales cycle—from prospecting and discovery to proposal, close, and handoff to onboarding
+Build relationships with senior facilities, energy, sustainability, and operations leaders in Corporate Real Estate, Life Sciences, Commercial Real Estate, and the Data Center market
+Navigate complex enterprise buying processes, including RFPs, IT/security reviews, and multi-stakeholder sales
+Lead consultative sales conversations that educate the market on the value of proactive building analytics and fault detection & diagnostics
+Collaborate closely with Sales Engineering and Customer Success to ensure a seamless client experience
+Attend and represent Clockworks at key trade shows, industry events, and client on-site meetings (30–50% travel)
+Partner with Marketing and BDRs to prioritize outreach, refine messaging, and drive pipeline generation
+Maintain accurate pipeline and forecast reporting in CRM tools
+What We’re Looking For
+
+10+ years of experience selling enterprise software or high-value solutions to facilities, energy, or operations leaders
+A track record of success managing complex sales cycles with multiple decision-makers
+Comfortable selling a solution that often involves educating prospects and promoting organizational change
+Deep understanding of the facilities management ecosystem and buying dynamics
+Excellent communication and presentation skills; able to translate technical value into business impact
+Willingness to roll up your sleeves in a fast-moving, early-stage environment
+Experience selling into Corporate Real Estate, Life Sciences, Commercial Real Estate, or Data Center sectors is highly preferred
+Familiarity with building automation systems, HVAC, or energy analytics is a strong bonus
+Why Join Us
+
+Be part of a mission-driven company solving critical problems around sustainability and building operations
+Work with a passionate, collaborative team that values innovation and continuous learning
+Influence the growth and direction of a company defining the future of facilities management
+Competitive compensation and benefits, with flexibility and autonomy",https://www.linkedin.com/jobs/view/4210988293/?alternateChannel=search&refId=S6ZeQfe5qO2qZDEXb8Q8hQ%3D%3D&trackingId=8zdVXx%2FOuzdnwdH0cgdF7A%3D%3D&trk=d_flagship3_company&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3B3%2FKrNW0cSGmZAHV9CDpsbw%3D%3D,,3303572583
+Clockworks Analytics,clockworksanalytics.com,Bob Alen - Head of Marketing,Alex ,Grace,Chief Commercial Officer,alex@clockworksanalytics.com,"Clockworks Analytics logo
+Clockworks Analytics
+Share
+Show more options
+Enterprise Account Executive
+United States · 1 month ago
+
+ Remote
+Matches your job preferences, workplace type is Remote.
+
+ Full-time
+Matches your job preferences, job type is Full-time.
+No longer accepting applications
+Meet the hiring team
+Alex Grace
+Alex Grace  
+ 3rd
+Chief Commercial Officer at Clockworks Analytics
+Job poster
+
+Message
+About the job
+Enterprise Account Executive
+
+Location: Remote (US-based) | Travel: 30–50%
+
+About Clockworks Analytics
+
+Clockworks Analytics is transforming the way facilities are maintained, optimized, and decarbonized. Our software enables facilities organizations to implement condition based maintenance, proactively maintain building systems, and reduce energy consumption, while ensuring reliability of HVAC performance.
+About the Role
+
+We’re looking for an experienced, mission-driven Enterprise Account Executive to join our growing team. This is a high-impact, greenfield opportunity in an emerging market. You’ll be responsible for leading strategic, consultative sales engagements with sophisticated facilities leaders—educating and advising as much as selling. You'll be backed by a highly capable team, a strong inbound marketing engine, expert sales engineering and a robust list of referenceable accounts.
+You’re someone who thrives in complex sales environments and is excited by the challenge of introducing transformative technology that requires buy-in across multiple stakeholders, often driving cultural and operational change.
+What You’ll Do
+
+Own the full sales cycle—from prospecting and discovery to proposal, close, and handoff to onboarding
+Build relationships with senior facilities, energy, sustainability, and operations leaders in Corporate Real Estate, Life Sciences, Commercial Real Estate, and the Data Center market
+Navigate complex enterprise buying processes, including RFPs, IT/security reviews, and multi-stakeholder sales
+Lead consultative sales conversations that educate the market on the value of proactive building analytics and fault detection & diagnostics
+Collaborate closely with Sales Engineering and Customer Success to ensure a seamless client experience
+Attend and represent Clockworks at key trade shows, industry events, and client on-site meetings (30–50% travel)
+Partner with Marketing and BDRs to prioritize outreach, refine messaging, and drive pipeline generation
+Maintain accurate pipeline and forecast reporting in CRM tools
+What We’re Looking For
+
+10+ years of experience selling enterprise software or high-value solutions to facilities, energy, or operations leaders
+A track record of success managing complex sales cycles with multiple decision-makers
+Comfortable selling a solution that often involves educating prospects and promoting organizational change
+Deep understanding of the facilities management ecosystem and buying dynamics
+Excellent communication and presentation skills; able to translate technical value into business impact
+Willingness to roll up your sleeves in a fast-moving, early-stage environment
+Experience selling into Corporate Real Estate, Life Sciences, Commercial Real Estate, or Data Center sectors is highly preferred
+Familiarity with building automation systems, HVAC, or energy analytics is a strong bonus
+Why Join Us
+
+Be part of a mission-driven company solving critical problems around sustainability and building operations
+Work with a passionate, collaborative team that values innovation and continuous learning
+Influence the growth and direction of a company defining the future of facilities management
+Competitive compensation and benefits, with flexibility and autonomy",https://www.linkedin.com/jobs/view/4210988293/?alternateChannel=search&refId=S6ZeQfe5qO2qZDEXb8Q8hQ%3D%3D&trackingId=8zdVXx%2FOuzdnwdH0cgdF7A%3D%3D&trk=d_flagship3_company&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3B3%2FKrNW0cSGmZAHV9CDpsbw%3D%3D,205) 841-6666,
+"Play Piper, LLC",playpiper.com,Bob Alen - Head of Marketing,Shree ,Bose,Co-Chief Executive Officer,shree@playpiper.com,"Play Piper, LLC logo
+Play Piper, LLC
+Share
+Show more options
+Sales Development Representative
+Pittsburgh, PA · 1 month ago · 2 people clicked apply
+
+On-site
+
+ Full-time
+Matches your job preferences, job type is Full-time.
+
+Apply
+
+Save
+Save Sales Development Representative at Play Piper, LLC
+How your profile and resume fit this job
+Get AI-powered advice on this job and more exclusive features with Premium. Reactivate Premium
+
+
+
+Tailor my resume to this job
+
+Am I a good fit for this job?
+
+How can I best position myself for this job?
+
+About the job
+This job is sourced from a job board. Learn More
+Job Description
+
+The main responsibility of the Sales Development Representative (SDR) is to generate leads, qualify prospects, and set up meetings to support the sales team in driving new business. Identify which customers (contacts) are a good fit for the company’s products or services. As a key player in the sales cycle, you will help expand our customer base and contribute to our overall business growth.
+
+Principal (Essential) Duties
+
+Identify and research potential clients or companies through outbound prospecting methods such as cold calling, emailing, social media outreach, and attending industry events to generate leads
+Engage with inbound leads and conduct discovery calls to qualify potential customers based on their needs, budget, and readiness to purchase
+Schedule and arrange meetings or product demos for the sales team by identifying and nurturing high potential prospects
+Conduct market research to understand prospective clients’ industries, needs, and pain points to personalize outreach and increase the likelihood of engagement
+Maintain a healthy pipeline of qualified leads and consistently follow up on open opportunities
+Work closely with the sales team to ensure smooth handoffs of qualified contacts and provide necessary information for successful sales conversions
+Maintain accurate records of prospecting activities, interactions, and contact lifecycle statuses in the Customer Relationship Management (CRM) system (HubSpot)
+Execute consistent follow-up strategies to keep prospects engaged and move them further down the sales funnel
+Meet or exceed daily, weekly, and monthly lead generation and qualification goal
+
+Secondary Duties
+
+Assist with Grant opportunities by researching federal, state, local, and private funding sources and collaborating with administrators and departments to secure grants that enhance educational services and student success
+Assist with corporate responses as needed
+Stay in touch with leads who are not ready to buy
+Keep the sales system updated with lead activity and notes
+Perform other duties as assigned by the Revenue Operations Manager and/or President
+
+Knowledge, Skills, And Abilities
+
+Understanding of the sales process, sales funnels, and lead qualification methodologies
+Deep understanding of marketing automation and Customer Relationship Management (CRM)
+Strong research skills to identify key decision-makers and target leads effectively
+Strong analytical and critical thinking skills with the ability to interpret data and draw actionable insights
+Excellent communication, interpersonal, and leadership skills
+Organized with strong time-management skills to prioritize tasks and manage multiple leads at once
+Resilience and persistence, with a “can-do” attitude and drive to meet or exceed goals
+
+Experience/ Education Requirements
+
+Bachelor’s degree in business, marketing, or a related field preferred
+3+ years of experience in sales operations or similar role
+Knowledge of education policy, K-12 funding structures, and school operations is a plus
+Previous experience in a sales or customer-facing role, especially in a B2B environment, is a plus
+Familiarity with various marketing channels and tactics
+Knowledge of inbound marketing methodologies
+Motivated by targets and able to manage performance metrics
+
+Working Conditions/ Physical Demands:
+
+Comfortable with minimal travel, no more than 5%
+Full-time position, typically Monday through Friday, standard business hours with flexibility
+High volume of interactions, requiring strong organization and multitasking
+Perform work - exerting up to 20 pounds of force infrequently, and/or a negligible amount of force to move object
+See, hear, talk, and perform tasks requiring manual dexterity; kneeling, standing, walking, crouching, stooping, reaching and other similar tasks requiring physical activity
+Operate a computer, copier, printer, fax, and telephone
+
+Company Description
+
+An award-winning EdTech company based in San Francisco, CA committed to providing quality STEAM educational opportunities to students around the globe. We create experiences around learning with technology that are hands-on, effective, and fun.
+
+We are accepting entry level, intermediate, and advanced candidates for this position.
+
+An award-winning EdTech company based in San Francisco, CA committed to providing quality STEAM educational opportunities to students around the globe. We create experiences around learning with technology that are hands-on, effective, and fun. We are accepting entry level, intermediate, and advanced candidates for this position.",https://www.linkedin.com/jobs/view/4207610476/?alternateChannel=search&refId=R0TQjZDNjpDWFBVN4rZ5Ag%3D%3D&trackingId=TbLW2SuTIbuaaisxG6gf9g%3D%3D&trk=d_flagship3_search_srp_jobs&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3BTsLaMsUJQLCcBsWOD%2FHcEA%3D%3D,205) 841-6666,2059195990
+Play Piper,playpiper.com,,Chris ,Bouman,Chief Marketing Officer,chris@playpiper.com,"Play Piper, LLC logo
+Play Piper, LLC
+Share
+Show more options
+Sales Development Representative
+Pittsburgh, PA · 1 month ago · 2 people clicked apply
+
+On-site
+
+ Full-time
+Matches your job preferences, job type is Full-time.
+
+Apply
+
+Save
+Save Sales Development Representative at Play Piper, LLC
+How your profile and resume fit this job
+Get AI-powered advice on this job and more exclusive features with Premium. Reactivate Premium
+
+
+
+Tailor my resume to this job
+
+Am I a good fit for this job?
+
+How can I best position myself for this job?
+
+About the job
+This job is sourced from a job board. Learn More
+Job Description
+
+The main responsibility of the Sales Development Representative (SDR) is to generate leads, qualify prospects, and set up meetings to support the sales team in driving new business. Identify which customers (contacts) are a good fit for the company’s products or services. As a key player in the sales cycle, you will help expand our customer base and contribute to our overall business growth.
+
+Principal (Essential) Duties
+
+Identify and research potential clients or companies through outbound prospecting methods such as cold calling, emailing, social media outreach, and attending industry events to generate leads
+Engage with inbound leads and conduct discovery calls to qualify potential customers based on their needs, budget, and readiness to purchase
+Schedule and arrange meetings or product demos for the sales team by identifying and nurturing high potential prospects
+Conduct market research to understand prospective clients’ industries, needs, and pain points to personalize outreach and increase the likelihood of engagement
+Maintain a healthy pipeline of qualified leads and consistently follow up on open opportunities
+Work closely with the sales team to ensure smooth handoffs of qualified contacts and provide necessary information for successful sales conversions
+Maintain accurate records of prospecting activities, interactions, and contact lifecycle statuses in the Customer Relationship Management (CRM) system (HubSpot)
+Execute consistent follow-up strategies to keep prospects engaged and move them further down the sales funnel
+Meet or exceed daily, weekly, and monthly lead generation and qualification goal
+
+Secondary Duties
+
+Assist with Grant opportunities by researching federal, state, local, and private funding sources and collaborating with administrators and departments to secure grants that enhance educational services and student success
+Assist with corporate responses as needed
+Stay in touch with leads who are not ready to buy
+Keep the sales system updated with lead activity and notes
+Perform other duties as assigned by the Revenue Operations Manager and/or President
+
+Knowledge, Skills, And Abilities
+
+Understanding of the sales process, sales funnels, and lead qualification methodologies
+Deep understanding of marketing automation and Customer Relationship Management (CRM)
+Strong research skills to identify key decision-makers and target leads effectively
+Strong analytical and critical thinking skills with the ability to interpret data and draw actionable insights
+Excellent communication, interpersonal, and leadership skills
+Organized with strong time-management skills to prioritize tasks and manage multiple leads at once
+Resilience and persistence, with a “can-do” attitude and drive to meet or exceed goals
+
+Experience/ Education Requirements
+
+Bachelor’s degree in business, marketing, or a related field preferred
+3+ years of experience in sales operations or similar role
+Knowledge of education policy, K-12 funding structures, and school operations is a plus
+Previous experience in a sales or customer-facing role, especially in a B2B environment, is a plus
+Familiarity with various marketing channels and tactics
+Knowledge of inbound marketing methodologies
+Motivated by targets and able to manage performance metrics
+
+Working Conditions/ Physical Demands:
+
+Comfortable with minimal travel, no more than 5%
+Full-time position, typically Monday through Friday, standard business hours with flexibility
+High volume of interactions, requiring strong organization and multitasking
+Perform work - exerting up to 20 pounds of force infrequently, and/or a negligible amount of force to move object
+See, hear, talk, and perform tasks requiring manual dexterity; kneeling, standing, walking, crouching, stooping, reaching and other similar tasks requiring physical activity
+Operate a computer, copier, printer, fax, and telephone
+
+Company Description
+
+An award-winning EdTech company based in San Francisco, CA committed to providing quality STEAM educational opportunities to students around the globe. We create experiences around learning with technology that are hands-on, effective, and fun.
+
+We are accepting entry level, intermediate, and advanced candidates for this position.
+
+An award-winning EdTech company based in San Francisco, CA committed to providing quality STEAM educational opportunities to students around the globe. We create experiences around learning with technology that are hands-on, effective, and fun. We are accepting entry level, intermediate, and advanced candidates for this position.",https://www.linkedin.com/jobs/view/4207610476/?alternateChannel=search&refId=R0TQjZDNjpDWFBVN4rZ5Ag%3D%3D&trackingId=TbLW2SuTIbuaaisxG6gf9g%3D%3D&trk=d_flagship3_search_srp_jobs&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3BTsLaMsUJQLCcBsWOD%2FHcEA%3D%3D,,7817992614
+The Kersheh Group,thekershehgroup.com,Bob Alen - Head of Marketing,Sam ,Kersheh,CEO,skersheh@thekershehgroup.com,"The Kersheh Group logo
+The Kersheh Group
+Share
+Show more options
+Sales Account Executive
+United States · 1 month ago
+
+ Remote
+Matches your job preferences, workplace type is Remote.
+
+ Full-time
+Matches your job preferences, job type is Full-time.
+No longer accepting applications
+About the job
+We are looking for a Sales Account Executive to cover North America Accounts who is based in anywhere in North America.
+As the Sales Director, reporting to the Chief Revenue Officer, you will be responsible for fostering existing relationships while developing and executing key sales strategies, and action plans required to achieve the company's financial targets.
+
+
+What You’ll Do:
+
+Execute key strategies for incremental revenue and market share in North America to achieve profitable volume growth and expanding customer base consistent with Sales & Marketing plans.
+Build and foster strong, long-lasting customer relationships through partnerships with customers to understand their business needs and objectives.
+Communicate value proposition through proposals and presentations to all levels of the organization, including stakeholders.
+Collaborate with Design and Costing to support new product introductions.
+Keep up to date on sleepwear landscape and trends, reporting on the forces that shift tactical budgets and strategic direction of accounts.
+
+
+What You Need:
+
+A minimum of 5 years of related work experience in a Sales role in the apparel industry 
+Sleepwear or related experience, such as intimates, a major asset 
+In-depth knowledge of Wholesale channels working with national chains, mid-tier and traditional department stores, mass market experience is a must
+Experience in forecasting and planning sales budgets to achieve Corporate Financial Goals.
+Available to travel in North America up to 25% of time
+Proficiency with Microsoft Office Suite
+
+
+Why join TKG!
+
+Enjoy your birthday off
+6 Personal Days
+Flexible schedule
+Wellness allowance
+RRSP matching
+Full benefits including an EAP
+Free onsite parking
+Free Coffee
+Welcome gift
+Events
+Learning & Development……and much more!",https://www.linkedin.com/jobs/view/4211013033/?alternateChannel=search&refId=Eig2FIOEkMNmPnkR8Aka3g%3D%3D&trackingId=iPEOdLPSwVwLxkjFc0LrXA%3D%3D&trk=d_flagship3_search_srp_jobs&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3BNF2s%2BJilR460hnH%2FibobHg%3D%3D,,6309913600
+The Kersheh Group,thekershehgroup.com,Bob Alen - Head of Marketing,Adam ,Steinhandler,Vice President of Sales,asteinhandler@thekershehgroup.com,"The Kersheh Group logo
+The Kersheh Group
+Share
+Show more options
+Sales Account Executive
+United States · 1 month ago
+
+ Remote
+Matches your job preferences, workplace type is Remote.
+
+ Full-time
+Matches your job preferences, job type is Full-time.
+No longer accepting applications
+About the job
+We are looking for a Sales Account Executive to cover North America Accounts who is based in anywhere in North America.
+As the Sales Director, reporting to the Chief Revenue Officer, you will be responsible for fostering existing relationships while developing and executing key sales strategies, and action plans required to achieve the company's financial targets.
+
+
+What You’ll Do:
+
+Execute key strategies for incremental revenue and market share in North America to achieve profitable volume growth and expanding customer base consistent with Sales & Marketing plans.
+Build and foster strong, long-lasting customer relationships through partnerships with customers to understand their business needs and objectives.
+Communicate value proposition through proposals and presentations to all levels of the organization, including stakeholders.
+Collaborate with Design and Costing to support new product introductions.
+Keep up to date on sleepwear landscape and trends, reporting on the forces that shift tactical budgets and strategic direction of accounts.
+
+
+What You Need:
+
+A minimum of 5 years of related work experience in a Sales role in the apparel industry 
+Sleepwear or related experience, such as intimates, a major asset 
+In-depth knowledge of Wholesale channels working with national chains, mid-tier and traditional department stores, mass market experience is a must
+Experience in forecasting and planning sales budgets to achieve Corporate Financial Goals.
+Available to travel in North America up to 25% of time
+Proficiency with Microsoft Office Suite
+
+
+Why join TKG!
+
+Enjoy your birthday off
+6 Personal Days
+Flexible schedule
+Wellness allowance
+RRSP matching
+Full benefits including an EAP
+Free onsite parking
+Free Coffee
+Welcome gift
+Events
+Learning & Development……and much more!",https://www.linkedin.com/jobs/view/4211013033/?alternateChannel=search&refId=Eig2FIOEkMNmPnkR8Aka3g%3D%3D&trackingId=iPEOdLPSwVwLxkjFc0LrXA%3D%3D&trk=d_flagship3_search_srp_jobs&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3BNF2s%2BJilR460hnH%2FibobHg%3D%3D,,6177216869
+Dyne Therapeutics ,dyne-tx.com,Bob Alen - Head of Marketing,John ,Cox,Chief Executive Officer,john.cox@dyne-tx.com,"Dyne Therapeutics logo
+Dyne Therapeutics
+Share
+Show more options
+Director, Business Development
+Waltham, MA · 1 month ago
+
+On-site
+
+ Full-time
+Matches your job preferences, job type is Full-time.
+No longer accepting applications
+About the job
+Company Overview:
+
+Dyne Therapeutics is discovering and advancing innovative life-transforming therapeutics for people living with genetically driven neuromuscular diseases. Leveraging the modularity of its FORCE™ platform, Dyne is developing targeted therapeutics that deliver to muscle and the central nervous system (CNS). Dyne has a broad pipeline for neuromuscular diseases, including clinical programs for myotonic dystrophy type 1 (DM1) and Duchenne muscular dystrophy (DMD) and preclinical programs for facioscapulohumeral muscular dystrophy (FSHD) and Pompe disease. For more information, please visit https://www.dyne-tx.com/, and follow us on X, LinkedIn and Facebook.
+
+Role Summary:
+
+The Director, Business Development is a pivotal role supporting the company's business development activities. This individual will leverage their expertise to evaluate clinical-stage drugs, build Net Present Value (NPV) models, and drive strategic initiatives.
+
+While prior knowledge of the specific therapeutic area is not required, the role demands a strong understanding of the business side of biotechnology and adaptability to learn market dynamics and competitive contexts. The Director will work closely and cross-functionally with teams in Finance, Clinical, and Commercial to develop and refine modeling assumptions and diligence processes.
+
+This position is ideal for candidates with a background and strong interest in biotechnology, preferably in banking, sell-side equity research, investing, or pharma/biotech business development.
+
+This role is based in Waltham, MA with the possibility of being a hybrid role..
+
+Primary Responsibilities Include:
+
+Build and manage a robust pipeline of deal opportunities aligned with the company's strategic objectives, while leading end-to-end deal processes, including sourcing, cross-functional diligence, structuring terms, and driving negotiations
+Develop Net Present Value (NPV) models for 'Own vs Partner' scenarios, collaborating with cross-functional teams in Finance, Clinical, and Commercial to refine assumptions and assess the feasibility and strategic fit of potential opportunities
+Drive diligence processes by coordinating cross-functional Q&A, managing data rooms, ensuring accurate document uploads, and overseeing permissions
+Act as a core member of the Deal Team, supporting future negotiations and contributing to the broader business development strategy, extending beyond owned therapeutic areas
+Build and maintain strong relationships with internal and external stakeholders, fostering alignment with company objectives and identifying creative opportunities to expand the company's partnering presence
+Understand the competitive landscape, leveraging insights from commercial teams to assess market dynamics, industry trends, clinical news, and deal activity within owned therapeutic areas
+Represent the company at conferences, meetings, and industry events to strengthen the company's network and enhance its presence in the industry
+Develop a deep understanding of the science underlying the company's mechanisms of action in owned therapeutic areas, synthesizing findings and providing actionable implications for internal stakeholders, including senior executives
+
+Education and Skills Requirements:
+
+MD, PhD, or MBA plus 8 years as banker/investor preferred
+Or undergraduate degree plus 10 years of experience in the biotech/pharma industry as an investor/banker in a business development capacity
+Experience building NPV models for clinical stage drugs
+Strong problem-solving skills
+Ability to work collaboratively in a fast-paced environment
+Willingness to learn about the Therapeutic Area in depth
+Passion for the biotechnology sector
+
+The statements contained herein reflect general details as necessary to describe the principles functions for this job, the level of knowledge and skill typically required, and the scope of responsibility, but should not be considered an all-inclusive listing of work requirements. Individuals may perform other duties as assigned, including work in other functional areas to cover absences or relief, to equalize peak work periods or otherwise balance workload.
+
+This description is not intended to be constructed as an exhaustive list of duties, responsibilities, or requirements for the position. This position may change or assume additional duties at any time. The employee may be requested to perform different or additional duties as assigned. All Employees are expected to adhere to all company policies and act as a role model for company values.
+
+Dyne Therapeutics is an equal opportunity employer and will not discriminate against any employee or applicant on the basis of age, color, disability, gender, national origin, race, religion, sexual orientation, veteran status, or any classification protected by federal, state, or local law.",https://www.linkedin.com/jobs/view/4210978686/?alternateChannel=search&refId=xL2yXT3mTXhEyoCrl6Y3hQ%3D%3D&trackingId=BVisR7io8NwpHs9cibIwvA%3D%3D&trk=d_flagship3_company&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3BaCNjR4GyRFawM25mOBkIhg%3D%3D,,9042005478
+Dyne Therapeutics ,dyne-tx.com,Bob Alen - Head of Marketing,Vikram ,Ranade,Chief Business Officer ,vikram.ranade@dyne-tx.com,"Dyne Therapeutics logo
+Dyne Therapeutics
+Share
+Show more options
+Director, Business Development
+Waltham, MA · 1 month ago
+
+On-site
+
+ Full-time
+Matches your job preferences, job type is Full-time.
+No longer accepting applications
+About the job
+Company Overview:
+
+Dyne Therapeutics is discovering and advancing innovative life-transforming therapeutics for people living with genetically driven neuromuscular diseases. Leveraging the modularity of its FORCE™ platform, Dyne is developing targeted therapeutics that deliver to muscle and the central nervous system (CNS). Dyne has a broad pipeline for neuromuscular diseases, including clinical programs for myotonic dystrophy type 1 (DM1) and Duchenne muscular dystrophy (DMD) and preclinical programs for facioscapulohumeral muscular dystrophy (FSHD) and Pompe disease. For more information, please visit https://www.dyne-tx.com/, and follow us on X, LinkedIn and Facebook.
+
+Role Summary:
+
+The Director, Business Development is a pivotal role supporting the company's business development activities. This individual will leverage their expertise to evaluate clinical-stage drugs, build Net Present Value (NPV) models, and drive strategic initiatives.
+
+While prior knowledge of the specific therapeutic area is not required, the role demands a strong understanding of the business side of biotechnology and adaptability to learn market dynamics and competitive contexts. The Director will work closely and cross-functionally with teams in Finance, Clinical, and Commercial to develop and refine modeling assumptions and diligence processes.
+
+This position is ideal for candidates with a background and strong interest in biotechnology, preferably in banking, sell-side equity research, investing, or pharma/biotech business development.
+
+This role is based in Waltham, MA with the possibility of being a hybrid role..
+
+Primary Responsibilities Include:
+
+Build and manage a robust pipeline of deal opportunities aligned with the company's strategic objectives, while leading end-to-end deal processes, including sourcing, cross-functional diligence, structuring terms, and driving negotiations
+Develop Net Present Value (NPV) models for 'Own vs Partner' scenarios, collaborating with cross-functional teams in Finance, Clinical, and Commercial to refine assumptions and assess the feasibility and strategic fit of potential opportunities
+Drive diligence processes by coordinating cross-functional Q&A, managing data rooms, ensuring accurate document uploads, and overseeing permissions
+Act as a core member of the Deal Team, supporting future negotiations and contributing to the broader business development strategy, extending beyond owned therapeutic areas
+Build and maintain strong relationships with internal and external stakeholders, fostering alignment with company objectives and identifying creative opportunities to expand the company's partnering presence
+Understand the competitive landscape, leveraging insights from commercial teams to assess market dynamics, industry trends, clinical news, and deal activity within owned therapeutic areas
+Represent the company at conferences, meetings, and industry events to strengthen the company's network and enhance its presence in the industry
+Develop a deep understanding of the science underlying the company's mechanisms of action in owned therapeutic areas, synthesizing findings and providing actionable implications for internal stakeholders, including senior executives
+
+Education and Skills Requirements:
+
+MD, PhD, or MBA plus 8 years as banker/investor preferred
+Or undergraduate degree plus 10 years of experience in the biotech/pharma industry as an investor/banker in a business development capacity
+Experience building NPV models for clinical stage drugs
+Strong problem-solving skills
+Ability to work collaboratively in a fast-paced environment
+Willingness to learn about the Therapeutic Area in depth
+Passion for the biotechnology sector
+
+The statements contained herein reflect general details as necessary to describe the principles functions for this job, the level of knowledge and skill typically required, and the scope of responsibility, but should not be considered an all-inclusive listing of work requirements. Individuals may perform other duties as assigned, including work in other functional areas to cover absences or relief, to equalize peak work periods or otherwise balance workload.
+
+This description is not intended to be constructed as an exhaustive list of duties, responsibilities, or requirements for the position. This position may change or assume additional duties at any time. The employee may be requested to perform different or additional duties as assigned. All Employees are expected to adhere to all company policies and act as a role model for company values.
+
+Dyne Therapeutics is an equal opportunity employer and will not discriminate against any employee or applicant on the basis of age, color, disability, gender, national origin, race, religion, sexual orientation, veteran status, or any classification protected by federal, state, or local law.",https://www.linkedin.com/jobs/view/4210978686/?alternateChannel=search&refId=xL2yXT3mTXhEyoCrl6Y3hQ%3D%3D&trackingId=BVisR7io8NwpHs9cibIwvA%3D%3D&trk=d_flagship3_company&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3BaCNjR4GyRFawM25mOBkIhg%3D%3D,1.866.883.7075,
+integrate.ai,integrate.ai,Bob Alen - Head of Marketing,Bob ,Buch,Chief Revenue Officer (CRO) ,bob.buch@integrate.ai,"integrate.ai logo
+integrate.ai
+Share
+Show more options
+Business Development Director (Account Executive)
+Toronto, ON · Reposted 3 weeks ago
+
+ Remote
+Matches your job preferences, workplace type is Remote.
+
+ Full-time
+Matches your job preferences, job type is Full-time.
+No longer accepting applications
+About the job
+This job is not for your average salesperson, so I’m not writing this job description like an average job description. We are a startup and we need someone who can fully embrace that. I’m not talking about sleeping under your desk (we are remote so that would be pointless anyway). It’s really about sacrificing the comfort of a well-worn playbook, the backdrop of a marketing team to set up all your leads and prepare your decks, the fully-baked product sitting on the shelf, and a phone ringing with customers ready to place orders, and instead embracing the entrepreneurialness of making an impact and having everything you do matter. If this tradeoff appeals to you, keep reading.
+
+
+We have a pretty killer technology called federated learning that enables data sharing without moving data - think of it like decentralized data science where the workloads are performed locally on the data instead of requiring centralization of data. We have a pretty killer vision of how this technology can fundamentally change the way companies build their data pipelines for AI and data models. Our platform has been compared (usually by me) to innovations like seismic imaging - the ability to see if there’s oil underground before going through the supreme hassle of drilling a bunch of holes to find out. We enable our customers to see the value of data to their models without having to move it and without needing to see the raw data itself. Our primary beachhead in this endeavor is with insurance providers and the sea of data providers from which they purchase data and analytical products that enhance their underwriting, pricing, fraud, claims and marketing models. We have secured a few of the top insurance carriers and data providers and are looking to establish a critical mass in this market. This is where you come in.
+
+
+The big vision, and the reason we’re all here, is that if we can establish ourselves as “the” way that companies find signal from noise to more quickly build their data pipelines for AI, then we become the de facto marketplace for data in the age of AI.
+
+
+What we’re looking for:
+
+
+
+It will be pretty essential that you have some experience selling data, or data-related products. We’re also looking for someone with full-funnel sales experience, and it has to include enterprise. This is not currently a high-volume SMB kind of thing, we are currently selling into some of the biggest companies in the world so you’d need that kind of experience to be successful. You’ll be responsible for sourcing the leads whether using our board members on linkedin to find connections to leads, being savvy about navigating conferences, or coming up with other creative ways to meet with prospects and use your relationship skills to build trust. This is a consultative sale where success will require that prospects see you as someone who can add value, someone who is intellectually curious about their business and their problems, and who really listens to their feedback instead of trying to just sell the crap out of them.
+
+
+So let’s be specific - we’re realistically talking about 7-10 years sales experience, enterprise, and data-related. This is currently an IC role, so if you are looking to manage a big team, we’re not there yet - hang tight for future roles! But for the right aspiring leader who has sales experience, a sense of founder-like ownership over the company’s success and wants to be on the ground floor (or maybe first or second floor) while we grow this business, make a huge impact, and grow in your responsibilities as we grow, then this could be perfect for you.
+
+
+Our interviews are not supposed to be a pop quiz where we’re measuring how well you can BS us. We want the real deal - so we want to tell you what we’re going to ask in advance so you can give us thoughtful answers. During the interview process, be prepared to talk about your experiences building a pipeline that demonstrates a hustle-factor or some creativity - what is your secret-sauce to getting people to take meetings with you or more importantly, getting them to take the next meeting? Also, selling at integrateAI is a team sport - this is not a role for lone wolves - so we will be asking about your experiences collaborating with product, eng, and execs in your sales process. Having a growth mindset is an important attribute for this role - whatever you have done in the past - you will still need to be curious and learn, know what you don’t know, and be humble but confident - so we will be digging into examples of that as well in the interview. 
+
+
+
+Some other logistics and detail below:
+
+
+
+We are looking for an experienced BD Director to help spearhead our go to market efforts to find and grow our customer base. 
+
+In this role you will collaborate with our Product, Engineering, and Science teams to build a strong pipeline of quality leads within our target market and use your creativity to close enterprise customers.
+
+
+What you will be doing:
+
+Building a strong pipeline of quality leads and using your exceptional creativity and relationship building skills to close paying customers 
+Structuring and closing deals that create value for our customers and integrate.ai
+Collaborating with Product to develop and execute experiments to test compelling value propositions with target personas
+Identify compelling use cases and target customers across industries, including financial services, insurance, data products and more.
+Partnering across Go-to-Market (GTM) and Product teams to build the GTM playbook
+
+
+We value:
+
+Track record for building pipelines and closing customers without an established playbook
+Extensive experience structuring and closing complex deals for deeply technical products, ideally within B2B software
+Experience in or strong understanding of the sales motions around data and analytics products, ideally related to financial services and insurance verticals.
+A proven track record of identifying customer needs and connecting those to technology solutions 
+Super problem solving ability and ability to navigate complex business relationships with minimal oversight
+Experience developing and running very large customer deals for an early stage software startup is a plus
+An entrepreneurial spirit: you’re a self-starter, can identify opportunities, understand potential impact and effectively prioritize across multiple competing priorities
+Passion for expanding your knowledge on all things related to machine learning, trust & ethics in AI, successful integration and our clients’ industries in general
+
+
+The diverse experiences, ideas, and identities of integrate.ai’s team members help us make better decisions and drive great results. We foster an inclusive work environment that welcomes team members of all backgrounds and perspectives. We are committed to providing a meaningful environment for every member of our team. We hire exceptional people and reward them with trust, autonomy, mentorship, and growth.
+We are naturally curious and have strong attention to detail. We love working in a team environment where trust is key and we all strive to make an impact every day. If this sounds like the right fit, please apply and come work with us.
+
+
+About integrate.ai
+
+
+
+IntegrateAI is a data evaluation platform for quickly finding signal from noise while protecting sensitive data. It is like a dressing room where insurance carriers can try on data products from external vendors to measure the predictive value to their models, without the time, expense and risk involved in exchanging data. Typically increasing data security comes at the expense of speeding up innovation, but with integrateAI carriers get more security and more speed. The platform works through Integrate.ai’s proprietary federated learning technology, which ensures that the data stays inside the custodian’s firewall and is not visible to collaborators while performing a variety of data science workloads. Some of the top carriers in the world use integrateAI for “signal hunting” across data vendors of all sizes, and across all cloud platforms and on-prem. ",https://www.linkedin.com/jobs/view/4208948771/?alternateChannel=search&refId=lYhoSzQlOj0e0QBe0Et1zA%3D%3D&trackingId=Ah4pf7Na6x6Cyvn5%2FBFo5A%3D%3D&trk=d_flagship3_company&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3BHbAUOsxjSSqRd7b7HthNcQ%3D%3D,1.866.883.7075,4164141819
+Clearway Pain Solutions,clearwaypain.com,Bob Alen - Head of Marketing,Damean ,Freas,Chief Executive Officer,dfreas@clearwaypain.com,"Clearway Pain Solutions logo
+Clearway Pain Solutions
+Share
+Show more options
+Business Development Specialist
+Owings Mills, MD · 2 weeks ago · 16 applicants
+
+On-site
+
+ Full-time
+Matches your job preferences, job type is Full-time.
+
+Easy Apply
+
+Save
+Save Business Development Specialist at Clearway Pain Solutions
+How your profile and resume fit this job
+Get AI-powered advice on this job and more exclusive features with Premium. Reactivate Premium
+
+
+
+Tailor my resume to this job
+
+Am I a good fit for this job?
+
+How can I best position myself for this job?
+
+Meet the hiring team
+Gaylon Willis, MPH
+Gaylon Willis, MPH  
+ 3rd
+Corporate Development Executive 
+Job poster
+
+Message
+About the job
+The Business Development Specialist I is responsible for driving company services to new and existing referral sources in a defined territory. This individual will be a major contributor to company branding and public image development and will act as a primary point of contact for key relationships. Day to day responsibilities will require travel to local provider offices; calling on providers and office staff to distribute brand messaging, promote the benefits of referring to our company, and conveying the services provided by the company.
+
+Essential Duties And Responsibilities
+
+Identifies and engages with current and potential referral sources located within the assigned territory.
+Meets or exceeds referral goals on a monthly, quarterly and annual basis.
+Develops and presents reports, as directed.
+Provides feedback on marketing strategies, branding effectiveness and referral source feedback.
+Represents the company at trade shows and/or exhibitions, as needed.
+Assist in the development and evaluation of marketing materials and promotional campaigns.
+Sets up educational/informational meetings with referring physician offices; to include physicians, physician extenders and their office staff.
+Develops and maintains database to track outreach activities and referral trends.
+Collaborates with internal teams to gain in-depth knowledge of the conditions treated by Company providers and the therapies offered.
+Monitors market trends, including competitor activity and industry developments.
+Stay up to date with sales and marketing best practices through ongoing training and professional development.
+Build and maintain strong professional relationships both internally and externally Networks with internal and external sources
+Continuously improve operational knowledge, skills and abilities.
+Checks and responds to work e-mail on a regular basis throughout the workday.
+Participates in and complete all required trainings and in-services.
+Performs other duties as assigned.
+
+Minimum Qualifications
+
+Bachelor’s Degree with two (2) years’ sales/marketing experience; OR an equivalent combination of education and/or experience. Experience at a more senior level may qualify as multiple equivalent years of experience for this role.
+Must have knowledge of Internet and Microsoft Office software (MS Word, MS Excel, MS PowerPoint, MS Outlook).
+Must have excellent written and oral communication skills.
+Must have a proven track record of providing exceptional customer service.
+Must be able to establish and maintain effective working relationships with doctors, clinical staff, other co-workers and the public.
+Must be able to work individually as well as within a team.
+Must be able to follow both verbal and written instructions.
+Must be able to work a flexible schedule.
+Must be able to respond with patience and understanding during stressful conditions related to patient health and emergent situations.
+Must be able to multi-task and prioritize.
+Must demonstrate extreme attention to detail.
+Must possess strong organization skills.
+Must be able to problem solve and use reasoning.
+Must be able to meet predefined quality standards.
+Must maintain and project a professional attitude and appearance at all time.
+Must have a working knowledge of the healthcare field and medical specialty, as well as medical terminology.
+All staff are expected to have a strong desire to provide excellent customer service; to comply with the rules and regulations of those organizations to which we are accountable; to have high ethical and professional standards of conduct; and to have an attitude of wanting to continuously improve their own professional performance.
+
+Preferred Qualifications
+
+Five (5) years of healthcare/pharmaceutical outside sales experience.
+Prior experience working with a customer relations management (CRM) system.
+
+Driving/Travel
+
+The employee must have reliable transportation. Travel for this position will be required up to 50%. While the primary workplace may be closest to the employee’s home, work assignments could be in any of the Company’s locations.
+
+Compensation And Benefits
+
+Pay Range: $65,000/year - $85,000/year
+PTO: Up to 96 hours in first year (pro-rated based on start date)
+Holidays: 7 (New Year’s Day, Memorial Day, Independence Day, Labor Day, Thanksgiving, Day After Thanksgiving, Christmas Day)
+Retirement: 401(k) with employer match
+Health Benefits: Medical (single and family), Dental (single and family), Vision (single and family)
+Other Company-Paid Benefits: Short-Term Disability, Long-Term Disability, Basic Life/AD&D, Employee Assistance Program
+Other Voluntary Benefits: Voluntary Life, Accident, Critical Illness, Hospital Indemnity",https://www.linkedin.com/jobs/view/4208828940/?alternateChannel=search&refId=5Y3AlqPQ2%2FwzyN5smO7Xpw%3D%3D&trackingId=nlb2KqDITmfT3mWpikKGQA%3D%3D&trk=d_flagship3_search_srp_jobs&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3B%2BFSrTw4fRXabyJRClA1Ugg%3D%3D, (872) 762-3373,7734268773
