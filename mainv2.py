@@ -6,6 +6,7 @@ import os
 from dotenv import load_dotenv
 from modules.utils import TextExtractor
 from modules.agents import SDRAgent1, SDRAgent2, SDRAgent3, CallLineAgent, LC1Agent, LC2Agent
+from concurrent.futures import ThreadPoolExecutor
 
 # Setup logging
 logging.basicConfig(
@@ -66,7 +67,7 @@ if uploaded_file:
     log_and_print("📄 File uploaded.")
     try:
         df = pd.read_csv(uploaded_file)
-        df = df
+        df = df.head(3)  # Limit for testing
         log_and_print("📥 CSV read successfully.")
 
         required_columns = ["Job post Link", "Website", "First Name", "Second_Lead_info",
@@ -84,8 +85,8 @@ if uploaded_file:
             st.dataframe(df[["Job post Link", "Website", "Job Post", "Website Content", "Lead_info", "Second_Lead_info"]].head(10))
 
             if st.button("🚀 Generate AI Email Paragraphs"):
-                log_and_print("🚀 AI Email generation started.")
-                st.info("⏳ Generating AI Emails...")
+                log_and_print("🚀 AI Email generation started using ThreadPoolExecutor.")
+                st.info("⏳ Generating AI Emails concurrently...")
 
                 def generate_all_paragraphs(row):
                     try:
@@ -150,7 +151,13 @@ if uploaded_file:
                         traceback.print_exc()
                         return pd.Series([f"[Error] {e}", "", "", "", "", "", ""])
 
-                df[[
+                results = []
+                with ThreadPoolExecutor(max_workers=3) as executor:  # Adjust max_workers as needed
+                    futures = [executor.submit(generate_all_paragraphs, row) for index, row in df.iterrows()]
+                    for future in futures:
+                        results.append(future.result())
+
+                generated_df = pd.DataFrame(results, columns=[
                     "AI Email Paragraph 1",
                     "AI Email Paragraph 2",
                     "AI Email Paragraph 3",
@@ -158,10 +165,12 @@ if uploaded_file:
                     "Call Line",
                     "LC1 Output",
                     "LC2 Output"
-                ]] = df.apply(generate_all_paragraphs, axis=1)
+                ])
+
+                df = pd.concat([df, generated_df], axis=1)
 
                 def generate_full_email(row):
-                    greeting = f"Hi {row.get('First Name', '').strip()}"
+                    greeting = f"Hello {row.get('First Name', '').strip()}"
                     parts = [
                         greeting,
                         row.get("AI Email Paragraph 1", "").strip(),
@@ -172,8 +181,8 @@ if uploaded_file:
 
                 df["Full Email"] = df.apply(generate_full_email, axis=1)
 
-                st.success("✅ AI Emails generated!")
-                log_and_print("✅ AI Email generation completed successfully.")
+                st.success("✅ AI Emails generated concurrently!")
+                log_and_print("✅ AI Email generation completed successfully using ThreadPoolExecutor.")
 
                 st.subheader("📧 Preview of Generated Emails, Call Lines & LC1/LC2 Output")
                 st.dataframe(df[[

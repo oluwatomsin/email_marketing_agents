@@ -108,17 +108,18 @@ class SDRAgent3(SDRAgentBase):
             template="""
 You are a helpful SDR assistant finishing a message for Salaria.
 
-Paragraph 1: {paragraph_1}
-Paragraph 2: {paragraph_2}
-Job URL: {job_url}
-Job Post: {job_post}
-Target Lead Info: {lead_info}
-Already reached out to leads: {second_lead}
-Target Company Homepage: {target_company_homepage}
-Salaria FAQ: {salaria_homepage_faq}
+Paragraph 1: {paragraph_1}\n
+Paragraph 2: {paragraph_2}\n
+Job URL: {job_url}\n
+Job Post: {job_post}\n
+Target Lead Info: {lead_info}\n
 
-Instructions:
-{instructions}
+Other leads that have been reached out to: {second_lead}\n
+Target Company Homepage: {target_company_homepage}\n
+Salaria FAQ: {salaria_homepage_faq}\n\n
+
+Instructions:\n
+{instructions}\n\n
 
 Write the final paragraph to conclude the outreach. Only return the paragraph and adhere to the character limits.
 Please adhere strictly to the instructions provided.

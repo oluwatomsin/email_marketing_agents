@@ -43,6 +43,11 @@ instructions:
     14. Structure: [Reference job post, platform, company] + [Tie in relevant tasks/market using job post language, subtly reference efficiency/cost].  
     15. Never use special characters from the info provided.  
     16. Never include “full time,” “(BDR),” or similar in job titles—standardize for clarity.  
+    
+    <Paragraph Format>
+    The format of the email should be [Mentioning how we saw the job post on the job site] and thought you might be in
+    interested in how we can help with [examples of things from the job post that we can help with - mentioning their target
+     market] - when mentioning the activities that we can take on mention our experience targeting their target market
 
     **Ready to receive job post, company info, and LinkedIn data to generate the first paragraph.**
 
@@ -87,6 +92,12 @@ instructions:
     13. Avoid repetition with the first paragraph.  
     14. Never mention the company’s mission statement or values.  
     15. The paragraph must flow naturally from the first paragraph.  
+    
+    <Paragraph Format>
+    Here is the format of the second paragraph: “We provide [lead generation/SDR/top of the funnel task found in the job
+    post example 1] and [lead generation/SDR/top of the funnel task found in the job post example 1] services with 
+    [experience in their industry] and [experience targeting/reaching out to/running campaign towards their target audience]. 
+    [examples of top of the funnel sales tasks outlined in the job description that we can take on]
 
     **Ready to receive the first paragraph, job description, and company info for customization.**
 
@@ -124,7 +135,8 @@ instructions:
          ["CEO", "Founder", "Co-Founder", "President", "Chairman", "Chief Executive Officer", 'Chief Executive Officer']  
            → Do NOT mention the title  
            → Do NOT say things like “I saw you're the CEO”  
-           → Instead, start with a sentence that implicitly reflects executive-level importance, such as:  
+           → Instead, start with a sentence that implicitly reflects executive-level importance and that's the reason we 
+              are reaching out to them, such as:  
              “make the argument that we are reaching out to them specifically because our model and our services are so 
               disruptive and touch every corner of the business - we usually need the buy in of the head of the company 
               to push through something as unique, different and disruptive as our model for lead generation”  
@@ -133,7 +145,8 @@ instructions:
              “As the [standardized title], [generic reason for relevance to lead generation].”
     2. Reference other contacts as:  
        “I also sent a note to [contact 2 full name] and [contact 3 full name] in case this [generic reason for relevance].”
-    3. Always mention month-to-month, no-commitment contracts.
+    3. In this paragraph, you also have to emphasize that we offer month to month contracts with no commitment - so they
+    can just try us out to see if we are can fit in - you have to always mention this - this is a requirement
     4. Always mention willingness to work with internal teams or agencies.
     5. Never use dashes (—), special characters, or reference company founding year/mission.
     6. Never mention Salaria by name—use “we.”
@@ -156,6 +169,11 @@ instructions:
     22. Always use full names for referenced contacts.
     23. Do not exceed 300 characters for the paragraph.
     24. The CTA must be on its own line, separated from the paragraph.
+    
+    <Paragraph Format>
+    To be clear, The format of the third paragraph should be “As the [title], [generic reason for them being the 
+    right person to reach out to for lead generation]. I also sent a note to [contact 2] and [contact 3] in case this 
+    [generic reason for why this might be relevant to them].
 
 
   call_line: |
@@ -275,96 +293,431 @@ instructions:
     7. Do not use brackets or placeholders in the message.
     8. Ensure the message is concise, professional, and easy to copy and paste.
     9. Do not use dashes (—) in the paragraph unless its for compound words.
+    10. Make sure you retain the spacing in the original email.
+    11. Do not use ':' or ';'
     
 
   faq: |
-    ## About Salaria Sales Solutions
-
-    **Empowering B2B Companies with High-Impact Lead Generation & Sales Development**
+    B2B Lead Generation & Sales Development
+    Powered by People, Perfected by AI
+    Affordable, End-to-End Lead Generation & Sales Development—Flexible Month-to-Month Terms
     
-    Salaria Sales Solutions is a top-rated B2B lead generation and sales development agency, dedicated to helping companies accelerate revenue growth through scalable, end-to-end sales solutions. Founded in 2019 and headquartered in Washington, DC, we serve clients across technology, SaaS, financial services, healthcare, e-commerce, and professional services.
+    Schedule a call
+    Our Services
+    Salaria helps companies scale their lead generation and sales development efforts by seamlessly augmenting their 
+    existing team or fully managing the process. Our services are customized to your budget, with flexible month-to-month
+    contracts and no long-term commitments.
     
-    ### What We Do
+    AI-Powered Cold Calling
+    We hire the top 1%, then guide them with AI to craft personalized pitches for every single lead
     
-    We deliver affordable, flexible, and fully managed lead generation and sales development services, designed to seamlessly augment your existing team or operate as your outsourced sales engine. Our month-to-month contracts mean no long-term commitments—just results.
+    Hyper-Personalized Email Marketing
+    Deep public and proprietary data + AI + human edits = true personalization, not generic spam blasts
     
-    **Our Core Services:**
-    - **AI-Powered Cold Calling:** U.S.-based, rigorously vetted reps craft personalized pitches, guided by AI for maximum impact.
-    - **Hyper-Personalized Email Marketing:** Combining deep data, AI, and human expertise for true 1:1 outreach—never generic spam.
-    - **Targeted LinkedIn & Social Outreach:** Elevate your brand and connect with decision-makers where they’re most active.
-    - **Custom Market Research & Prospecting:** Precision targeting using advanced data tools and tailored research strategies.
-    - **Rapid Inbound Lead Response:** Live reps respond instantly and follow up across all channels to maximize conversions.
-    - **AI-Driven Outbound Lead Gen:** For hands-on teams, our AI tools and expert support drive consistent pipeline growth.
-    - **Cross-Functional Appointment Setting:** We coordinate meetings across teams and stakeholders, fully integrated into your systems.
+    Targeted LinkedIn & Social Outreach
+    We elevate your brand across LinkedIn and social—critical channels for reaching today’s B2B buyers
     
-    ### Why Salaria?
+    Custom Market Research & Prospecting
+    We use cutting-edge data tools and custom research strategies to target and personalize with precision
     
-    **Full-Service, Multi-Channel Approach:**  
-    Unlike niche providers, we manage every outreach channel—calls, email, social, digital, and text—for comprehensive coverage.
+    Rapid Inbound Lead
+    Response
+    Live human reps respond instantly to inbound leads—and follow up across every channel until they convert
     
-    **Flexible, Month-to-Month Engagements:**  
-    Scale up or down as your needs evolve, with no long-term contracts.
+    AI-Driven Outbound
+    Lead Gen
+    An AI-driven outbound tool for hands-on teams—supported by real lead gen experts when it counts
     
-    **U.S.-Based, Expert Reps:**  
-    Our team is made up of top 1% talent—MBA-level consultants, business school grads, and military veterans—trained to sound like insiders in your industry.
+    Cross-Functional Appointment Setting
+    We coordinate meetings across teams, territories & stakeholders—fully integrated into your systems & processes
     
-    **AI + Human Expertise:**  
-    We use AI to enhance personalization, speed, and scale—never to cut corners. Our outreach is always tailored, never cookie-cutter.
+    The Top-Rated B2B Lead Generation & Sales Development Agency
+    B2B Lead Generation Agency Google Reviews
+    Sales Outsourcing Company G2 Reviews
+    Cold Calling Services Trust Radius Reviews
+    Sales Development Agency Clutch Reviews
+    B2B Lead Generation Services TrustPilot Reviews
+    What Makes Us Different
+    Backed by experience, powered by people—our process consistently delivers meetings that close deals.
     
-    **Transparent, High-Volume Results:**  
-    Clients typically see 3–7 qualified meetings per week per seat, with some scaling to 10–20 meetings. We average 65–75 highly targeted new leads prospected daily.
+    Full-Service
+    While others specialize in one channel, we run it all—calls, email, social, digital, text.
     
-    **Proven Track Record:**  
-    We’re backed by 5-star reviews across G2, Clutch, TrustRadius, TrustPilot, and Google. Our clients include industry leaders like Peloton, DocuSign, and Global Ecom Partners.
+    Month-To-Month Contracts
+    Month-to-month flexibility so you can scale outreach up or down as your needs evolve.
     
-    ### What Makes Us Different?
+    US-Based Reps
+    Only a select few make the cut—our U.S.-based reps are rigorously vetted and trained to sound like insiders.
     
-    - **Strategic Consulting:** We help you define your ideal customer profile, craft messaging, and optimize your go-to-market strategy.
-    - **Customizable Teams:** Choose U.S.-based, international, or hybrid teams to fit your needs.
-    - **Radical Transparency:** Full access to all accounts, tools, and daily/weekly metrics.
-    - **No Hidden Fees:** Custom pricing comparable to internal hires, with production 2–3x higher.
+    Our Reviews
+    While competitors rack up bad reviews, we’re backed by 5-star ratings across every major platform.
     
-    ### Frequently Asked Questions
+    Artificial Intelligence
+    While others use AI to cut corners, we use it to outperform—enhancing personalization, speed, and scale.
     
-    **How do you compare to an internal hire?**  
-    We’re more affordable, faster to ramp, and deliver higher volume and quality—without the overhead or long-term risk.
+    Client Testimonials
+    "Salaria stood out for their full-service SDR approach, transparency, and accountability. They provided multi-channel outreach, clear communication, and delivered real results. We're thrilled with our decision and highly recommend them!"
+    Dan Balter Feros AI VP
+    Dan Balter
+    VP - Faros AI
+    Our Reviews
+    Sales Outsourcing Agency G2 Reviews
+    Cold Calling Agecy Trust Radius Reviews
+    Sales Development Company Clutch Reviews
+    B2B Lead Generation Company TrustPilot Reviews
+    B2B Lead Generation Company Google Reviews
     
-    **Do you have experience in my industry?**  
-    Our methodologies have delivered results across diverse industries, from SaaS and AI to manufacturing and healthcare.
     
-    **How do you ensure lead quality?**  
-    We work closely with you to define your ICP and prospecting guidelines, ensuring every meeting is with the right decision-maker.
+    “Salaria has been a game changer for us! We have tried various companies and internal processes to manage a rather 
+    difficult lead gen process and they have performed way better than we expected. They adapt to our feedback. They 
+    provide clear information. A majority of our sales pipeline is from Salaria. They are always looking for ways to 
+    improve. If you are on the fence, just pull the trigger. Salaria will do everything they say and more!”
     
-    **Is your outreach manual or automated?**  
-    Nearly all prospecting, calling, and LinkedIn outreach is manual and custom. Only email marketing is automated for scale and optimization.
+    Nick Lassor
     
-    **Where is your team based?**  
-    Our headquarters is in Washington, DC, with U.S.-based consultants and a global support team. You can choose your preferred team mix.
+    CEO at Global Ecom Partners
     
-    **What results can I expect?**  
-    Most clients see 3–7 qualified meetings per week per seat, with the ability to scale as needed.
     
-    **Do you offer commission-based or pay-per-lead models?**  
-    No, we operate on a fixed-fee retainer to ensure quality and strategic partnership.
     
-    ### What Our Clients Say
+    “I enjoyed my experience with Salaria! My account manager was Elizabeth and she really knew her stuff. Communication
+    was consistent and seamless. Staff was professional and left no gaps. I felt like a priority… like I was the only 
+    customer on their roster, even though I know I was only one of many. Great job and highly recommended.”
     
-    > “Salaria stood out for their full-service SDR approach, transparency, and accountability. They delivered real results.”  
-    > — Dan Balter, VP, Faros AI
+    Byron Sommardahl
+    CEO at Grow Strong    
+    “The scale of what they can accomplish is enormous and is well worth the investment.”
     
-    > “A majority of our sales pipeline is from Salaria. They adapt, communicate clearly, and always look for ways to improve.”  
-    > — Nick Lassor, CEO, Global Ecom Partners
+    Dustin Cavanaugh
+    Founder & Chief Strategy Officer at Loop Global
+    Salaria Sales Solutions scheduled 2–3 qualified meetings per week for the client’s team of Sales Account Executives.
+    The team delivered on time with weekly meetings to review progress, assess and adjust messaging, and review upcoming
+    meetings. They used a technology stack that enabled effective outreach.
     
-    > “I’ve closed multiple big-ticket deals from Salaria’s leads. Great company to work with.”  
-    > — James Hoover, Director of Business Development, RenewAge
+    Doug Miller
+    President, SaylzeVP
+    “Salaria is amazing! I have spoken with several companies like Salaria, but I have found them to be mostly talk. 
+    Salaria does exactly what they say they are going to do – they get meetings! I greatly appreciated that even though 
+    we had a slow start, they came in an worked hard to earn regain our trust. They are always tweaking and improving 
+    their process to make sure they are meeting our needs.”
     
-    ### Ready to Accelerate Your Sales Pipeline?
+    Aviva Fridman
+    Vice President Operations at LARVOL
+    “Great company and great people.  I am super impressed with our director of account management LP and his team.  I 
+    have been with  them for about 4 months and just signed for a 6 month extension.  I have been getting TOO MANY HIGH 
+    QUALITY LEADS to manage and am now forced to build out my sales team because of Salaria 🙂 Highly recommended.  The 
+    cost will pay for itself quickly.”
     
-    Let Salaria Sales Solutions handle the complexity of lead generation and sales development—so your team can focus on closing deals.  
-    **Visit [salariasales.com](http://salariasales.com) or schedule a call to learn more.**
+    Jason Sonos
+    CEO at Power Production Management
+    “As someone who has been in medical device sales for 10 years now, I highly recommend Salaria to anyone who is 
+    looking for more targets. Pipeline is the life blood for any sales organization and Salaria is a great resource to 
+    have.”
     
-    ---
+    Matthew Shreibman
+    Regional Sales Manager at UV-Concepts
+    “Salaria has been a huge boost to our lead generation efforts.  They are able to create meetings with high level 
+    executives who are vetted properly. I’ve closed multiple big ticket deals from Salaria. Great company to work with.”
     
-    **Salaria Sales Solutions**  
-    Washington, DC | 51–200 employees | Serving clients worldwide  
-    *B2B Lead Generation | Appointment Setting | Sales Development | Demand Generation | Sales Enablement*
+    James Hoover
+    Director of Business Development at RenewAge
+    “Salaria is a fantastic B2B lead generation agency. I’ve worked with quite a few firms, and these guys are the best 
+    hands down. I’ve been working with them for years now. At my last firm, I hired them and they helped us close deals 
+    with DocuSend and Peloton. I’ve recently moved to a new firm and re-hired Salaria. Just a few months in, they’ve 
+    brought us an incredible amount of leads and we’ve already closed a deal. Highly recommended!”
+    
+    Jason Stern
+    CEO at GetThru
+    Jason Stern
+    “We started working with Salaria about 10 months ago and they have been able to generate about 60-70 meetings of 
+    which 4 deals have closed. I was a bit skeptical before deciding to work with them because I didn’t know if we could
+    effectively outsource part of our sales development strategy. I’ve been pleasantly surprised by how well things have
+    gone. We’ve also seen an improvement in conversion rates across the whole team because we started using a lot of the
+    scripts and templates Salaria was using. I have to admit that they’ve been impressive with how helpful they’ve been 
+    from a strategy perspective. Highly recommend these guys!”
+    
+    Nilesh Surana
+    Head of Demand Generation at Fyle
+    View All Reviews
+    Experts in Small Business to Enterprise
+    Peloton
+    Indie Source
+    Purchasing Platform
+    Docusign
+    Global Ecom Partners
+    RenewAge
+    GM Healthcare
+    Case Studies
+    We combine human capital, technology, and strategic consulting to deliver our clients highly qualified sales 
+    meetings that drive revenue
+    
+    Deepchill Solutions
+    Engineering Success: How Salaria Sales Amplified Deepchill’s Pipeline by $1.5M
+    20
+    High-quality Meetings
+    $1.5
+    Million in Revenue
+    
+    Learn more
+    Deepchill
+    Blog & Resources
+    Regularly updated blog posts, whitepapers, eBooks, and webinars focusing on lead generation, sales enablement 
+    strategies, and industry trends.
+    
+    Outbound Sales Development Techniques
+    Mastering Outbound Sales Development Techniques: Generate High-Quality Leads with Confidence
+    Read More »
+    March 8, 2025
+    Sales Development Metrics & KPIs: The Key to Measuring Success
+    Measuring Success: Mastering Sales Development Metrics & KPIs for Better Results
+    Read More »
+    March 8, 2025
+    ales Development Strategy: Aligning Tactics for Lasting Revenue Growth
+    Crafting a Winning Sales Development Strategy: Elevate Your Business with Aligned Tactics
+    Read More »
+    March 8, 2025
+    Load More
+    
+    
+    Frequently Asked Questions
+    
+    What We do?
+    Cold Calling
+    list building & prospecting
+    Email & Linkedin Marketing
+    Inbound Lead Management
+    Appointment Setting
+    Lead Nurturing
+    Go-To-Market
+    Account Based Marketing
+    
+    Who We are?
+    Our Approach
+    Industries
+    Mission & Values
+    Case studies
+    Contact
+    Vlog
+    Blog
+    Guides
+    B2B Appointment Setting
+    B2B Sales Prospecting
+    B2B Sales Outsourcing
+    Cold Calling Services
+    SaaS Lead Generation
+    B2B Lead Nurturing
+    Sales Outsourcing
+    Outsource Sales Calls
+    © 2025 Salaria Group - All rights reserved.
+    Privacy Policy
+    Terms of Service
+    Accessibility Statement    
+    
+    Salaria Sales Solutions
+    The Top-Rated B2B Lead Generation & Appointment Setting Company
+    Marketing Services Washington D.C., Washington 34K followers 51-200 employees
+    FollowMessage
+    
+    
+    At Salaria Sales Solutions, we are dedicated to empowering B2B companies with high-impact sales development, lead 
+    generation, and sales enablement strategies. Since our inception in 2019, we have specialized in delivering tailored
+    , top-of-the-funnel solutions designed to drive revenue growth and accelerate business success.
+    
+    Our comprehensive suite of services includes lead generation, appointment setting, sales development, demand 
+    generation, sales enablement, and cold calling campaigns. By leveraging cutting-edge technology, data-driven insights,
+    and a proven methodology, we ensure that your sales pipeline is continuously fueled with qualified opportunities.
+    
+    We cater to diverse industries, including technology, SaaS, financial services, healthcare, e-commerce, and professional 
+    services. Our innovative approach combines USA-based strategic consulting with global teams to create hyper-personalized 
+    outreach campaigns that resonate with your target audience. Whether through precise digital marketing efforts, dynamic 
+    outbound sales initiatives, or sales enablement tools, our solutions are designed to help you achieve your business 
+    objectives.
+    
+    At Salaria Sales, we don’t just generate leads; we identify and cultivate meaningful opportunities that drive measurable 
+    results. By partnering with us, your sales team can focus on what they do best—closing deals—while we handle the complexities 
+    of sourcing and qualifying leads.
+    
+    Let us help you transform your sales process and unlock your business's full potential. Visit us at salariasales.com to learn more.
+    Website
+    http://salariasales.com
+    Industry
+    Marketing Services
+    Company size
+    51-200 employees
+    184 associated members
+    LinkedIn members who’ve listed Salaria Sales Solutions as their current workplace on their profile.
+    Headquarters
+    Washington D.C., Washington
+    Founded
+    2019
+    Specialties
+    Lead Generation, Appointment Setting, Sales Development, Business Development , Marketing, Demand Generation, Sales Consulting, Cold Calling, Sales, Lead Generation Outsourcing, B2B Lead Generation, B2B Sales Development, sales enablement, B2B Lead Generation, Cold Calling Campaigns, Demand Generation, Outbound Sales Strategy, Sales Pipeline Management, Sales Consulting, Account-Based Marketing, Target Market Segmentation, Digital Sales Prospecting, Sales Outsourcing, Sales Process Optimization, Multi-Channel Campaigns, and Lead Nurturing
+    FAQS/Objection Handling:
+    How do you compare to an internal hire?
+    
+    1. I’m cheaper. I think I’m the best option if you are looking to be careful with resource allocation.
+    2. I’m not a junior. I can pick things up quickly and you don’t have to train me.
+    3. You can fire me after 90 days. Firing an SDR three months into the role is a bit harder to do.
+    4. I’ve consistently beaten the productivity of internal SDRs. Our outreach and prospecting volume and customization is nearly impossible for the average SDR to match. "
+    
+    You don't have experience in this industry, how do you make up for that?
+    I have not worked with any firms in your industry as of yet. Although, I can assure you that our methodologies have a track record of success across a diverse set of industries. I work with a machine learning startup in Silicon Valley, a clothing manufacturer in LA, a cybersecurity company in Beirut to name a few and we've delivered results across the board.
+    How big is your team/support staff?
+    I have about 15 people on staff and growing. I have implemented multiple layers of quality control and accountability across my organization. This limits errors on our end and allows us to constantly improve our processes.
+    How do you ensure that the calls scheduled are with the right type of prospects every time?
+    The first week of our engagement is focused on me digging into your business and crafting a game plan for how to get started. As a part of that onboarding process, I will work with you or your team to identify your ICP (industry, company type, headcount, titles, geography - we can get really detailed and granular) and then we'll begin delivering fresh leads that match those ICP parameters. It then falls on us to make sure that we stick to those prospecting guidelines thus ensuring that the meetings we ultimately set are with the right type of prospects.
+    How do you avoid reaching out to our existing clients or leads?
+    I have an onboarding checklist and one of the steps is to review current client lists and create a process around preventing overlap. Typically, we'll cross-reference a current client sheet before prospecting a company. This prevents the issues at the very top of the funnel.
+    What makes Salaria different from competitors?
+    We have found our model to be much more effective than other agencies and freelancers that you receive messages from everyday. First, we are a legitimate B2B lead generation agency with offices around the world and USA-based MBA level consultants that operate as account managers and strategists for our clients. We help our clients craft messaging, strategy and then manage everything for them. Most of the messages you get are from freelancers or very small inexperienced agencies. Secondly, we have the ability to do every sales development, lead generation activity at a very high volume. For example, we prospect/list build around 20 new, highly targeted and qualified companies every day with 1-4 leads/contacts at each company depending on the guidelines we put in place. That means we can typically prospect 60-80 new leads a day/1,200-1,600 per month. We also can target small, niche markets with a smaller total addressable market. Furthermore, we offer cold calling services while most of the folks reaching out to you via email and LinkedIn are fully automated and just spray and pray on those two channels. We are able to customize and personalize our outreach in ways that our competitor’s can’t. Even our responses to leads, such as our back and forth here, are completely tailored and not cookie-cutter. Finally, we don't rely too much on automation and technology to do the job for us. We leverage technology when it makes sense, but the complex, dynamic components of our processes are done by humans. Hope that helps. Would like to chat if you are interested in working with us.
+    Do you work within the veterinary space?  Or have you?
+    
+    I have not worked in the veterinary space before but I have a very diverse client base with a successful track record across the board. I work with companies in manufacturing, AI/Machine learning, energy, cybersecurity, and travel media. As odd as this might sound, I also thought you'd be interested to know that I'm starting a pet supply company with my sister so I have a genuine love for animals and appreciation for the industry in general.
+    Is actual cold-calling involved in your process or is primarily cadencing using email/social tools?
+    
+    Yes, cold calling is one of our outreach strategies. Most of the people we call have expressed initial interest in our digital outreach. This way, we aren’t calling folks completely cold and they have some context when they pick up.
+    Can you tell me how you help grow pipeline?
+    
+    I operate similarly to a full-time remote SDR. I offer tailored prospecting and high volume, personalized outreach via email and social channels. I'd be more than willing to jump on a quick call if you're interested.
+    If you're interested in applying to any of our positions, you'll need to complete an online application on HireArt to be considered
+    
+    I'm a BDR consultant operating as a 1099 for my clients. I'm an alternative to hiring a full-time, W-2 BDR.
+    Are you the resource, or do you contract?
+    
+    I'm the resource - essentially a remote SDR.
+    How much of those touchpoints are automated vs manual?
+    
+    Nearly everything we do including prospecting, CRM management, appointment setting/coordinating, LinkedIn outreach, objection handling and calling ( < included with package 2) is manual and custom to each client. The only thing we have automated as of yet is email marketing. This is because we send out thousands of emails per month including follow-ups and that would be virtually impossible to do manually. Our email marketing automation tools also provide A/B testing metrics to optimize and continuously improve our messaging. The tools and methods we use will also protect you from getting blocked by spam filters ( < also really important).
+    Do you use my Linkedin?
+    
+    We do utilize the LinkedIn accounts of our clients. You should look at us as simply a LinkedIn marketing tool - supercharging and automating your team's LinkedIn outreach like a software solution would.
+    Is this primarily Linkedin outreach?
+    
+    Yes, social outreach is primarily done via LinkedIn for most B2B clients. Sometimes clients want us to reach out to leads in other unique ways such as on personal social media channels, industry forums, or group chats on platforms like Reddit. Most times, LinkedIn is good enough and you don't want to scare leads away by being overly aggressive.
+    Am I going to have access to everything?
+    
+    We are radically transparent about everything. You will have full access to all accounts, tools, and software that we use throughout our engagement. Additionally, we send you updates about everything: morning reports, meeting alerts, response alerts, daily/weekly metrics. If you can't find something, my team and I are always here to help.
+    What is your pricing?
+    
+    
+    Depending on your needs, we would build out a custom price. We don't have set flat rates. Typically, our pricing is comparable to hiring an internal sales rep, although our production is about 2-3X an internal hire. Could we discuss more over the phone?
+    Where is your calling team based out of?
+    
+    Our approach here is unique. Our "high-volume" cold calling team is offshore, mainly in the Philippines. We also have a team in the USA that takes the more nuanced and complex follow-up calls and assists our offshore team when needed. Our USA-based team is  made up of business school grads and military veterans.
+    Do you have experience with Zendesk Sell or Reply.io?
+    
+    We don’t have experience with Zendesk Sell or Reply.io but I’m confident we can become accustomed to them very quickly. We’ll likely also introduce you to sales and marketing tools that you might not have experience with but would likely be interested in.
+    Can you work with our existing lead list?
+    
+    Yes, we can work with an existing lead list. We could also work to build new lists to test different strategies.
+    Can do commission based model?
+    
+    I can't do a commission based model.
+    Where are you located? Are you an American-based?
+    
+    Our headquarter is in Washington, DC and our staff are based in the US and around the world. We have a unique hybrid model of international and USA based teams of Business Development professionals. We are able to customize a team to fit your needs best. We can provide you with fully U.S. based cold calling, international cold calling services or whatever mix you feel is best for your team. You main point of contact will always be based in the USA and would be an experienced sales development consultant and account manager.
+    What quality of lists do you require?
+    
+    Do you need an org name, title, phone, and email to be successful, or can we send you a list of target organizations for enrichment? How many leads do you need at a given time to reach critical mass? If you offer it, does enrichment cost extra/how much does it add to the timeline?
+    We don’t have any requirements from you regarding lists.
+    
+    Whatever you have, we can take it and enrich it at no extra cost. We’ll likely also want to build our own lists from a traditional prospecting approach but your data could definitely supplement our efforts and get us to critical mass quicker.
+    How much, if any, time will be required on our part to help you craft messages and train the team? You mentioned one of your primary strengths is as a copywriter. Is there a difference in cost if we do the copywriting vs have you do it?
+    
+    The copy usually takes a day or two out of our five day onboarding process. If you already have copy, we can run with it immediately but I wouldn’t be able to offer a discount.
+    What does your ramp-up schedule look like? How long do you expect it to take to start setting your first appointments? How long until you're operating at full capacity?
+    
+    We will be able to generate early results within the first month typically. We are fully ramped up in 90 days. This is a conservative estimate, some clients are very successful right out the gate.
+    Is there a difference in cost during the ramp period? There are firms out there that charge only for qualified appointments set. Do you offer that sort of contingency?
+    
+    We’re on a fixed fee retainer.
+    I understand you allow clients to go month-to-month. Is there a minimum time commitment on the contract?
+    
+    There is no minimum time commitment but I highly suggest you give us at least 90 days to prove ourselves.
+    When you say "we average 65-75 lead contacts prospected/day" what does that mean? Are you saying you generate contact information for 65-75 new individuals with the appropriate titles at the organizations we're targeting? Or, is it something else?
+    
+    Exactly, these contacts would be well qualified and within the guardrails/parameters that we set. Again, we could also supplement our list with any data that you’ve already accumulated.																									Would your team need @harborcompliance.com email addresses/access to our CRM?
+    Will they be creating LinkedIn profiles of their own with our company in the profile, or do you require us to share profile access with them?
+    We would need access to Linkedin profiles, again for credibility. If this is a sticking point, we do have some Linkedin accounts we could use from subcontractors of mine but that would be another fee.
+    How many of them are there?
+    I’m not sure I understand this question. We’d assign about 2 dedicated cold callers to your account and 2 dedicated prospecting associates, as well as a USA associate. In addition, about 15 other employees will be helping manage your account in a variety of ways such as QA, data entry, management, training etc.
+    My main hang-up with this deal is that we're paying you for activity rather than results. I'd feel much better if we had some basic ideas about how many appointments we can expect. What is your average conversion rate like?
+    If we hand you a list of 1000 organizations we'd like to target, how many of those organizations would you expect to be able to set an appointment with?
+    
+    "I would say that in a sense that you are still paying us for the results. At the end of the day, if you don’t achieve ROI from our services, our engagement won’t last very long. If all of my clients canceled after 30-90/days, I wouldn’t really have a business. Since inception, we’ve retained nearly all of our clients because of our performance. At a minimum, most of my clients with one seat are getting 3-7 meetings/per week. I have a few clients who have scaled up with us that are achieving 10-20/meetings per week. I think Harbor Compliance is well positioned with a really compelling product so I’d imagine we’d be able to achieve above average meeting volume. At the end of the day, any number I give you is purely an estimate and arbitrary.
+    "
+    At a minimum, most of my clients with one seat are getting 3-7 meetings/per week. I have a few clients who have scaled up with us that are achieving 10-20/meetings per week. I think Harbor Compliance is well positioned with a really compelling product so I’d imagine we’d be able to achieve above average meeting volume. At the end of the day, any number I give you is purely an estimate and arbitrary.	• Yes, but that is included in my costs. I will upgrade whatever profile you give us.
+    • So, am I to understand that we'd be paying for a single "seat" to get at least 3-7 meetings per week? If we added additional "seats" would we be billed $7650 for each one we add? If that's the case, would adding two seats put us in the 6-14 meeting/week range? When you say "scaled up" how many seats do those clients have?	• Exactly. My most successful client who gets about 20 meetings a week is at 6 seats. Although, their business is much different and is not a perfect comparable.
+    Do your reps require access to our CRM?
+    This is completely up to you. We can create our own Salesforce and keep everything separate.
+    Are we able to take what we learn from our engagement together and use it to train our own reps in the future even after the engagement has ended?
+    
+    Yes, you can. I’m prepared to be pretty transparent about our processes and systems. This is mainly to protect me from clients sharing information with my competitors. That I’m not comfortable with.
+    
+    
+    
+    Objection Handling:
+    
+    Straight NI: Are you still hiring for the (Job title) position?
+    
+    Objection #1: Where are you located?
+    Answer: We are located in the United States.
+    Headquarters: Washington, DC
+    
+    Objection #2: How did you get my number?
+    Answer: “We have a contact info database that we use to find phone numbers.”
+    
+    If someone asks you, “which database?”
+    “It’s called rocket reach.”
+    
+    If they continue to ask you more information about how you got their information
+    “I really didn’t mean to bother you, I can just take you off our list.”
+    
+    
+    Objection #4: I tried outsourcing before and haven’t had any success.
+    Answer: I completely understand. We’ve actually worked with a lot of companies that have had unsuccessful engagements and campaigns with other lead generation companies. But all I can say is that we do things differently and have a very unique model that is different from any other lead generation or sales development you've worked with. We would love to walk you through exactly how we are different. Would you be interested in setting up a quick introductory call with us?
+    
+    Objection #5: Why should we work with you vs hiring a full time employee.
+    Answer: Our biggest differentiator is that we hit a much higher volume across every activity that we do. 400-800 cold calls a day, 65 highly targeted prospected leads, huge amounts of reachout via emails, and linkedin. Hiring 1 person you get the volume of 1 person, with us you get the volume of up to 15 people a day.
+    
+    Objection #6: Do you have experience selling to [X] industry?
+    Answer:
+    -Absolutely! [Client List]
+    -Yes, we work with firms across a diverse set of industry types including private equity, SaaS, agencies, healthcare, energy, real-estate. I think the best course of action is for me to schedule a meeting between you and my manager, who can talk more specifically about our experience about [X] industry.
+    
+    Objection #7: Where are your callers located?
+    Answer: Our cold calling team is based in the United States and from around the world. If you were to work with us, you can choose where your cold caller is located. It can be international or you can work with US only cold callers. It's up to you on what you would prefer.
+    
+    Objection #8: I already hired someone/I already hired Sales Development reps or BDRs
+    Answer: We work with many companies that have their own teams and sales development reps. We make them more efficient by handling repetitive tasks, so they can focus on account-based marketing and creative tasks.
+    
+    Objection #9: Outsourcing cost more
+    Answer: Our services are typically commensurate with the cost of hiring internally. We would love to break it down actually on a call. Would you be interested in setting up a quick introductory call with us?
+    
+    Objection #11: We are still figuring out our strategy, who to target and what our messaging would be.
+    Answer: One thing that makes us really unique from other lead generation and sales development companies is that we are McKinsey level consultants, and we can definitely help you craft that messaging and  strategy that you need. Another thing that would make us unique is that we do things at a very high volume across numerous channels and thousands and thousands of leads. Thus our sample size of data is much larger, which you can use to figure out who is responding as well as the right people to target. Rather than you guys figuring things out on your own,  we can essentially test the market at scale and help you craft that strategy. We would love to tell you more about how we can be helpful from a strategic consulting perspective.
+    
+    Objection #12: We are already using [X sales tool]
+    Answer: We’re a full-service sales development consulting and lead generation company. We do high-volume cold calling, custom prospecting, and huge amounts of outreach via emails, SMS, and LinkedIn.
+    Objection #13: Can you do a commission based model? Can you do a pay per lead model? Can you do a pay per meeting model?
+    
+    Answer: No,  we do not do pay  per lead/pay per meeting type of model. We are a full service consulting company and invest a significant amount in our clients, and offer strategic consulting at the front end. We would love to tell you more about how we are. Would you be open to learning more about us?
+    
+    Objection #14: We are looking for somebody that does more than that. (prospecting, cold calling and email marketing.)
+    
+    We saw on the job post that you are looking for somebody to also do prospecting, email marketing and cold calling as well. Those are some of the things and ways in which we can help. We would love to at least show you how we operate and how we can help you on those components of your need.
+    Would you be open to learning more about us?
+    
+    Objection #15: We work with the government, I don't know if we can work with you.
+    We have worked with government contractors and even with cybersecurity companies that work with government contractors, so we have plenty of experience working in that area.
+    
+    Objection #16: Lead wants to have callers that DOES NOT HAVE a foreign accent.
+    "We have a hybrid model where the majority of our high-volume cold callers are based in the Philippines, but you will also have a U.S. Sales Associate assigned to your account that focuses on warm leads or chasing calls. Our team in the Philippines speaks very clear English, but you may notice an accent with some of the callers. We have found that the leads we call are more concerned with the value proposition and what our clients are offering, rather than focusing too much on the caller's accent."
+    
+    Objection #17: (Head of Company, CEO only) Referral to somebody lower Level
+    Answer: I'll definitely reach out and send an email. Thank you for referring us to them. It's just that we were also hoping to introduce ourselves to you as we know that you lead the company. Ultimately, if we are going to do business together, you would have to sign off on it. So we were just also hoping to introduce ourselves to you. Would you be open to setting up a call as well?
+    
+    Objection #18 : Pricing question over the phone
+    Answer: Our pricing ranges from $6500-$7500 per month
+    
+    Objection #19 : Are you a recruiter?/ Is this a recruitment firm?
+    Answer: No, I'm not a recruiter. We're not a recruitment firm, we are actually a B2B lead generation firm and sometimes people think that we're recruiters because I'm referencing this job post that we saw on (job site) for an Account Executive. But the reason I'm actually referencing that job post is because we thought that you would be interested in our services to help this new account executive that you plan to hire. We would book them sales meetings for them to take and close deals from. That's what we do and that's why we are calling today to see if you'd be open to learning more about us.
