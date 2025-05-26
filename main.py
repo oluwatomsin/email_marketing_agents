@@ -69,19 +69,19 @@ if uploaded_file:
         df = df
         log_and_print("📥 CSV read successfully.")
 
-        required_columns = ["Job post Link", "Website", "First Name", "Second_Lead_info",
-                            "Last Name", "Title", "Job Post", "Job post Link"]
+        required_columns = {"Job post Link", "Website", "First Name", "Second_Lead_info", "Company",
+                            "Last Name", "Title", "Job Post", "Job post Link", "HQ Phone", "Direct Phone", "Email Address"}
 
         if not all(col in df.columns for col in required_columns):
             log_and_print("❗ CSV missing required columns.", level="error")
-            st.error("The CSV must contain the following columns: 'Title', 'Job post Link', 'Job Post', 'Job post Link', "
-                     "'fellow title' ,'Website', and 'Second_Lead_info'")
+            missing_columns = required_columns.difference(set(df.columns))
+            st.error(f"The CSV is missing the following columns:\n\n {", \n\n".join(missing_columns)}")
         else:
             st.info("⏳ Step 1: Enriching with company's website homepage content")
             df = enrich_dataset(df)
             st.success("✅ Data enrichment completed!")
             st.subheader("📄 Preview Enriched Data")
-            st.dataframe(df[["Job post Link", "Website", "Job Post", "Website Content", "Lead_info", "Second_Lead_info"]].head(10))
+            st.dataframe(df[["Job post Link", "Website", "Job Post", "Website Content", "Lead_info", "Second_Lead_info", "HQ Phone", "Direct Phone", "Email Address"]])
 
             if st.button("🚀 Generate AI Email Paragraphs"):
                 log_and_print("🚀 AI Email generation started.")
@@ -177,13 +177,16 @@ if uploaded_file:
 
                 st.subheader("📧 Preview of Generated Emails, Call Lines & LC1/LC2 Output")
                 st.dataframe(df[[
-                    "Job post Link",
+                    "Company",
                     "Website",
                     "Lead_info",
+                    "Email Address",
                     "Full Email",
                     "Call Line",
                     "LC1 Output",
-                    "LC2 Output"
+                    "LC2 Output",
+                    "HQ Phone",
+                    "Direct Phone"
                 ]].head(10))
 
                 # Download button

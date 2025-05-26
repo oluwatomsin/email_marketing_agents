@@ -1,5 +1,6 @@
 .streamlit/secrets.toml
 .env
 .venv/
-data/
+data/*
 __pycache__/*
+sdr_app.log
