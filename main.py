@@ -81,8 +81,7 @@ if uploaded_file:
             df = enrich_dataset(df)
             st.success("✅ Data enrichment completed!")
             st.subheader("📄 Preview Enriched Data")
-            st.dataframe(df[["Job post Link", "Website", "Job Post", "Website Content", "Lead_info", "Second_Lead_info", "HQ Phone", "Direct Phone", "Email Address"]])
-
+            df = st.data_editor(df)
             if st.button("🚀 Generate AI Email Paragraphs"):
                 log_and_print("🚀 AI Email generation started.")
                 st.info("⏳ Generating AI Emails...")

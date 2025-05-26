@@ -539,3 +539,92 @@
 2025-05-26 14:06:44,007 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2025-05-26 14:06:44,024 [INFO] ✅ AI Email generation completed successfully.
 2025-05-26 14:06:44,065 [INFO] 📥 CSV download button rendered.
+2025-05-26 15:09:23,006 [INFO] ✅ Environment variables loaded.
+2025-05-26 15:09:23,007 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 15:09:23,734 [INFO] 🤖 All agents initialized.
+2025-05-26 15:09:33,913 [INFO] ✅ Environment variables loaded.
+2025-05-26 15:09:33,913 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 15:09:34,603 [INFO] 🤖 All agents initialized.
+2025-05-26 15:09:34,607 [INFO] 📄 File uploaded.
+2025-05-26 15:09:34,625 [INFO] 📥 CSV read successfully.
+2025-05-26 15:09:34,642 [INFO] 🔍 Starting data enrichment...
+2025-05-26 15:09:41,558 [INFO] ✅ Data enrichment completed.
+2025-05-26 15:10:37,962 [INFO] ✅ Environment variables loaded.
+2025-05-26 15:10:37,962 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 15:10:38,893 [INFO] 🤖 All agents initialized.
+2025-05-26 15:10:38,896 [INFO] 📄 File uploaded.
+2025-05-26 15:10:38,901 [INFO] 📥 CSV read successfully.
+2025-05-26 15:11:12,862 [INFO] ✅ Environment variables loaded.
+2025-05-26 15:11:12,862 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 15:11:13,589 [INFO] 🤖 All agents initialized.
+2025-05-26 15:11:13,591 [INFO] 📄 File uploaded.
+2025-05-26 15:11:13,594 [INFO] 📥 CSV read successfully.
+2025-05-26 15:11:13,639 [INFO] 🚀 AI Email generation started.
+2025-05-26 15:11:13,640 [INFO] ✉️ Generating email for: Adam  Steinhandler
+2025-05-26 15:11:36,717 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 15:11:56,090 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 15:12:30,545 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 15:12:46,655 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 15:13:22,320 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 15:13:41,882 [INFO] ✅ Environment variables loaded.
+2025-05-26 15:13:41,882 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 15:13:42,315 [INFO] ✅ Environment variables loaded.
+2025-05-26 15:13:42,316 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 15:13:42,752 [INFO] 🤖 All agents initialized.
+2025-05-26 15:13:43,263 [INFO] 🤖 All agents initialized.
+2025-05-26 15:13:48,489 [INFO] ✅ Environment variables loaded.
+2025-05-26 15:13:48,490 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 15:13:49,556 [INFO] 🤖 All agents initialized.
+2025-05-26 15:13:49,559 [INFO] 📄 File uploaded.
+2025-05-26 15:13:49,567 [INFO] 📥 CSV read successfully.
+2025-05-26 15:13:49,578 [INFO] 🔍 Starting data enrichment...
+2025-05-26 15:13:56,018 [INFO] ✅ Data enrichment completed.
+2025-05-26 15:17:23,437 [INFO] ✅ Environment variables loaded.
+2025-05-26 15:17:23,437 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 15:17:24,161 [INFO] 🤖 All agents initialized.
+2025-05-26 15:17:24,165 [INFO] 📄 File uploaded.
+2025-05-26 15:17:24,168 [INFO] 📥 CSV read successfully.
+2025-05-26 15:18:08,886 [INFO] ✅ Environment variables loaded.
+2025-05-26 15:18:08,887 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 15:18:09,727 [INFO] 🤖 All agents initialized.
+2025-05-26 15:18:09,731 [INFO] 📄 File uploaded.
+2025-05-26 15:18:09,734 [INFO] 📥 CSV read successfully.
+2025-05-26 15:18:42,632 [INFO] ✅ Environment variables loaded.
+2025-05-26 15:18:42,632 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 15:18:43,357 [INFO] 🤖 All agents initialized.
+2025-05-26 15:18:43,359 [INFO] 📄 File uploaded.
+2025-05-26 15:18:43,362 [INFO] 📥 CSV read successfully.
+2025-05-26 15:20:43,022 [INFO] ✅ Environment variables loaded.
+2025-05-26 15:20:43,023 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 15:20:43,760 [INFO] 🤖 All agents initialized.
+2025-05-26 15:22:15,444 [INFO] ✅ Environment variables loaded.
+2025-05-26 15:22:15,444 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 15:22:16,112 [INFO] 🤖 All agents initialized.
+2025-05-26 15:22:19,220 [INFO] ✅ Environment variables loaded.
+2025-05-26 15:22:19,227 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 15:22:19,930 [INFO] 🤖 All agents initialized.
+2025-05-26 15:22:22,875 [INFO] ✅ Environment variables loaded.
+2025-05-26 15:22:22,877 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 15:22:23,808 [INFO] 🤖 All agents initialized.
+2025-05-26 15:22:23,811 [INFO] 📄 File uploaded.
+2025-05-26 15:22:23,814 [INFO] 📥 CSV read successfully.
+2025-05-26 15:23:38,050 [INFO] ✅ Environment variables loaded.
+2025-05-26 15:23:38,051 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 15:23:38,936 [INFO] 🤖 All agents initialized.
+2025-05-26 15:23:38,939 [INFO] 📄 File uploaded.
+2025-05-26 15:23:38,943 [INFO] 📥 CSV read successfully.
+2025-05-26 15:26:02,201 [INFO] ✅ Environment variables loaded.
+2025-05-26 15:26:02,202 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 15:26:02,901 [INFO] 🤖 All agents initialized.
+2025-05-26 15:26:09,528 [INFO] ✅ Environment variables loaded.
+2025-05-26 15:26:09,528 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 15:26:10,268 [INFO] 🤖 All agents initialized.
+2025-05-26 15:26:10,271 [INFO] 📄 File uploaded.
+2025-05-26 15:26:10,278 [INFO] 📥 CSV read successfully.
+2025-05-26 15:26:10,292 [INFO] 🔍 Starting data enrichment...
+2025-05-26 15:26:27,371 [INFO] ✅ Data enrichment completed.
+2025-05-26 15:26:42,809 [INFO] ✅ Environment variables loaded.
+2025-05-26 15:26:42,810 [INFO] 🧠 TextExtractor initialized.
+2025-05-26 15:26:43,631 [INFO] 🤖 All agents initialized.
+2025-05-26 15:26:43,633 [INFO] 📄 File uploaded.
+2025-05-26 15:26:43,637 [INFO] 📥 CSV read successfully.
