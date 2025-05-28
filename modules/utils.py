@@ -2,10 +2,12 @@ import requests
 from rich import print
 import re
 from bs4 import BeautifulSoup
-from dotenv import load_dotenv
 import os
+from openai import OpenAI
+from dotenv import load_dotenv
 
 load_dotenv()
+client = OpenAI()
 
 
 class TextExtractor:
@@ -154,3 +156,26 @@ class JobPostProfileExtractor:
             return self.get_glassdoor_job(job_url)
         else:
             return "Unsupported URL. Only LinkedIn and Glassdoor are supported at the moment."
+
+
+def generate_email_subject(email):
+    prompt = """
+    You are an expert at crafting Subject Lines for email. I want you to create a single subject line for emails provided.
+    Please make sure that the subject line sounds like it was written by a human.
+
+    Here are a few examples:
+    1. Supporting MindStaq’s Sales Growth Strategy
+    2. Supporting Your Sales Growth at Courie
+    3. Supporting Weights & Biases' Sales Growth
+    """
+
+    response = client.chat.completions.create(
+        model="gpt-4.1",
+        messages=[
+            {"role": "system",
+             "content": f"{prompt}"},
+            {"role": "user", "content": email}
+        ],
+        temperature=0.2
+    )
+    return response.choices[0].message.content

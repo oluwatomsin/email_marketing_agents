@@ -4,17 +4,19 @@ import logging
 import traceback
 import os
 from dotenv import load_dotenv
-from modules.utils import TextExtractor
+from modules.utils import TextExtractor, generate_email_subject
 from modules.agents import SDRAgent1, SDRAgent2, SDRAgent3, CallLineAgent, LC1Agent, LC2Agent
-from concurrent.futures import ThreadPoolExecutor
 
 # Setup logging
 logging.basicConfig(
-    filename="sdr_app.log",
+    filename="../sdr_app.log",
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
 )
 logger = logging.getLogger(__name__)
+
+st.set_page_config(layout="wide")
+
 
 # Helper function to print logs to terminal (for Streamlit visibility)
 def log_and_print(message: str, level="info"):
@@ -67,26 +69,28 @@ if uploaded_file:
     log_and_print("📄 File uploaded.")
     try:
         df = pd.read_csv(uploaded_file)
-        df = df.head(3)  # Limit for testing
+        df = df
         log_and_print("📥 CSV read successfully.")
 
-        required_columns = ["Job post Link", "Website", "First Name", "Second_Lead_info",
-                            "Last Name", "Title", "Job Post", "Job post Link"]
+        required_columns = {"Job post Link", "Website", "First Name", "Second_Lead_info", "Company",
+                            "Last Name", "Title", "Job Post", "Job post Link", "HQ Phone", "Direct Phone", "Email Address"}
 
         if not all(col in df.columns for col in required_columns):
             log_and_print("❗ CSV missing required columns.", level="error")
-            st.error("The CSV must contain the following columns: 'Title', 'Job post Link', 'Job Post', 'Job post Link', "
-                     "'fellow title' ,'Website', and 'Second_Lead_info'")
+            missing_columns = required_columns.difference(set(df.columns))
+            st.error(f"The CSV is missing the following columns:\n\n {", \n\n".join(missing_columns)}")
         else:
             st.info("⏳ Step 1: Enriching with company's website homepage content")
             df = enrich_dataset(df)
             st.success("✅ Data enrichment completed!")
             st.subheader("📄 Preview Enriched Data")
-            st.dataframe(df[["Job post Link", "Website", "Job Post", "Website Content", "Lead_info", "Second_Lead_info"]].head(10))
-
+            st.warning('In some cases, the bot might not be able to automatically get the information from some '
+                       'websites. Cross check the **["Website Content"]** column for such cases and kindly replace the '
+                       'data where and error occurred.', icon="⚠️")
+            df = st.data_editor(df)
             if st.button("🚀 Generate AI Email Paragraphs"):
-                log_and_print("🚀 AI Email generation started using ThreadPoolExecutor.")
-                st.info("⏳ Generating AI Emails concurrently...")
+                log_and_print("🚀 AI Email generation started.")
+                st.info("⏳ Generating AI Emails...")
 
                 def generate_all_paragraphs(row):
                     try:
@@ -151,13 +155,7 @@ if uploaded_file:
                         traceback.print_exc()
                         return pd.Series([f"[Error] {e}", "", "", "", "", "", ""])
 
-                results = []
-                with ThreadPoolExecutor(max_workers=3) as executor:  # Adjust max_workers as needed
-                    futures = [executor.submit(generate_all_paragraphs, row) for index, row in df.iterrows()]
-                    for future in futures:
-                        results.append(future.result())
-
-                generated_df = pd.DataFrame(results, columns=[
+                df[[
                     "AI Email Paragraph 1",
                     "AI Email Paragraph 2",
                     "AI Email Paragraph 3",
@@ -165,12 +163,10 @@ if uploaded_file:
                     "Call Line",
                     "LC1 Output",
                     "LC2 Output"
-                ])
-
-                df = pd.concat([df, generated_df], axis=1)
+                ]] = df.apply(generate_all_paragraphs, axis=1)
 
                 def generate_full_email(row):
-                    greeting = f"Hello {row.get('First Name', '').strip()}"
+                    greeting = f"Hi {row.get('First Name', '').strip()}"
                     parts = [
                         greeting,
                         row.get("AI Email Paragraph 1", "").strip(),
@@ -181,18 +177,25 @@ if uploaded_file:
 
                 df["Full Email"] = df.apply(generate_full_email, axis=1)
 
-                st.success("✅ AI Emails generated concurrently!")
-                log_and_print("✅ AI Email generation completed successfully using ThreadPoolExecutor.")
+                # Generating email subject line
+                df["Subject Line"] = df['Full Email'].apply(generate_email_subject)
+
+                st.success("✅ AI Emails generated!")
+                log_and_print("✅ AI Email generation completed successfully.")
 
                 st.subheader("📧 Preview of Generated Emails, Call Lines & LC1/LC2 Output")
                 st.dataframe(df[[
-                    "Job post Link",
+                    "Company",
                     "Website",
                     "Lead_info",
+                    "Email Address",
+                    "Subject Line",
                     "Full Email",
                     "Call Line",
                     "LC1 Output",
-                    "LC2 Output"
+                    "LC2 Output",
+                    "HQ Phone",
+                    "Direct Phone"
                 ]].head(10))
 
                 # Download button
