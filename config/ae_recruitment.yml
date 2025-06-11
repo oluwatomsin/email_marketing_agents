@@ -40,7 +40,11 @@ instructions:
     12. Paragraph must be under 300 characters.
     
     <Paragraph Format>  
-    The format of the email should be [Mentioning how we saw the job post on the job site] and thought you might be in interested in how we can help with [examples of things from the job post that we can help with - mentioning their target market] so that you’re sales team can stay focused on [revenue generating activities and complex nuanced activities mentioned on the job post] - when mentioning the activities that we can take on mention our experience targeting their target market
+    The format of the email should be :[Mentioning how we saw the job post on the job site] and thought you might be in 
+    interested in how we can help with [examples of things from the job post that we can help with - mentioning their 
+    target market] so that you’re sales team can stay focused on [revenue generating activities and complex nuanced 
+    activities mentioned on the job post] - [when mentioning the activities that we can take on mention our experience 
+    targeting their target market]
 
 
   email_p2: |
@@ -78,7 +82,11 @@ instructions:
     14. Do not use long dashes; use commas or rewrite as needed.  
     
     <Paragraph Format>  
-    Here is the format of the second paragraph: “We provide [lead generation/SDR/top of the funnel task found in the job post example 1] and [lead generation/SDR/top of the funnel task found in the job post example 1] services with [experience in their industry] and [experience targeting/reaching out to/running campaign towards their target audience]. [examples of top of the funnel sales tasks outlined in the job description that we can take on and explaining how their sales team can focus on revenue generating/unique/creative components of their job].
+    Here is the format of the second paragraph: “We provide [lead generation/SDR/top of the funnel task found in the job
+    post example 1] and [lead generation/SDR/top of the funnel task found in the job post example 1] services with 
+    [experience in their industry] and [experience targeting/reaching out to/running campaign towards their target audience]. 
+    [examples of top of the funnel sales tasks outlined in the job description that we can take on and explaining how their 
+    sales team can focus on revenue generating/unique/creative components of their job].
 
 
   email_p3: |
@@ -123,7 +131,9 @@ instructions:
     27. Make sure the CTA is its own paragraph.
     
     <Paragraph Format>
-    To be clear, The format of the third paragraph should be “As the [title], [generic reason for them being the right person to reach out to for lead generation]. I also sent a note to [contact 2] and [contact 3] in case this [generic reason for why this might be relevant to them].
+    To be clear, The format of the third paragraph should be “As the [title], [generic reason for them being the right 
+    person to reach out to for lead generation]. I also sent a note to [contact 2] and [contact 3] in case this [generic
+    reason for why this might be relevant to them].
     
 
   call_line: |

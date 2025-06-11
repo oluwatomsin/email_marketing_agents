@@ -7,6 +7,11 @@ from dotenv import load_dotenv
 from modules.utils import TextExtractor, generate_email_subject
 from modules.agents_ae import SDRAgent1, SDRAgent2, SDRAgent3, CallLineAgent, LC1Agent, LC2Agent
 
+
+if not st.session_state.get("authenticated", False):
+    st.warning("🚫 Please log in to access this page.")
+    st.stop()
+
 # Setup logging
 logging.basicConfig(
     filename="../sdr_app.log",
@@ -46,6 +51,9 @@ log_and_print("🤖 All agents initialized.")
 st.title("📧 AI-Powered AE Recruitment Email Generator")
 
 uploaded_file = st.file_uploader("📤 Upload your CSV file", type="csv")
+if uploaded_file is not None:
+    st.session_state['uploaded_file'] = uploaded_file
+
 
 @st.cache_data(show_spinner="🔍 Enriching data with companies websites content ...")
 def enrich_dataset(data: pd.DataFrame) -> pd.DataFrame:
@@ -69,7 +77,7 @@ if uploaded_file:
     log_and_print("📄 File uploaded.")
     try:
         df = pd.read_csv(uploaded_file)
-        df = df
+        st.session_state['df'] = df
         log_and_print("📥 CSV read successfully.")
 
         required_columns = {"Job post Link", "Website", "First Name", "Second_Lead_info", "Company",
@@ -82,6 +90,7 @@ if uploaded_file:
         else:
             st.info("⏳ Step 1: Enriching with company's website homepage content")
             df = enrich_dataset(df)
+            st.session_state['df'] = df
             st.success("✅ Data enrichment completed!")
             st.subheader("📄 Preview Enriched Data")
             st.warning('In some cases, the bot might not be able to automatically get the information from some '
@@ -90,11 +99,13 @@ if uploaded_file:
             df = st.data_editor(df)
             if st.button("🚀 Generate AI Email Paragraphs"):
                 log_and_print("🚀 AI Email generation started.")
-                st.info("⏳ Generating AI Emails...")
+                st.info("⏳ Generating AI Emails, please wait patiently...")
 
                 def generate_all_paragraphs(row):
                     try:
-                        log_and_print(f"✉️ Generating email for: {row['First Name']} {row['Last Name']}")
+                        message = f"✉️ Generating email for: {row['First Name']} {row['Last Name']}"
+                        log_and_print(message)
+                        st.info(message)
                         p1 = agent1.generate(
                             job_url=row["Job post Link"],
                             job_post=row["Job Post"],
@@ -164,9 +175,10 @@ if uploaded_file:
                     "LC1 Output",
                     "LC2 Output"
                 ]] = df.apply(generate_all_paragraphs, axis=1)
+                st.session_state['df'] = df
 
                 def generate_full_email(row):
-                    greeting = f"Hi {row.get('First Name', '').strip()}"
+                    greeting = f"Hi {row.get('First Name', '').strip()},"
                     parts = [
                         greeting,
                         row.get("AI Email Paragraph 1", "").strip(),
@@ -200,6 +212,7 @@ if uploaded_file:
 
                 # Download button
                 csv = df.to_csv(index=False).encode('utf-8')
+                st.session_state['csv_content'] = csv
                 st.download_button(
                     label="📥 Download Enhanced CSV with Emails, Call Lines, LC1 & LC2 Output",
                     data=csv,

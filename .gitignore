@@ -5,3 +5,7 @@ data/*
 __pycache__/*
 sdr_app.log
 modules/__pycache__/*
+.idea/*
+cost.py
+*.pyc
+*.log

@@ -2,13 +2,20 @@ import os
 import yaml
 from dotenv import load_dotenv
 from langchain_openai.chat_models import ChatOpenAI
+from langchain_together import ChatTogether
 from langchain.prompts import PromptTemplate
+from langchain_google_genai import ChatGoogleGenerativeAI
 
 load_dotenv()
 
+name = "gpt-4.1-nano"  # Not filling in the placeholders
+name = "gpt-4o-mini"  #<Hallucination>
+best = "o4-mini"
+name = "gpt-4.1-mini" # <Fair, but is mistaking the other leads as part of the current lead and does not structure the message for call line>
+
 
 class SDRAgentBase:
-    def __init__(self, config_path: str, instruction_key: str, model_name: str = "o4-mini", temperature: float = 1):
+    def __init__(self, config_path: str, instruction_key: str, model_name: str = "gpt-4.1-mini", temperature: float = 0.8):
         with open(config_path, 'r') as f:
             self.config = yaml.safe_load(f)
 
@@ -19,6 +26,9 @@ class SDRAgentBase:
         self.instruction_key = instruction_key
         self.instructions = self._get_instructions()
         self.model = ChatOpenAI(api_key=self.api_key, model=model_name, temperature=temperature)
+        # self.model = ChatGoogleGenerativeAI(model="gemini-2.0-flash", temperature=0, max_tokens=None, timeout=None,
+        #                                     max_retries=2, api_key=self.api_key)
+        # self.model = ChatTogether(together_api_key=self.api_key, model=model_name)
         self.prompt = self._build_prompt()
 
     def _get_instructions(self):
@@ -251,3 +261,6 @@ Return only the finalized email. Do not include any extraneous commentary.
             salaria_homepage_faq=salaria_homepage_faq,
             instructions=self.instructions
         )
+
+
+

@@ -45,9 +45,9 @@ instructions:
     16. Never include “full time,” “(BDR),” or similar in job titles—standardize for clarity.  
     
     <Paragraph Format>
-    The format of the email should be [Mentioning how we saw the job post on the job site] and thought you might be in
-    interested in how we can help with [examples of things from the job post that we can help with - mentioning their target
-     market] - when mentioning the activities that we can take on mention our experience targeting their target market
+    [Mentioning how we saw the job post on the job site] and thought you might be in interested in how we can help with 
+    [examples of things from the job post that we can help with - mentioning their target market] - when mentioning the 
+    activities that we can take on mention our experience targeting their target market
 
     **Ready to receive job post, company info, and LinkedIn data to generate the first paragraph.**
 
@@ -295,6 +295,19 @@ instructions:
     9. Do not use dashes (—) in the paragraph unless its for compound words.
     10. Make sure you retain the spacing in the original email.
     11. Do not use ':' or ';'
+
+  full_email_template:
+      Hi, {{ First Name}},
+
+    { { Mentioning how we saw the job post on the job site } } and thought you might be in interested in how we can help with {{ examples of things from the job post that we can help with - mentioning their target market }} - when mentioning the activities that we can take on mention our experience targeting their target market.
+        
+        We provide {{ lead generation/SDR/top of the funnel task found in the job post example 1 }} and {{ lead generation/SDR/top of the funnel task found in the job post example 1 }} services with {{ experience in their industry }} and {{ experience targeting/reaching out to/running campaign towards their target audience }}. {{ examples of top of the funnel sales tasks outlined in the job description that we can take on }}
+        
+        As the {{ title }}, {{ generic reason for them being the right person to reach out to for lead generation }}. I also sent a note to {{ other contact(s) }} in case this {{ generic reason for why this might be relevant to them }}
+        
+        Can we set up a call to introduce ourselves?
+
+
     
 
   faq: |

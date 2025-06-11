@@ -7,6 +7,11 @@ from dotenv import load_dotenv
 from modules.utils import TextExtractor, generate_email_subject
 from modules.agents import SDRAgent1, SDRAgent2, SDRAgent3, CallLineAgent, LC1Agent, LC2Agent
 
+
+if not st.session_state.get("authenticated", False):
+    st.warning("🚫 Please log in to access this page.")
+    st.stop()
+
 # Setup logging
 logging.basicConfig(
     filename="../sdr_app.log",
@@ -90,11 +95,13 @@ if uploaded_file:
             df = st.data_editor(df)
             if st.button("🚀 Generate AI Email Paragraphs"):
                 log_and_print("🚀 AI Email generation started.")
-                st.info("⏳ Generating AI Emails...")
+                st.info("⏳ Generating AI Emails, please wait patiently...")
 
                 def generate_all_paragraphs(row):
                     try:
-                        log_and_print(f"✉️ Generating email for: {row['First Name']} {row['Last Name']}")
+                        message = f"✉️ Generating email for: {row['First Name']} {row['Last Name']}"
+                        log_and_print(message)
+                        st.info(message)
                         p1 = agent1.generate(
                             job_url=row["Job post Link"],
                             job_post=row["Job Post"],
@@ -123,7 +130,7 @@ if uploaded_file:
                             second_lead=row['Second_Lead_info']
                         )
 
-                        full_email = f"Hi {row.get('First Name', '').strip()}\n\n{p1}\n\n{p2}\n\n{p3}".strip()
+                        full_email = f"Hi {row.get('First Name', '').strip()},\n\n{p1}\n\n{p2}\n\n{p3}".strip()
 
                         call_line = call_agent.generate(
                             email_text=full_email,
