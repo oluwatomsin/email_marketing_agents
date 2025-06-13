@@ -8,7 +8,7 @@ load_dotenv()
 
 
 class AEAgentBase:
-    def __init__(self, config_path: str, instruction_key: str, model_name: str = "o4-mini", temperature: float = 1):
+    def __init__(self, config_path: str, instruction_key: str, model_name: str = "gpt-4.1-mini", temperature: float = 1):
         with open(config_path, 'r') as f:
             self.config = yaml.safe_load(f)
 

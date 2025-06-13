@@ -55,92 +55,84 @@ Only return the final formatted email.\n
         return response.content.strip()
 
 
-class LinkedInConnectionAgent:
+
+class LCEmailGenerationAgent:
     """
-    A class to generate personalized LinkedIn connection requests (LC1 and LC2)
-    using an OpenAI large language model. Each message is generated exclusively
-    based on dynamic specific instructions for its type (LC1 or LC2).
+    Generic agent for “LC” (lead-cadence / long-copy) emails.
+    Pass level='LC1' or 'LC2' (or any other tag) to embed it in the prompt.
     """
-    def __init__(self,
-                 model_name: str = "gpt-4o-mini",
-                 temperature: float = 0.7):
-        """
-        Initializes the LinkedInConnectionAgent.
 
-        Args:
-            model_name (str): The name of the OpenAI model to use.
-            temperature (float): Controls the creativity of the model (0.0-1.0).
-        """
-        self.api_key = os.getenv("OPENAI_API_KEY")
-        if not self.api_key:
-            raise ValueError("API key not found. Set OPENAI_API_KEY in your .env file.")
+    def __init__(
+        self,
+        level: str,
+        rules: str,
+        email_template: str = None,  # made optional
+        faq_docs: str = "",
+        model_name: str = "gpt-4.1-mini",
+        temperature: float = 0.7,
+    ):
+        api_key = os.getenv("OPENAI_API_KEY")
+        if not api_key:
+            raise ValueError(
+                "API key not found. Set OPENAI_API_KEY in your .env file."
+            )
 
-        self.model = ChatOpenAI(api_key=self.api_key, model=model_name, temperature=temperature)
+        self.level = level.upper()
+        self.rules = rules
+        self.template = email_template
+        self.faq_docs = faq_docs
+        self.model = ChatOpenAI(
+            api_key=api_key, model=model_name, temperature=temperature
+        )
 
+    def _build_prompt(self, fields: list[str]) -> PromptTemplate:
+        input_vars = fields + ["instructions", "faq_docs", "lc_level"]
+        if self.template:
+            input_vars.append("email_template")
+        input_vars.append("original_email")
 
-    def _build_prompt(self, fields: list[str]):
-        """
-        Constructs the PromptTemplate for the LLM.
-        The entire message generation is based on specific instructions for the connection type.
-
-        Args:
-            fields (list[str]): A list of lead data fields to include in the prompt.
-
-        Returns:
-            PromptTemplate: The Langchain PromptTemplate object.
-        """
-        # 'specific_instructions' is now the only dynamic instruction variable
-        input_vars = fields + ["specific_instructions", "connection_type_name"]
         context_lines = [f"{field}: {{{field}}}" for field in fields]
 
-        prompt_str = f"""
-You are an AI assistant specialized in crafting concise and effective LinkedIn connection requests.\n
-Your goal is to help users connect with relevant professionals by generating the full message.\n\n
+        prompt = f"""
+    You are a Senior SDR assistant.
 
-Here is the prospect's information:\n
-{chr(10).join(context_lines)}\n\n
+    • Goal: craft a {{lc_level}} cold-outreach email that converts.
+    • Audience: busy decision makers — keep it concise and value-focused.
 
-Instructions for this connection request type ({{connection_type_name}}):\n
-{{specific_instructions}}\n\n
+    Lead information:
+    {chr(10).join(context_lines)}
 
-Ensure the generated message is a complete LinkedIn connection request note, including a suitable greeting and closing,
-and is within LinkedIn's character limits (typically ~300 characters, but aim for conciseness).\n
-Only return the final formatted LinkedIn connection request note.
-If you cannot generate a meaningful request based on the provided data and instructions, return an empty string or a placeholder indicating failure.
-""".strip()
+    Previous email sent in this sequence:
+    {{original_email}}
 
-        return PromptTemplate(input_variables=input_vars, template=prompt_str)
+    Guidelines for this {{lc_level}} email:
+    {{instructions}}
 
+    Our company background & services:
+    {{faq_docs}}
+    """.strip()
 
-    def generate_connection_request(self,
-                                    row: dict,
-                                    selected_fields: list[str],
-                                    connection_type: str, # 'LC1' or 'LC2' (for naming in prompt)
-                                    specific_instructions: str) -> str: # Dynamically passed
-        """
-        Generates a personalized LinkedIn connection request.
+        if self.template:
+            prompt += "\n\nFollow this structural template:\n{{email_template}}"
 
-        Args:
-            row (dict): A dictionary containing the prospect's data (e.g., name, company, shared_connection).
-            selected_fields (list[str]): A list of keys from 'row' to use in the prompt.
-            connection_type (str): The type of connection request being generated ('LC1' or 'LC2').
-                                   Used primarily for context in the prompt.
-            specific_instructions (str): Detailed instructions for this specific connection type (LC1 or LC2).
+        prompt += "\n\nReturn **only** the completed message — no commentary."
 
-        Returns:
-            str: The generated LinkedIn connection request message.
-        """
-        if connection_type not in ['LC1', 'LC2']:
-            raise ValueError("Invalid connection_type. Must be 'LC1' or 'LC2'.")
+        return PromptTemplate(input_variables=input_vars, template=prompt)
 
-        # Build the prompt structure
+    def generate_email(self, row: dict, selected_fields: list[str], original_email: str = "") -> str:
         prompt = self._build_prompt(selected_fields)
 
-        # Prepare input data for the prompt
-        input_data = {field: row.get(field, "") for field in selected_fields}
-        input_data["specific_instructions"] = specific_instructions
-        input_data["connection_type_name"] = connection_type # Pass the type name to the prompt
+        variables = {field: row.get(field, "") for field in selected_fields}
+        variables.update({
+            "instructions": self.rules,
+            "faq_docs": self.faq_docs,
+            "lc_level": self.level,
+            "original_email": original_email,
+        })
+        if self.template:
+            variables["email_template"] = self.template
 
-        prompt_text = prompt.format(**input_data)
-        response = self.model.invoke(prompt_text)
+        final_prompt = prompt.format(**variables)
+        response = self.model.invoke(final_prompt)
         return response.content.strip()
+

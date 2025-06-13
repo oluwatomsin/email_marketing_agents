@@ -2,16 +2,9 @@ import os
 import yaml
 from dotenv import load_dotenv
 from langchain_openai.chat_models import ChatOpenAI
-from langchain_together import ChatTogether
 from langchain.prompts import PromptTemplate
-from langchain_google_genai import ChatGoogleGenerativeAI
-
 load_dotenv()
 
-name = "gpt-4.1-nano"  # Not filling in the placeholders
-name = "gpt-4o-mini"  #<Hallucination>
-best = "o4-mini"
-name = "gpt-4.1-mini" # <Fair, but is mistaking the other leads as part of the current lead and does not structure the message for call line>
 
 
 class SDRAgentBase:
