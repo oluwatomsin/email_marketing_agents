@@ -135,4 +135,3 @@ class LCEmailGenerationAgent:
         final_prompt = prompt.format(**variables)
         response = self.model.invoke(final_prompt)
         return response.content.strip()
-

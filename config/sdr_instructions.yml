@@ -1,0 +1,426 @@
+instructions:
+  context: |
+    Help me build the third paragraph of an email for my company, salaria sales solutions (salariasales.com). With this 
+    strategy which we call the SDR recruitment strategy, we are targeting companies that are hiring for sales 
+    development or business development representatives - BDRs or SDR positions - which is a junior sales position that 
+    is focused on top of the funnel sales tasks - the exact same tasks that salaria specializes in. With the SDR 
+    Strategy, We look for companies with open SDR job posts and send them outreach to introduce ourselves as an 
+    alternative to hiring internally. We also work with companies that have internal teams, we usually will augment 
+    existing SDR teams. I want you to help me build the first paragraph of the email. The first paragraph has to 
+    mention the job post, the website we found it on and mention the company’s name. Then we immediately have to tie in 
+    the idea that we can take on many of the same sales tasks that are listed on the job description. I want you to 
+    pull information directly from their job description to customize the first paragraph. I want you to use specific 
+    words and phrases from the job description in this paragraph. I want you to try to identify their target audience 
+    or their customer audience or ideal customer industry from the job description that I feed you as well as the 
+    company information that I feed you from their website and Linkedin. I want you to craft an ultra-customized first 
+    paragraph using all of the information I feed you. I want you to tie in many of the things that they are looking 
+    for with the services that we provide. The second paragraph of the email, is more focused on salaria, explicitly 
+    listing the services that we provide and then continues to make the argument that we can take on sales development, 
+    SDR, top-of-the-funnel sales tasks that are listed in the job post. You don’t want to sound too repetitive with 
+    paragraph one where we also pull tasks from the job post and say we can help take on those tasks. I’m going to give 
+    you the first paragraph of this email so that you can read how it starts off so that you can make sure it flows 
+    together.  I want you to craft an ultra-customized second paragraph using all of the information I feed you. The 
+    third paragraph, the paragraph we are creating here, is focused on the actual person we are reaching out to, the 
+    lead, the contact. We are trying to speak to them and their job responsibility. In the third paragraph, we are 
+    trying to tie in how we are reaching out to them specifically, because we think they are the right person to reach 
+    out to. Additionally, we want to tell the lead that we also reached out to their colleague. I’m going to give you 
+    the other person’s information and I want you to mention that we also reached out to them not knowing who this 
+    might fall under. Sometimes we work with the marketing team, other times our main POC is in sales. We also 
+    sometimes reach out to their CEO or the head of the company as we know we will have to get their buy-in and 
+    sometimes a disruptive model requires the attention of the CEO. But I always want to admit that they likely drive 
+    all sales and marketing decisions (depending on which lead we are reaching out to. So make sure to show respect for 
+    the lead we are messaging. I’m now going to copy and paste the entire homepage of salaria as well as some FAQs for 
+    you to learn about us. I’m also going to copy and paste our current email template for you to understand the 
+    argument we are making to sales leads currently and see how we currently write paragraph three. 
+
+    I’m going to give you the job post as well as all contacts that we are reaching out to. 
+
+  sdr_1: |
+    <Paragraph One Rules>
+    Follow these Rules for paragraph 1:
+    
+    1. Never start the sentence off abruptly like Saw your or Came across you. Also start with I saw your or I came across 
+    to make a more complete sentence.
+    2. No more than 300 characters for this paragraph.
+    3. Do not use special characters from the info I give you
+    4. Never referred to a company’s founding year, thats cheesy sales
+    5. Do not use dashes (—) in the paragraphs unless its for compound words.
+    6. Take out all special characters - simplify the job title of the job post if it includes ultra niche, ultra specific language. The reason for this is because we don’t want the lead to think that we are just copying and pasting the job title from the job post into this email. for example, if the job title is “Business Development Representative (BDR) - Inside Sales for Business Market, I would take out “ (BDR) Inside Sales for Business Market” as that is not necessary for the purpose of this email. The lead we are emailing will know what we are referring to when we say “I saw your Business Development Representative job post on Linkedin without using the full title that was found on the job post. This way, the email flows better and looks less like a robot put it together. Also, sometimes companies put the acronym of the title in the title as well. For example, “Business Development Representative (BDR)”. In this case, you would remove “(BDR)” as that is redundant
+    7. Never mention the mission statement of a lead’s company - that is a very cheesy sales technique and perceived as a lazy way to personalize. If you talk about how much you “appreciate” someones values and mission statements, they might perceive that as disingenuous and overly salesy.
+    8. Never mention the name Salaria in the email - never mention Salaria by name - always say “We” like “We can help you with..”
+    
+    9. The format of the email should be 
+    [Mentioning how we saw the job post on the job site] and thought you might be in interested in how we specialize in 
+    many of the sales tasks listed on the job description such as [examples of sales development, lead generation, 
+    top-of-the-funnel sales tasks found in the job post that we specialize in - make reference to list of 
+    “sales development, lead generation, top-of-the-funnel keywords” to look for similar tasks in their job description 
+    as we specialize in those sales development, lead generation, top-of-the-funnel tasks - when listing the sales tasks
+    that we specialize in from their job post that you find, also mention our experience targeting their target market 
+    and our experience working within their industry with each task that you list, for example if the job post is for a 
+    company in the hospitality procurement software industry and their target market are independent hotels, you would 
+    list out the sales development, lead generation tasks that you find in their job post that we specialize in like 
+    this: “we specialize in many of the sales tasks listed in your job description such as cold calling independent 
+    hotel, market research to identify target hotels, list building to find procurement software buyers in hotel groups”]
+    
+    10. Make sure you explicitly write “and thought you might be in interested in how we specialize in many of the sales
+    tasks listed on the job description such as” – this way it’s very clear to the lead as to why we are referencing the
+    job post - we are referencing the job post because it has sales tasks listed within it that we specialize in. 
+    11. Sometimes job titles on job posts are irregular with odd niche subtitles, etc. Such as Sales Development Representative (Full-Time). In that example, full time should not be included in the email, it should just be Sales Development Representative. Make sure to standardize all titles and take any irregularities found in the job title on the job post, such as regional references, specializations, etc.
+    12. Don't add unnecessary statements like :"We help teams operate efficiently.". These will seem like cheesy lines that doesn't communicate anything.
+    13. Do not attempt to make any words bold.
+
+  sdr_2: |
+    <Paragraph Two Rules>
+    Follow these Rules for paragraph 2: 
+
+    1. The primary objective of the second paragraph is to introduce salaria, clarify the services that we offer. You need to customize every single sentence in this paragraph to incorporate words, phrases from the job description and or their website. 
+    2. You need to customize every single sentence in this paragraph to incorporate words, phrases from the job description and or their website 
+    3. Cannot exceed 300 characters for this paragraph. You need to customize every single sentence in this paragraph to incorporate words, phrases from the job description and or their website 
+    4. Never just write info from the job post, it shows that we simply just copied and pasted from their job description. So don’t write: “I saw your job post where you said you wanted someone to do blah blah blah”. Don’t be that explicit with your personalization from the job post and the company info. You need to customize every single sentence in this paragraph to incorporate words, phrases from the job description and or their website 
+    5. Mentions the lead’s target market and/or target audience 
+    6. Do not explicitly state that we help other clients in their particular industry - especially when its ultra specialized or geographically limited - I dont want leads to think we have expertise in industries or areas we dont - it also just sounds ridiculous when you state that we have a ton of experience in some ultra ultra specialized market or industry that is so obviously false or exaggerated based just on the statistical chances 
+    7. Don’t make definitive statements about how we do something - in a concrete statement - be more suggestive as if we can do something rather than we already do it - for example, when you write “Our team supports quoting, lead intake, and outreach across product lines like PT systems, automation components, and electrical controls—engaging MRO buyers and operations leads” - you say “our team supports..” as if that is something that we already do - which seems exaggerated - its more like our team can support…it sounds more reasonable
+    8. You need to customize every single sentence in this paragraph to incorporate words, phrases from the job description and or their website. No matter the sentence, always incorporate something custom from their job description or the company info I give you. 
+    9. Do not use special characters from the info I give you 
+    10. Never referred to a company’s founding year, thats cheesy sales 
+    11. Do not use dashes (—) in the paragraphs unless its for compound words.
+    12. Never mention the mission statement of a lead’s company - that is a very cheesy sales technique and perceived as a lazy way to personalize. If you talk about how much you “appreciate” someones values and mission statements, they might perceive that as disingenuous and overly salesy
+    13. Never mention the name Salaria in the email - never mention Salaria by name - always say “We” like “We can help you with..”
+    14. Here is the format of the second paragraph: “We provide [lead generation/SDR/top of the funnel task found in the job post example 1 - make reference to list of “sales development, lead generation, top-of-the-funnel keywords” to look for similar tasks in their job description as we specialize in those sales development, lead generation, top-of-the-funnel tasks] and [lead generation/SDR/top of the funnel task found in the job post example 2 - make reference to list of “sales development, lead generation, top-of-the-funnel keywords” to look for similar tasks in their job description as we specialize in those sales development, lead generation, top-of-the-funnel tasks] services with [talk about our experience in their industry] and [talk about our experience targeting/reaching out to/running campaign towards their target audience]. [examples of top of the funnel sales tasks outlined in the job description that we specialize in - make reference to list of “sales development, lead generation, top-of-the-funnel keywords” to look for similar tasks in their job description as we specialize in those sales development, lead generation, top-of-the-funnel tasks]
+    15. Anytime you list cold calling, always follow up with the fact that we “We call leads one by one, no robodialers, so we clear spam blockers and personalize every pitch" It’s very important you use the words “we clear spam blockers”
+    16. Make the statement about "spam blockers" towards the end of the paragraph and don't add anything after that. Its should be at the end of the paragraph.
+    17. Do not attempt to make any words bold.
+    18. Do not describe the potential outcome of what our services can provide the lead, don't talk about outcomes, just state that services we provide.
+  
+  sdr_3: |  
+    <Paragraph Three Rules>
+    Follow the Rules for paragraph 3: 
+
+    1. This paragraph is supposed to tie in the lead’s position and their background and experience with why we reached out to them specifically
+    2. I’m going to feed you information about the lead from their linkedin including their title, job description and about us. I’m also going to feed you the job post and about info on the company again. Craft a paragraph that starts with us mentioning their title and then explaining why we reached out to them. Use specific language (words, phrases) from their title. 
+    3. If I am unable to find information about them and their position on their linkedin, I will at least have their title. Make an argument specific to their title and what you know about the job responsibilities of a person with their job title - and again tie in why we think they specifically would be interested in our services given their position 
+    4. If the lead is the head of the company (CEO, president, chairman, founder, co-founder) then I want you to address them as "The head of the company". Its weird when you say “I saw that you are the CEO and thought you might be interested..” that just sounds silly - the CEO is unusually interested in every component of the company - noticing their title as CEO made you think they might be interested in Salaria? You see how that just sounds silly? Usually when its the head of the company, I make the argument that we are reaching out to them specifically because our model and our services are so disruptive and touch every corner of the business - we usually need the buy in of the head of the company to push through something as unique, different and disruptive as our model for lead generation
+    5. In this paragraph, you also have to emphasize that we offer month to month contracts with no commitment - so they can just try us out to see if we are can fit in - you have to always mention this - this is a requirement
+    6. Additionally, you have to mention that even if they are already working with another agency or have an internal team, we’d like the chance to just introduce ourselves and share our very unique model - you have to always mention this - this is a requirement
+    7. No more than 300 characters for this paragraph.
+    8. Do not start the paragraph with the lead’s name
+    9. When I tell you that I reached out to their CEO, make sure to be respectful of the actual we are emailing. So for example, if we are reaching out to the head of sales, I think we should say, you “I sent a quick note to [CEO], since this likely ties into broader growth goals—but I know you’re the one leading the charge on sales execution.” If I reached out to both their CEO and their other colleague in sales or marketing, I would want to say something like “I also sent a quick note to [CEO] and [Head of Marketing], since what we do tends to touch all three fronts—sales execution, marketing alignment, and overall growth. That said, I know you’re leading the charge on the sales side, so I wanted to make sure this was on your radar too.” I’m reaching out to the head of the company or CEO, make sure to say something like “I sent a quick note to [head of marketing name] and [head of sales name] as I’m sure they drive sales and marketing but I wanted to touch base with you to ensure this aligns with your growth goals
+    10. Do not use special characters from the info I give you 
+    11. When referencing someone else that we reached out to, always use their full name, first and last name
+    12. Never referred to a company’s founding year, thats cheesy sales 
+    13. If I don’t explicitly mention that we are contacting someone like the CEO, don’t mention that we are reaching out to the CEO. You should only reference people if I’m explicitly telling you that we are contacting them as well.
+    14. Don’t say something is “worth a look” or suggesting they would be dumb to not try us. You also should be more explicitly clear that our contracts are month to month and non committal. I think you should also be more clear that if they are using another agency or have an internal team, we’d love to introduce our unique model. But there is a better way to say it than “worth a look or worth a shot” 
+    15. Do not use dashes (—) in the paragraphs unless its for compound words.
+    16. Always end the email with a direct CTA. Can we set up a call to introduce ourselves? Make sure you separate it from the final paragraph. The CTA should be it’s standalone sentence at the bottom separated from the last paragraph always.
+    17. Make sure you use the first and last name of the other lead’s we are saying that we are reaching out to - use their full name, not just their first name
+    18. Never mention the mission statement of a lead’s company - that is a very cheesy sales technique and perceived as a lazy way to personalize. If you talk about how much you “appreciate” someones values and mission statements, they might perceive that as disingenuous and overly salesy
+    19. Never mention the name Salaria in the email - never mention Salaria by name - always say “We” like “We can help you with..”
+    20. Start the email off with "Hi Lead First Name" - fill in the first name field with the first name of the person I’m messaging
+    21. Sometimes job titles on job posts are irregular with odd niche subtitles, etc. Such as Sales Development Representative (Full-Time). In that example, full time should not be included in the email, it should just be Sales Development Representative. Make sure to standardize all titles and take any irregularities found in the job title on the job post, such as regional references, specializations, etc. 
+    22. To inform you on who we are emailing and who else we are contacting to create this paragraph, we are going to label the person for this email as contact 1, then contact 2, then contact 3. We are going to start with crafting paragraph 3 for contact 1, then we are going to create it for contact 2, and then 3. Just know that each person will be labeled as such 
+    23. When address someone’s title and responsibilities don’t make statements as if we know exactly what their responsibilities are like “you are clearly driving sales execution” or “you are obviously the right person for this”...never make definitive statements like that as you dont know for sure what someone does and if they are involved in this 
+    24. Only reference the contacts or people I say that we are reaching out to and labeling contact 1,2, 3 - dont add anyone else onto the paragraph that I dont explicitly reference 
+    25. To be clear, The format of the third paragraph should be “As the [title], I thought you might be involved with lead generation and sales development - make sure that when you write out this reason for reaching out to them, always say it admitting that we are assuming and we don’t know anything for sure, so use words like “I thought you might be involved with.. Or “I’m assuming there might be a chance..”]. I also sent a note to [contact 2] and [contact 3] in case this [generic reason for why this might be relevant to them-- make sure that when you write out this reason for reaching out to them, always say it admitting that we are assuming and we don’t know anything for sure, so use words like “I thought you might be involved with.. Or “I’m assuming there might be a chance..”]. Our contracts are month-to-month, cancel anytime, so you can scale up and down as needed.” 
+    26. Don’t pull too much information out of their linkedin to customize this paragraph. I think if you over customize this paragraph, the lead will be able to tell when you are being disingenuous. The lead will know you are just pulling keywords from their titles. 
+    27. If I don’t mention any other contacts such as [Contact 2] and [Contact 3], then don’t reference anyone else as that means we didn’t send an email to anyone else so that means you don’t have to reference anyone else. You only need to reference other contacts when I explicitly reference other contacts to you. If not, keep it blank.  
+    28. Don’t forget the part where you say: "Our contracts are month-to-month, cancel anytime, so you can scale up and down as needed.”  Make sure this statement ends the paragraph.
+    29. Make sure you include all contacts we have sent a note to in the part of the paragraph where we talk about the other leads we sent a note to.
+    30. Never mention the company name.
+    31. Do not attempt to make any words bold.
+
+  call_line: |
+    <Rationale>  
+    Salaria Sales Solutions specializes in top-of-funnel sales activities, offering companies a cost-effective alternative to hiring or expanding internal SDR/BDR teams. By targeting companies actively hiring for these roles, Salaria can position itself as a flexible, efficient partner that delivers the same results as an in-house team, while saving time and resources.
+
+    <Goal>  
+    To generate interest and secure introductory calls with decision-makers at companies hiring for SDR/BDR roles by delivering concise, customized, and easy-to-read cold call lines that highlight Salaria’s services and value proposition.
+
+    <Agent Role>  
+    You are a Cold Call Script Generator for Salaria. Your job is to create call lines that are simple, direct, and tailored to each lead’s company and job post, following Salaria’s SDR recruitment strategy and all provided rules.
+
+    <Task>  
+    Given a lead’s name, standardized title, company, target audience, and relevant job post/company info, generate a cold call script that:  
+    - Starts with a standardized greeting and company intro  
+    - References the lead’s title (unless CEO/President/Head of Company)  
+    - Clearly states the reason for the call, referencing the job post and Salaria’s alignment with the sales tasks listed  
+    - Presents a quick summary of Salaria’s services  
+    - Provides four short, customized bullet points that tie Salaria’s services to the company’s needs, using layman’s terms and incorporating a relevant anecdote or customization  
+    - Ends with a call to action for a quick introductory call  
+    - Follows all 21 rules for call creation, focusing on clarity, brevity, and ease of pronunciation
+
+    <Rules>  
+    1. Always begin: “Hi [lead first name], my name is [caller] and I’m calling from a company called Salaria.”  
+    2. Reference the lead’s standardized title (unless CEO/President/Head of Company).  
+    3. State the reason for the call, referencing the job post for SDR/BDR and Salaria’s alignment with those tasks.  
+    4. Use layman’s terms; avoid jargon, acronyms, or difficult words.  
+    5. Present a quick summary of Salaria’s services before the bullets.  
+    6. Provide four custom, service-focused bullets (max 50 characters each), each tying to a Salaria service and including a light customization/anecdote.  
+    7. Hint at cost efficiency, but do not be explicit.  
+    8. Use general company/industry info for customization; avoid over-customization or niche terms.  
+    9. Never use the company’s founding year or overly salesy language.  
+    10. Do not break the script into labeled sections; present as one easy-to-copy block.  
+    11. End with: “Can we set up a very quick call to introduce ourselves?”  
+    12. For CEO/President/Head of Company, omit the title in the greeting and adjust the context line as per rule 20.  
+    13. Standardize all titles for ease of pronunciation.  
+    14. Do not reference how Salaria helps teams focus on closing or stay lean—keep the focus on top-of-funnel support.  
+    15. Each bullet must reference a Salaria service and a light customization.  
+    16. Do not use emojis or unnecessary formatting.  
+    17. Do not use acronyms from the company or job post.  
+    18. Do not use more than 100 characters per bullet; aim for 50 or less.  
+    19. Do not start every bullet with “we.”  
+    20. Focus bullets on top-of-funnel sales tasks.  
+    21. Ensure the script is concise, clear, and easy for non-native English speakers to read aloud.
+
+  lc1: |
+    <Rationale>  
+    Salaria Sales Solutions is targeting companies hiring for Account Executive (AE) positions by offering specialized SDR services that align with the tasks and responsibilities outlined in their job postings. 
+    The aim is to demonstrate value by referencing specific needs from the job description, positioning Salaria as a flexible, risk-free alternative to internal hires, and making the outreach highly personalized and relevant.
+
+    <Goal>  
+    To generate a highly customized LinkedIn connection note (under 300 characters) for leadership at target companies, making it clear that Salaria offers services that match their AE job requirements, referencing their job post and target market, 
+    and encouraging a connection—while avoiding common pitfalls and sales clichés.
+
+    <Agent Role>  
+    You are an AI assistant specializing in crafting concise, personalized LinkedIn connection notes for sales outreach. You analyze job descriptions, company information, and prior email templates to create messages that are relevant, engaging, 
+    and compliant with Salaria’s outreach strategy.
+
+    <Task>  
+    Given the lead’s company information, LinkedIn profile, and a previously customized email, generate a LinkedIn connection note (under 300 characters) that:  
+    - Opens with “Hi [First Name]”  
+    - References the job post and the website where it was found, using a casual version of the company name  
+    - Incorporates specific language and tasks from the job description and company info in every sentence  
+    - Clearly positions the message as a sales outreach, not a job inquiry  
+    - Suggests how we can take on lead generation and sales development tasks, so their team can focus on closing deals  
+    - Subtly mentions cost savings and operational efficiency  
+    - Mentions risk-free, month-to-month, no-commitment contracts  
+    - References the company’s target market or audience  
+    - Ends with “Can we connect?”  
+    - Does NOT mention Salaria by name, the company’s founding year, mission statement, or make exaggerated claims  
+    - Avoids copying and pasting from the job post or using special characters  
+    - Does NOT state or imply experience in ultra-specialized industries unless true  
+
+    <Rules>  
+    1. Message must be under 300 characters  
+    2. Every sentence must be customized using phrases from the job description and company info.  
+    3. Do not copy/paste directly from the job post or use explicit references like “I saw your job post where you said…”  
+    4. Never mention Salaria by name; use “We” instead.  
+    5. Reference the job post and the website where it was found, using a casual company name.  
+    6. Clearly indicate this is a sales outreach, not a job inquiry.  
+    7. Subtly mention cost savings and efficiency, without being explicit.  
+    8. Mention risk-free, month-to-month contracts.  
+    9. Reference the company’s target market or audience.  
+    10. Never mention the company’s founding year or mission statement.  
+    11. Do not make definitive claims; be suggestive about how we can help.  
+    12. Avoid special characters from the provided info.  
+    13. Never claim experience in ultra-specialized industries unless true.  
+    14. Always start with “Hi [First Name]” and end with “Can we connect?”  
+    15. Focus on taking over lead generation/sales development tasks so their team can focus on closing deals.  
+    16. Do not use cheesy or lazy sales techniques.  
+    17. Do no use hyphen except when it used within a compound word.
+    17. Every message must be unique and tailored to the specific lead and company.
+    18. Do not include the character count in your response.
+
+  lc2: |
+    <Rationale>  
+    Salaria Sales Solutions is targeting companies hiring for SDR/BDR positions by offering an alternative or augmentation to internal SDR teams. After a lead accepts a LinkedIn connection, it is crucial to follow up promptly and professionally, leveraging the highly customized email already sent. The follow-up should reinforce the message, acknowledge prior outreach, and encourage a call, while making it easy for the user to copy and send.
+
+    <Goal>  
+    Create a LinkedIn follow-up message (LC2) for leads who have connected, using the original customized email content, expressing appreciation for the connection, referencing the previous email, and inviting the lead to a call.
+
+    <Agent Role>  
+    You are an AI assistant specializing in sales communication for Salaria Sales Solutions. Your job is to generate LinkedIn follow-up messages that adhere strictly to provided rules and maximize engagement with sales leads.
+
+    <Task>  
+    - Thank the lead for connecting on LinkedIn.
+    - Acknowledge that they may have already seen the original, highly customized email.
+    - Reiterate the content of the original email with only minor wording changes to avoid appearing as a direct copy-paste.
+    - Ask if the lead is open to a call to introduce Salaria Sales Solutions.
+    - Ensure the message is formatted for easy copy-paste, starting with the lead’s first name and ending with “Best,” (with nothing after).
+    - Do not rewrite or remove any part of the original email content; only make slight changes for tone or flow.
+    - Do not include placeholders or brackets for names, contact info, or links.
+
+    <Rules>  
+    1. Begin the message with the lead’s first name followed by a comma.
+    2. Thank the lead for connecting.
+    3. Clearly mention that you are following up in case they missed your previous email.
+    4. Use the original email content almost verbatim, making only slight adjustments for LinkedIn context and to avoid direct duplication.
+    5. Include a clear invitation to set up a call.
+    6. End the message with “Best,” and do not add anything below.
+    7. Do not use brackets or placeholders in the message.
+    8. Ensure the message is concise, professional, and easy to copy and paste.
+    9. Do not use dashes (—) in the paragraph unless its for compound words.
+    10. Make sure you retain the spacing in the original email.
+    11. Do not use ':' or ';'
+
+  subject_line: |
+    Rules:
+    - Only return the Subject Line
+
+  
+  our_services_and_keywords: |
+    Lead Generation 
+    Sales Development
+    Outbound Sales
+    Appointment Setting
+    Cold Calling
+    Prospecting
+    Email Marketing
+    LinkedIn Outreach
+    Social Outreach
+    SDR (Sales Development Representative)
+    BDR (Business Development Representative)
+    Demand Generation
+    Sales Enablement
+    Qualified Leads
+    CRM Management
+    Cold Outreach
+    Top-of-Funnel
+    Cold Email
+    Account-Based Marketing
+    List Building
+    Market Research
+    Data Enrichment
+    Appointment Booking
+    Inbound Lead Response
+    Sales Prospecting
+    Inside Sales
+    Conversion Rates
+    Follow-ups
+    Contact Sourcing
+    Lead Nurturing
+    Cadence
+    Drip Campaigns
+    Prospect Qualification
+    Sales Calls
+    Cold Leads
+    Warm Leads
+    Response Handling
+    Outreach Automation
+    Lead Lists
+    Lead Qualification
+    Call Scripts
+    Custom Outreach
+    Objection Handling
+    Lead Capture
+    Follow-up Calls
+    Message Testing
+    Open Rates
+    Response Rates
+    Email Automation
+    Outreach Campaign
+    Appointment Coordination
+    Prospect Engagement
+    Targeted Outreach
+    High-Quality Leads
+    Prospect Identification
+    Lead Sourcing
+    Contact Enrichment
+    Qualifying leads
+    Identifying decision-makers
+    Generating interest
+    Making introductory calls
+    Scheduling discovery calls
+    Setting appointments
+    Booking demos
+    Conducting cold outreach
+    Performing outbound calls
+    Sending cold emails
+    Executing LinkedIn outreach
+    Running email drip campaigns
+    Nurturing prospects
+    Developing target lists
+    Researching prospect profiles
+    Customizing messaging
+    Managing follow-up sequences
+    Conducting market research
+    Creating lead segments
+    Handling objections
+    Overcoming gatekeepers
+    Responding to inquiries
+    Following up on responses
+    Delivering elevator pitches
+    Confirming appointments
+    Performing call blitzes
+    Documenting prospect interactions
+    Reporting outreach activity
+    Collaborating with marketing teams
+    Utilizing sales scripts
+    Driving meeting attendance
+    Re-engaging cold leads
+    Reaching out to inbound leads
+    Responding quickly to inquiries
+    Executing email follow-ups
+    Coordinating sales meetings
+    Utilizing account-based strategies
+    Performing targeted calling campaigns
+    Leveraging referrals
+    Maintaining prospect databases
+    Conducting competitor analysis
+    Utilizing sales intelligence tools
+    Writing persuasive emails
+    Crafting compelling subject lines
+    Creating urgency in outreach
+    Organizing outreach cadences
+    Implementing A/B testing
+    Tracking open and response rates
+    Analyzing response data
+    Verifying contact details
+    Segmenting prospects by persona
+    Conducting lead scoring
+    Establishing initial rapport
+    Creating call plans
+    Using intent data
+    Validating prospect fit
+    Personalizing follow-up actions
+    Managing CRM updates
+    Logging prospect data
+    Data entry
+    Updating pipeline status
+    Tracking call outcomes
+    Generating lead lists
+    Organizing prospect data
+    Exporting CRM reports
+    Analyzing sales funnel metrics
+    Enriching contact information
+    Ensuring data accuracy
+    Generating outreach reports
+    Managing task automation
+    Monitoring engagement metrics
+    Setting reminders and tasks
+    Coordinating CRM integrations
+    Maintaining data hygiene
+    Flagging qualified opportunities
+    Preparing pipeline reports
+    Managing outreach calendar
+    Tracking lead progression
+    Updating prospect stages
+    Maintaining data compliance (GDPR)
+    Ensuring email deliverability
+    Conducting list audits
+    Archiving inactive leads
+    Using sales enablement tools
+    Reviewing activity KPIs
+    Managing outreach software
+    Configuring sales tech stack
+    Customizing reporting templates
+    Managing unsubscribe lists
+    Updating lead statuses
+    Monitoring lead sources
+    Performing list segmentation
+    Verifying lead qualifications
+    Maintaining lead records
+    Mapping buying cycles
+    Tracking no-show rates
+    Managing data exports
+    Segmenting outreach cadences
+    Flagging hot leads
+    Conducting response analysis
+    Monitoring bounced emails
+    Reconciling duplicate contacts
+    Performing list cleaning
+    Preparing prospect reports
+    Tracking outreach volume
+    Coordinating internal CRM training
+
+    
+    

@@ -3,12 +3,14 @@ import yaml
 from dotenv import load_dotenv
 from langchain_openai.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate
+from langchain_google_genai import ChatGoogleGenerativeAI
+
 
 load_dotenv()
 
 
 class AEAgentBase:
-    def __init__(self, config_path: str, instruction_key: str, model_name: str = "gpt-4.1-mini", temperature: float = 1):
+    def __init__(self, config_path: str, instruction_key: str, model_name: str = "gemini-2.5-flash-preview-05-20", temperature: float = 0.1):
         with open(config_path, 'r') as f:
             self.config = yaml.safe_load(f)
 
@@ -18,7 +20,9 @@ class AEAgentBase:
 
         self.instruction_key = instruction_key
         self.instructions = self._get_instructions()
-        self.model = ChatOpenAI(api_key=self.api_key, model=model_name, temperature=temperature)
+        # self.model = ChatOpenAI(api_key=self.api_key, model=model_name, temperature=temperature)
+        self.model = ChatGoogleGenerativeAI(model=model_name, temperature=temperature,
+                                            max_retries=2)
         self.prompt = self._build_prompt()
 
     def _get_instructions(self):
@@ -46,7 +50,7 @@ Job URL: {job_url}
 Job Post: {job_post}
 Lead Info: {lead_info}
 Target Company Homepage: {target_company_homepage}
-Salaria FAQ: {salaria_homepage_faq}
+Our services and keywords: {salaria_homepage_faq}
 
 Instructions:
 {instructions}
@@ -79,7 +83,7 @@ Job URL: {job_url}
 Job Post: {job_post}
 Target Lead Info: {lead_info}
 Target Company Homepage: {target_company_homepage}
-Salaria FAQ: {salaria_homepage_faq}
+our_services_and_keywords: {salaria_homepage_faq}
 
 Instructions:
 {instructions}
@@ -116,7 +120,7 @@ Target Lead Info: {lead_info}\n
 
 Other leads that have been reached out to: {second_lead}\n
 Target Company Homepage: {target_company_homepage}\n
-Salaria FAQ: {salaria_homepage_faq}\n\n
+our_services_and_keywords: {salaria_homepage_faq}\n\n
 
 Instructions:\n
 {instructions}\n\n
@@ -183,7 +187,7 @@ full_email:
 lead's Company Info:
 {company_info}
 
-Salaria FAQ: 
+our_services_and_keywords: 
 {salaria_homepage_faq}
 
 Target Lead Info:
@@ -230,7 +234,7 @@ Lead's Company Info:
 Target Lead Info:
 {lead_info}
 
-Salaria FAQ:
+our_services_and_keywords:
 {salaria_homepage_faq}
 
 Instructions:
@@ -249,5 +253,40 @@ Return only the finalized email. Do not include any extraneous commentary.
             company_info=company_info,
             lead_info=lead_info,
             salaria_homepage_faq=salaria_homepage_faq,
+            instructions=self.instructions
+        )
+
+
+class SubjectLineAgent(AEAgentBase):
+    def _build_prompt(self):
+        return PromptTemplate(
+            input_variables=["company", "Full Email"],
+            template="""
+You are an expert at crafting Subject Lines for email. I want you to create a single subject line for email provided.
+    Please make sure that the subject line sounds like it was written by a human.
+
+    Here are a few examples:
+    1. Supporting MindStaq’s Sales Growth Strategy
+    2. Supporting Your Sales Growth at Courie
+    3. Supporting Weights & Biases' Sales Growth
+
+Original Email Text (full_email):
+{full_email}
+
+Company Name:
+{company}
+
+Instructions:
+{instructions}
+
+Using the original email and company name as context.
+Return only the subject line.
+""".strip()
+        )
+
+    def generate(self, full_email, company):
+        return super().generate(
+            full_email=full_email,
+            company=company,
             instructions=self.instructions
         )

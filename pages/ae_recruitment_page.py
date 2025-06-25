@@ -4,8 +4,8 @@ import logging
 import traceback
 import os
 from dotenv import load_dotenv
-from modules.utils import TextExtractor, generate_email_subject
-from modules.agents_ae import SDRAgent1, SDRAgent2, SDRAgent3, CallLineAgent, LC1Agent, LC2Agent
+from modules.utils import TextExtractor
+from modules.agents_ae import SDRAgent1, SDRAgent2, SDRAgent3, CallLineAgent, LC1Agent, LC2Agent, SubjectLineAgent
 
 
 if not st.session_state.get("authenticated", False):
@@ -46,6 +46,9 @@ agent3 = SDRAgent3(config_path="config/ae_recruitment.yml", instruction_key="ema
 call_agent = CallLineAgent(config_path="config/ae_recruitment.yml", instruction_key="call_line")
 lc1_agent = LC1Agent(config_path="config/ae_recruitment.yml", instruction_key="lc1")
 lc2_agent = LC2Agent(config_path="config/ae_recruitment.yml", instruction_key="lc2")
+subject_line_agent = SubjectLineAgent(config_path="config/ae_recruitment.yml", instruction_key="subject_line")
+
+
 log_and_print("🤖 All agents initialized.")
 
 st.title("📧 AI-Powered AE Recruitment Email Generator")
@@ -80,8 +83,8 @@ if uploaded_file:
         st.session_state['df'] = df
         log_and_print("📥 CSV read successfully.")
 
-        required_columns = {"Job post Link", "Website", "First Name", "Second_Lead_info", "Company",
-                            "Last Name", "Title", "Job Post", "Job post Link", "HQ Phone", "Direct Phone", "Email Address"}
+        required_columns = {"Job post Link", "Website", "First Name", "Second_Lead_Info", "Company",
+                            "Last Name", "Title", "Job Post", "HQ Phone", "Direct Phone", "Email Address"}
 
         if not all(col in df.columns for col in required_columns):
             log_and_print("❗ CSV missing required columns.", level="error")
@@ -110,7 +113,7 @@ if uploaded_file:
                             job_url=row["Job post Link"],
                             job_post=row["Job Post"],
                             target_company_homepage=row["Website Content"],
-                            salaria_homepage_faq=agent1.config["instructions"].get("faq", ""),
+                            salaria_homepage_faq=agent1.config["instructions"].get("our_services_and_keywords", ""),
                             lead_info=row['Lead_info']
                         )
 
@@ -119,7 +122,7 @@ if uploaded_file:
                             job_url=row["Job post Link"],
                             job_post=row["Job Post"],
                             target_company_homepage=row["Website Content"],
-                            salaria_homepage_faq=agent2.config["instructions"].get("faq", ""),
+                            salaria_homepage_faq=agent2.config["instructions"].get("our_services_and_keywords", ""),
                             lead_info=row['Lead_info']
                         )
 
@@ -129,12 +132,17 @@ if uploaded_file:
                             job_url=row["Job post Link"],
                             job_post=row["Job Post"],
                             target_company_homepage=row["Website Content"],
-                            salaria_homepage_faq=agent3.config["instructions"].get("faq", ""),
+                            salaria_homepage_faq=agent3.config["instructions"].get("our_services_and_keywords", ""),
                             lead_info=row['Lead_info'],
-                            second_lead=row['Second_Lead_info']
+                            second_lead=row['Second_Lead_Info']
                         )
 
-                        full_email = f"Hi {row.get('First Name', '').strip()}\n\n{p1}\n\n{p2}\n\n{p3}".strip()
+                        full_email = f"Hi {row.get('First Name', '').strip()}, \n\n{p1}\n\n{p2}\n\n{p3}".strip()
+
+                        print(full_email)
+                        print("*" * 30)
+                        print("-" * 30)
+                        print("*" * 30)
 
                         call_line = call_agent.generate(
                             email_text=full_email,
@@ -147,7 +155,7 @@ if uploaded_file:
                             full_email=full_email,
                             company_info=row["Website Content"],
                             lead_info=row['Lead_info'],
-                            salaria_homepage_faq=agent3.config["instructions"].get("faq", "")
+                            salaria_homepage_faq=agent3.config["instructions"].get("our_services_and_keywords", "")
                         )
 
                         lc2_output = lc2_agent.generate(
@@ -156,10 +164,15 @@ if uploaded_file:
                             lead_info=row['Lead_info'],
                             lc1_output=lc1_output,
                             job_post=row["Job Post"],
-                            salaria_homepage_faq=agent3.config["instructions"].get("faq", "")
+                            salaria_homepage_faq=agent3.config["instructions"].get("our_services_and_keywords", "")
                         )
 
-                        return pd.Series([p1, p2, p3, full_email, call_line, lc1_output, lc2_output])
+                        subject_line = subject_line_agent.generate(
+                            full_email=full_email,
+                            company=row['Company']
+                        )
+
+                        return pd.Series([p1, p2, p3, full_email, call_line, lc1_output, lc2_output, subject_line])
 
                     except Exception as e:
                         log_and_print(f"❌ Error generating paragraphs for {row.get('First Name', 'N/A')}: {e}", level="error")
@@ -173,7 +186,8 @@ if uploaded_file:
                     "Full Email",
                     "Call Line",
                     "LC1 Output",
-                    "LC2 Output"
+                    "LC2 Output",
+                    "Subject Line"
                 ]] = df.apply(generate_all_paragraphs, axis=1)
                 st.session_state['df'] = df
 
@@ -189,8 +203,6 @@ if uploaded_file:
 
                 df["Full Email"] = df.apply(generate_full_email, axis=1)
 
-                # Generating email subject line
-                df["Subject Line"] = df['Full Email'].apply(generate_email_subject)
 
                 st.success("✅ AI Emails generated!")
                 log_and_print("✅ AI Email generation completed successfully.")

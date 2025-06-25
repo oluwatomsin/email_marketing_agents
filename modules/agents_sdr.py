@@ -3,12 +3,13 @@ import yaml
 from dotenv import load_dotenv
 from langchain_openai.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate
+from langchain_google_genai import ChatGoogleGenerativeAI
+
 load_dotenv()
 
 
-
 class SDRAgentBase:
-    def __init__(self, config_path: str, instruction_key: str, model_name: str = "gpt-4.1-mini", temperature: float = 0.8):
+    def __init__(self, config_path: str, instruction_key: str, model_name: str = "gemini-2.5-flash-preview-05-20" ,temperature: float = 0.1):
         with open(config_path, 'r') as f:
             self.config = yaml.safe_load(f)
 
@@ -18,10 +19,8 @@ class SDRAgentBase:
 
         self.instruction_key = instruction_key
         self.instructions = self._get_instructions()
-        self.model = ChatOpenAI(api_key=self.api_key, model=model_name, temperature=temperature)
-        # self.model = ChatGoogleGenerativeAI(model="gemini-2.0-flash", temperature=0, max_tokens=None, timeout=None,
-        #                                     max_retries=2, api_key=self.api_key)
-        # self.model = ChatTogether(together_api_key=self.api_key, model=model_name)
+        self.model = ChatGoogleGenerativeAI(model=model_name, temperature=temperature,
+                                            max_retries=2)
         self.prompt = self._build_prompt()
 
     def _get_instructions(self):
@@ -73,7 +72,8 @@ Please adhere strictly to the instructions provided.
 class SDRAgent2(SDRAgentBase):
     def _build_prompt(self):
         return PromptTemplate(
-            input_variables=["paragraph_1", "job_url", "job_post", "target_company_homepage", "salaria_homepage_faq", "lead_info"],
+            input_variables=["paragraph_1", "job_url", "job_post", "target_company_homepage", "salaria_homepage_faq",
+                             "lead_info"],
             template="""
 You are a helpful SDR assistant continuing a message for Salaria.
 
@@ -107,7 +107,8 @@ Please adhere strictly to the instructions provided.
 class SDRAgent3(SDRAgentBase):
     def _build_prompt(self):
         return PromptTemplate(
-            input_variables=["paragraph_1", "paragraph_2", "job_url", "job_post", "target_company_homepage", "salaria_homepage_faq", "lead_info", "second_lead"],
+            input_variables=["paragraph_1", "paragraph_2", "job_url", "job_post", "target_company_homepage",
+                             "salaria_homepage_faq", "lead_info", "second_lead"],
             template="""
 You are a helpful SDR assistant finishing a message for Salaria.
 
@@ -129,7 +130,8 @@ Please adhere strictly to the instructions provided.
 """.strip()
         )
 
-    def generate(self, paragraph_1, paragraph_2, job_url, job_post, target_company_homepage, salaria_homepage_faq, lead_info, second_lead):
+    def generate(self, paragraph_1, paragraph_2, job_url, job_post, target_company_homepage, salaria_homepage_faq,
+                 lead_info, second_lead):
         return super().generate(
             paragraph_1=paragraph_1,
             paragraph_2=paragraph_2,
@@ -141,6 +143,7 @@ Please adhere strictly to the instructions provided.
             instructions=self.instructions,
             second_lead=second_lead
         )
+
 
 class CallLineAgent(SDRAgentBase):
     def _build_prompt(self):
@@ -214,7 +217,8 @@ Please adhere strictly to the instructions provided.
 class LC2Agent(SDRAgentBase):
     def _build_prompt(self):
         return PromptTemplate(
-            input_variables=["full_email", "lc1_output", "job_post", "company_info", "lead_info", "salaria_homepage_faq"],
+            input_variables=["full_email", "lc1_output", "job_post", "company_info", "lead_info",
+                             "salaria_homepage_faq"],
             template="""
 You are a senior SDR assistant refining a sales outreach message for Salaria.
 
@@ -256,4 +260,37 @@ Return only the finalized email. Do not include any extraneous commentary.
         )
 
 
+class SubjectLineAgent(SDRAgentBase):
+    def _build_prompt(self):
+        return PromptTemplate(
+            input_variables=["company", "Full Email"],
+            template="""
+You are an expert at crafting Subject Lines for email. I want you to create a single subject line for email provided.
+    Please make sure that the subject line sounds like it was written by a human.
+
+    Here are a few examples:
+    1. Supporting MindStaq’s Sales Growth Strategy
+    2. Supporting Your Sales Growth at Courie
+    3. Supporting Weights & Biases' Sales Growth
+
+Original Email Text (full_email):
+{full_email}
+
+Company Name:
+{company}
+
+Instructions:
+{instructions}
+
+Using the original email and company name as context.
+Return only the subject line.
+""".strip()
+        )
+
+    def generate(self, full_email, company):
+        return super().generate(
+            full_email=full_email,
+            company=company,
+            instructions=self.instructions
+        )
 

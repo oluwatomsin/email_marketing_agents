@@ -13,3 +13,4 @@ requests==2.32.3
 swifter==1.4.0
 langchain-google-genai==2.1.5
 langchain-together
+langchain-ollama==0.3.3
