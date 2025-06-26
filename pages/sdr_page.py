@@ -164,6 +164,7 @@ if uploaded_file:
                             full_email=full_email,
                             company=row['Company']
                         )
+                        print(f"\n\n {subject_line}")
 
                         return pd.Series([p1, p2, p3, full_email, call_line, lc1_output, lc2_output, subject_line])
 

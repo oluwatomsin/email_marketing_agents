@@ -2,6 +2,7 @@ import os
 from dotenv import load_dotenv
 from langchain_openai.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate
+from langchain_google_genai import ChatGoogleGenerativeAI
 from rich import print
 
 load_dotenv()
@@ -9,7 +10,7 @@ load_dotenv()
 
 class EmailGenerationAgentStreamlit:
     def __init__(self, rules: str, email_template: str, faq_docs: str,
-                 model_name: str = "gpt-4.1-mini", temperature: float = 0.7):
+                 model_name: str = "gemini-2.5-flash-preview-05-20", temperature: float = 0.1):
         self.api_key = os.getenv("OPENAI_API_KEY")
         if not self.api_key:
             raise ValueError("API key not found. Set OPENAI_API_KEY in .env file.")
@@ -17,7 +18,8 @@ class EmailGenerationAgentStreamlit:
         self.rules = rules
         self.template = email_template
         self.faq_docs = faq_docs
-        self.model = ChatOpenAI(api_key=self.api_key, model=model_name, temperature=temperature)
+        self.model = ChatGoogleGenerativeAI(model=model_name, temperature=temperature,
+                                            max_retries=2)
 
     def _build_prompt(self, fields: list[str]):
         input_vars = fields + ["instructions", "email_template", "faq_docs"]
@@ -68,8 +70,8 @@ class LCEmailGenerationAgent:
         rules: str,
         email_template: str = None,  # made optional
         faq_docs: str = "",
-        model_name: str = "gpt-4.1-mini",
-        temperature: float = 0.7,
+        model_name: str = "gemini-2.5-flash-preview-05-20",
+        temperature: float = 0.1,
     ):
         api_key = os.getenv("OPENAI_API_KEY")
         if not api_key:
@@ -81,9 +83,8 @@ class LCEmailGenerationAgent:
         self.rules = rules
         self.template = email_template
         self.faq_docs = faq_docs
-        self.model = ChatOpenAI(
-            api_key=api_key, model=model_name, temperature=temperature
-        )
+        self.model = ChatGoogleGenerativeAI(model=model_name, temperature=temperature,
+                                            max_retries=2)
 
     def _build_prompt(self, fields: list[str]) -> PromptTemplate:
         input_vars = fields + ["instructions", "faq_docs", "lc_level"]

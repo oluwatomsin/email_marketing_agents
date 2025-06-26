@@ -321,31 +321,167 @@ instructions:
     Rules:
     - Only return the Subject Line
 
-  faq: |
-    Our Services
-    At Salaria, we specialize in B2B Lead Generation & Sales Development, acting as a seamless extension of your team or fully managing the process for you. We tailor our services to your budget, offering flexible month-to-month contracts.
-    
-    Here's a detailed look at how we help businesses scale:
-    
-    AI-Powered Cold Calling: We hire top talent and equip them with AI to craft highly personalized pitches for every single lead.
-    Hyper-Personalized Email Marketing: We combine deep public and proprietary data with AI and human expertise to create truly personalized email campaigns, moving beyond generic blasts.
-    Targeted LinkedIn & Social Outreach: We elevate your brand and reach today's B2B buyers through strategic outreach on LinkedIn and other critical social channels.
-    Custom Market Research & Prospecting: We leverage cutting-edge data tools and custom research to target and personalize our outreach with precision.
-    Rapid Inbound Lead Response: Our live human representatives respond instantly to inbound leads and follow up diligently across every channel until conversion.
-    AI-Driven Outbound Lead Gen: We offer an AI-driven outbound tool for hands-on teams, supported by our real lead generation experts when it matters most.
-    Cross-Functional Appointment Setting: We expertly coordinate meetings across various teams, territories, and stakeholders, integrating seamlessly into your existing systems and processes.
-    List Building & Prospecting: A foundational element of our lead generation, we build targeted lists to fuel your pipeline.
-    Inbound Lead Management: We efficiently manage and nurture leads that come in through various channels, ensuring no opportunity is missed.
-    Lead Nurturing: We cultivate relationships with leads over time, guiding them effectively through the sales funnel.
-    Go-To-Market Strategy: We can help you craft and execute effective strategies for launching new products or entering new markets.
-    Account Based Marketing (ABM): We apply a strategic approach to marketing, treating individual high-value accounts as unique markets.
-    Sales Enablement: We provide your sales teams with the essential resources and tools they need to enhance their selling effectiveness.
-    Demand Generation: Our focus is on creating significant interest and demand for your products or services.
-    Sales Consulting: We offer expert strategic advice and guidance to optimize your sales processes and improve performance.
-    Outbound Sales Strategy: We develop and implement proactive outreach strategies to connect with potential clients.
-    Sales Pipeline Management: We assist in managing and optimizing your sales pipeline for maximum efficiency.
-    Target Market Segmentation: We precisely identify and categorize your target audiences for more impactful outreach.
-    Digital Sales Prospecting: We utilize digital tools and channels to identify and engage with prospective clients.
-    Sales Outsourcing: You can outsource various sales functions to us, allowing your team to focus on core activities.
-    Sales Process Optimization: We work to improve the efficiency and effectiveness of your existing sales processes.
-    Multi-Channel Campaigns: We execute comprehensive outreach campaigns across calls, email, social media, digital platforms, and text messages.
+  our_services_and_keywords: |
+    Lead Generation 
+    Sales Development
+    Outbound Sales
+    Appointment Setting
+    Cold Calling
+    Prospecting
+    Email Marketing
+    LinkedIn Outreach
+    Social Outreach
+    SDR (Sales Development Representative)
+    BDR (Business Development Representative)
+    Demand Generation
+    Sales Enablement
+    Qualified Leads
+    CRM Management
+    Cold Outreach
+    Top-of-Funnel
+    Cold Email
+    Account-Based Marketing
+    List Building
+    Market Research
+    Data Enrichment
+    Appointment Booking
+    Inbound Lead Response
+    Sales Prospecting
+    Inside Sales
+    Conversion Rates
+    Follow-ups
+    Contact Sourcing
+    Lead Nurturing
+    Cadence
+    Drip Campaigns
+    Prospect Qualification
+    Sales Calls
+    Cold Leads
+    Warm Leads
+    Response Handling
+    Outreach Automation
+    Lead Lists
+    Lead Qualification
+    Call Scripts
+    Custom Outreach
+    Objection Handling
+    Lead Capture
+    Follow-up Calls
+    Message Testing
+    Open Rates
+    Response Rates
+    Email Automation
+    Outreach Campaign
+    Appointment Coordination
+    Prospect Engagement
+    Targeted Outreach
+    High-Quality Leads
+    Prospect Identification
+    Lead Sourcing
+    Contact Enrichment
+    Qualifying leads
+    Identifying decision-makers
+    Generating interest
+    Making introductory calls
+    Scheduling discovery calls
+    Setting appointments
+    Booking demos
+    Conducting cold outreach
+    Performing outbound calls
+    Sending cold emails
+    Executing LinkedIn outreach
+    Running email drip campaigns
+    Nurturing prospects
+    Developing target lists
+    Researching prospect profiles
+    Customizing messaging
+    Managing follow-up sequences
+    Conducting market research
+    Creating lead segments
+    Handling objections
+    Overcoming gatekeepers
+    Responding to inquiries
+    Following up on responses
+    Delivering elevator pitches
+    Confirming appointments
+    Performing call blitzes
+    Documenting prospect interactions
+    Reporting outreach activity
+    Collaborating with marketing teams
+    Utilizing sales scripts
+    Driving meeting attendance
+    Re-engaging cold leads
+    Reaching out to inbound leads
+    Responding quickly to inquiries
+    Executing email follow-ups
+    Coordinating sales meetings
+    Utilizing account-based strategies
+    Performing targeted calling campaigns
+    Leveraging referrals
+    Maintaining prospect databases
+    Conducting competitor analysis
+    Utilizing sales intelligence tools
+    Writing persuasive emails
+    Crafting compelling subject lines
+    Creating urgency in outreach
+    Organizing outreach cadences
+    Implementing A/B testing
+    Tracking open and response rates
+    Analyzing response data
+    Verifying contact details
+    Segmenting prospects by persona
+    Conducting lead scoring
+    Establishing initial rapport
+    Creating call plans
+    Using intent data
+    Validating prospect fit
+    Personalizing follow-up actions
+    Managing CRM updates
+    Logging prospect data
+    Data entry
+    Updating pipeline status
+    Tracking call outcomes
+    Generating lead lists
+    Organizing prospect data
+    Exporting CRM reports
+    Analyzing sales funnel metrics
+    Enriching contact information
+    Ensuring data accuracy
+    Generating outreach reports
+    Managing task automation
+    Monitoring engagement metrics
+    Setting reminders and tasks
+    Coordinating CRM integrations
+    Maintaining data hygiene
+    Flagging qualified opportunities
+    Preparing pipeline reports
+    Managing outreach calendar
+    Tracking lead progression
+    Updating prospect stages
+    Maintaining data compliance (GDPR)
+    Ensuring email deliverability
+    Conducting list audits
+    Archiving inactive leads
+    Using sales enablement tools
+    Reviewing activity KPIs
+    Managing outreach software
+    Configuring sales tech stack
+    Customizing reporting templates
+    Managing unsubscribe lists
+    Updating lead statuses
+    Monitoring lead sources
+    Performing list segmentation
+    Verifying lead qualifications
+    Maintaining lead records
+    Mapping buying cycles
+    Tracking no-show rates
+    Managing data exports
+    Segmenting outreach cadences
+    Flagging hot leads
+    Conducting response analysis
+    Monitoring bounced emails
+    Reconciling duplicate contacts
+    Performing list cleaning
+    Preparing prospect reports
+    Tracking outreach volume
+    Coordinating internal CRM training

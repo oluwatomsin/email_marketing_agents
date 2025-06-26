@@ -120,14 +120,16 @@ instructions:
     22. To inform you on who we are emailing and who else we are contacting to create this paragraph, we are going to label the person for this email as contact 1, then contact 2, then contact 3. We are going to start with crafting paragraph 3 for contact 1, then we are going to create it for contact 2, and then 3. Just know that each person will be labeled as such 
     23. When address someone’s title and responsibilities don’t make statements as if we know exactly what their responsibilities are like “you are clearly driving sales execution” or “you are obviously the right person for this”...never make definitive statements like that as you dont know for sure what someone does and if they are involved in this 
     24. Only reference the contacts or people I say that we are reaching out to and labeling contact 1,2, 3 - dont add anyone else onto the paragraph that I dont explicitly reference 
-    25. To be clear, The format of the third paragraph should be “As the [title], I thought you might be involved with lead generation and sales development - make sure that when you write out this reason for reaching out to them, always say it admitting that we are assuming and we don’t know anything for sure, so use words like “I thought you might be involved with.. Or “I’m assuming there might be a chance..”]. I also sent a note to [contact 2] and [contact 3] in case this [generic reason for why this might be relevant to them-- make sure that when you write out this reason for reaching out to them, always say it admitting that we are assuming and we don’t know anything for sure, so use words like “I thought you might be involved with.. Or “I’m assuming there might be a chance..”]. Our contracts are month-to-month, cancel anytime, so you can scale up and down as needed without adding headcount.” 
+    25. To be clear, The format of the third paragraph should be “As the [title], I thought you might be involved with lead generation and sales development - make sure that when you write out this reason for reaching out to them, always say it admitting that we are assuming and we don’t know anything for sure, so use words like “I thought you might be involved with.. Or “I’m assuming there might be a chance..”]. I also sent a note to [contact 2] and [contact 3] in case this [generic reason for why this might be relevant to them-- make sure that when you write out this reason for reaching out to them, always say it admitting that we are assuming and we don’t know anything for sure, so use words like “I thought you might be involved with.. Or “I’m assuming there might be a chance..”]. Our contracts are month-to-month, cancel anytime, so you can scale up and down as needed without adding headcount.”  \n\n Can we set up a call to introduce ourselves?.
     26. Don’t pull too much information out of their linkedin to customize this paragraph. I think if you over customize this paragraph, the lead will be able to tell when you are being disingenuous. The lead will know you are just pulling keywords from their titles. 
-    27. If I don’t mention any other contacts such as [Contact 2] and [Contact 3], then don’t reference anyone else as that means we didn’t send an email to anyone else so that means you don’t have to reference anyone else. You only need to reference other contacts when I explicitly reference other contacts to you. If not, keep it blank.  
-    28. Don’t forget the part where you say: "Our contracts are month-to-month, cancel anytime, so you can scale up and down as needed without adding headcount.”  Make sure this statement ends the paragraph.
-    29. Make sure you include all contacts we have sent a note to in the part of the paragraph where we talk about the other leads we sent a note to.
-    30. Never mention the company name.
-    31. Do not attempt to make any words bold.
-    32. Never pull the Job title of the leads from the Job Description, that would be wrong, it is located in the "Lead Info".
+    27. If I don’t mention any other contacts such as [Contact 2] and [Contact 3], then don’t reference anyone else as that means we didn’t send an email to anyone else so that means you don’t have to reference anyone else. You only need to reference other contacts when I explicitly reference other contacts to you. If not, keep it blank.
+    28. When referencing the other contacts, do not include their title.
+    29. Don’t forget the part where you say: "Our contracts are month-to-month, cancel anytime, so you can scale up and down as needed without adding headcount.”  Make sure this statement ends the paragraph.
+    30. Make sure you include all contacts we have sent a note to in the part of the paragraph where we talk about the other leads we sent a note to.
+    31. Never mention the company name.
+    32. Do not attempt to make any words bold.
+    33. Never pull the Job title of the leads from the Job Description, that would be wrong, it is located in the "Lead Info".
+    34. At the end of this paragraph, always include add a new paragraph for the call to action (CTA)
 
   call_line: |
     <Rationale>  
@@ -256,6 +258,7 @@ instructions:
   subject_line: |
     Rules:
     - Only return the Subject Line
+    - Don't include the leads name in the Subject Line, just the companies name.
 
   
   our_services_and_keywords: |

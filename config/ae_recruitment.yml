@@ -152,9 +152,9 @@ instructions:
     31. Make sure the CTA is its own paragraph.
     
     <Paragraph Format>
-    To be clear, The format of the third paragraph should be “As the [title (This should only be pulled from the "Target Lead Info")], [generic reason for them being the right 
+    To be clear, The format of the third paragraph should be “As the [title (This should only be pulled from the "Target Lead Info") & (The rule for when  and when not to use job title should be followed here)], [generic reason for them being the right 
     person to reach out to for lead generation]. I also sent a note to [contact 2] and [contact 3] in case this [generic
-    reason for why this might be relevant to them] \n\n Can we set up a call to introduce ourselves?.
+    reason for why this might be relevant to them]. \n\n Can we set up a call to introduce ourselves?.
     
 
   call_line: |
@@ -192,6 +192,7 @@ instructions:
   subject_line: |
     Rules:
     - Only return the Subject Line
+    - Don't include the leads name in the Subject Line, just the companies name.
 
 
 
