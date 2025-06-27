@@ -95,8 +95,21 @@ instructions:
   sdr_3: |  
     <Paragraph Three Rules>
     Follow the Rules for paragraph 3: 
-
-    1. This paragraph is supposed to tie in the lead’s position and their background and experience with why we reached out to them specifically
+    1a. 1. Lead Introduction Logic:  
+       - If the `lead_title` IS one of the following:  
+         list = ["CEO", "Founder", "Co-Founder", "President", "Chairman", "Chief Executive Officer", 'Chief Executive Officer']  
+           → Do NOT mention the title  
+           → Do NOT say things like “I saw you're the CEO” instead use words like "As the head of the company"
+           → Instead, start with a sentence that implicitly reflects executive-level importance and that's the reason we 
+              are reaching out to them, such as:  
+             “make the argument that we are reaching out to them specifically because our model and our services are so 
+              disruptive and touch every corner of the business - we usually need the buy in of the head of the company 
+              to push through something as unique, different and disruptive as our model for lead generation”  
+           → Always start the into like this: "We are reaching out to you as the head of the company because our lead generation model is unique and disruptive and often requires executive buy-in."
+       - If the `lead_title` is NOT in that list:  
+           → Start with:  
+             “As the [standardized title], [generic reason for relevance to lead generation].”
+    1b. This paragraph is supposed to tie in the lead’s position and their background and experience with why we reached out to them specifically
     2. I’m going to feed you information about the lead from their linkedin including their title, job description and about us. I’m also going to feed you the job post and about info on the company again. Craft a paragraph that starts with us mentioning their title and then explaining why we reached out to them. Use specific language (words, phrases) from their title. 
     3. If I am unable to find information about them and their position on their linkedin, I will at least have their title. Make an argument specific to their title and what you know about the job responsibilities of a person with their job title - and again tie in why we think they specifically would be interested in our services given their position 
     4. If the lead is the head of the company (CEO, president, chairman, founder, co-founder) then I want you to address them as "The head of the company". Its weird when you say “I saw that you are the CEO and thought you might be interested..” that just sounds silly - the CEO is unusually interested in every component of the company - noticing their title as CEO made you think they might be interested in Salaria? You see how that just sounds silly? Usually when its the head of the company, I make the argument that we are reaching out to them specifically because our model and our services are so disruptive and touch every corner of the business - we usually need the buy in of the head of the company to push through something as unique, different and disruptive as our model for lead generation
@@ -111,7 +124,6 @@ instructions:
     13. If I don’t explicitly mention that we are contacting someone like the CEO, don’t mention that we are reaching out to the CEO. You should only reference people if I’m explicitly telling you that we are contacting them as well.
     14. Don’t say something is “worth a look” or suggesting they would be dumb to not try us. You also should be more explicitly clear that our contracts are month to month and non committal. I think you should also be more clear that if they are using another agency or have an internal team, we’d love to introduce our unique model. But there is a better way to say it than “worth a look or worth a shot” 
     15. Do not use dashes (—) in the paragraphs unless its for compound words.
-    16. Always end the email with a direct CTA. Can we set up a call to introduce ourselves? Make sure you separate it from the final paragraph. The CTA should be it’s standalone sentence at the bottom separated from the last paragraph always.
     17. Make sure you use the first and last name of the other lead’s we are saying that we are reaching out to - use their full name, not just their first name
     18. Never mention the mission statement of a lead’s company - that is a very cheesy sales technique and perceived as a lazy way to personalize. If you talk about how much you “appreciate” someones values and mission statements, they might perceive that as disingenuous and overly salesy
     19. Never mention the name Salaria in the email - never mention Salaria by name - always say “We” like “We can help you with..”
@@ -120,7 +132,7 @@ instructions:
     22. To inform you on who we are emailing and who else we are contacting to create this paragraph, we are going to label the person for this email as contact 1, then contact 2, then contact 3. We are going to start with crafting paragraph 3 for contact 1, then we are going to create it for contact 2, and then 3. Just know that each person will be labeled as such 
     23. When address someone’s title and responsibilities don’t make statements as if we know exactly what their responsibilities are like “you are clearly driving sales execution” or “you are obviously the right person for this”...never make definitive statements like that as you dont know for sure what someone does and if they are involved in this 
     24. Only reference the contacts or people I say that we are reaching out to and labeling contact 1,2, 3 - dont add anyone else onto the paragraph that I dont explicitly reference 
-    25. To be clear, The format of the third paragraph should be “As the [title], I thought you might be involved with lead generation and sales development - make sure that when you write out this reason for reaching out to them, always say it admitting that we are assuming and we don’t know anything for sure, so use words like “I thought you might be involved with.. Or “I’m assuming there might be a chance..”]. I also sent a note to [contact 2] and [contact 3] in case this [generic reason for why this might be relevant to them-- make sure that when you write out this reason for reaching out to them, always say it admitting that we are assuming and we don’t know anything for sure, so use words like “I thought you might be involved with.. Or “I’m assuming there might be a chance..”]. Our contracts are month-to-month, cancel anytime, so you can scale up and down as needed without adding headcount.”  \n\n Can we set up a call to introduce ourselves?.
+    25. To be clear, The format of the third paragraph should be “As the [title], I thought you might be involved with lead generation and sales development - make sure that when you write out this reason for reaching out to them, always say it admitting that we are assuming and we don’t know anything for sure, so use words like “I thought you might be involved with.. Or “I’m assuming there might be a chance..”]. I also sent a note to [contact 2] and [contact 3] in case this [generic reason for why this might be relevant to them-- make sure that when you write out this reason for reaching out to them, always say it admitting that we are assuming and we don’t know anything for sure, so use words like “I thought you might be involved with.. Or “I’m assuming there might be a chance..”]. Our contracts are month-to-month, cancel anytime, so you can scale up and down as needed without adding headcount."
     26. Don’t pull too much information out of their linkedin to customize this paragraph. I think if you over customize this paragraph, the lead will be able to tell when you are being disingenuous. The lead will know you are just pulling keywords from their titles. 
     27. If I don’t mention any other contacts such as [Contact 2] and [Contact 3], then don’t reference anyone else as that means we didn’t send an email to anyone else so that means you don’t have to reference anyone else. You only need to reference other contacts when I explicitly reference other contacts to you. If not, keep it blank.
     28. When referencing the other contacts, do not include their title.
@@ -129,7 +141,6 @@ instructions:
     31. Never mention the company name.
     32. Do not attempt to make any words bold.
     33. Never pull the Job title of the leads from the Job Description, that would be wrong, it is located in the "Lead Info".
-    34. At the end of this paragraph, always include add a new paragraph for the call to action (CTA)
 
   call_line: |
     <Rationale>  
@@ -259,6 +270,8 @@ instructions:
     Rules:
     - Only return the Subject Line
     - Don't include the leads name in the Subject Line, just the companies name.
+    - It must start with the word "Supporting" or something similar.
+    - Must be a good subject line that will spark interest in opening the email in the first place.
 
   
   our_services_and_keywords: |
