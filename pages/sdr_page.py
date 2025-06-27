@@ -130,7 +130,7 @@ if uploaded_file:
                             second_lead=row['Second_Lead_Info']
                         )
 
-                        full_email = f"Hi {row.get('First Name', '').strip()}, \n\n{p1}\n\n{p2}\n\n{p3} \n\nCan we set up a call to introduce ourselves?".strip()
+                        full_email = f"Hi {row.get('First Name', '').strip()}, \n\n{p1}\n\n{p2}\n\n{p3}\n\nCan we set up a call to introduce ourselves?".strip()
 
                         print(full_email)
                         print("*"*30)
@@ -190,7 +190,8 @@ if uploaded_file:
                         greeting,
                         row.get("AI Email Paragraph 1", "").strip(),
                         row.get("AI Email Paragraph 2", "").strip(),
-                        row.get("AI Email Paragraph 3", "").strip()
+                        row.get("AI Email Paragraph 3", "").strip(),
+                        "Can we set up a call to introduce ourselves?"
                     ]
                     return "\n\n".join(part for part in parts if part)
 

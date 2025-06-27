@@ -130,7 +130,6 @@ instructions:
     8. Do not mention Salaria by name; use “we.”  
     9. Do not reference company mission statements or founding years.  
     10. Do not use cheesy or overly salesy language.  
-    11. Always end with a standalone CTA: “Can we set up a call to introduce ourselves?”  
     12. Only reference contacts explicitly labeled as Contact 2 or Contact 3.  
     13. Standardize job titles, removing irregularities.  
     14. Do not start the paragraph with the lead’s name.  
@@ -147,14 +146,12 @@ instructions:
     26. Never add the "Lead_info" in the section of the paragraph where you are add the other contacts we have reached out to.
     27. Only reference contacts explicitly in "Second_Lead_info". if there are none the don't reference any contacts.
     28. Don't be presumptuous, don't assume you know what the lead's responsibilities are. Act like you don't know the leads responsibilities for sure. use worked like "I thought you might be focused on [responsibilities]" when talking about the leads responsibilities
-    29. End with a standalone CTA: “Can we set up a call to introduce ourselves?”
     30. Never pull the Job title of the leads from the Job Description, that would be wrong, it is located in the "Target Lead Info".
-    31. Make sure the CTA is its own paragraph.
     
     <Paragraph Format>
     To be clear, The format of the third paragraph should be “As the [title (This should only be pulled from the "Target Lead Info") & (The rule for when  and when not to use job title should be followed here)], [generic reason for them being the right 
     person to reach out to for lead generation]. I also sent a note to [contact 2] and [contact 3] in case this [generic
-    reason for why this might be relevant to them]. \n\n Can we set up a call to introduce ourselves?.
+    reason for why this might be relevant to them].
     
 
   call_line: |

@@ -108,7 +108,7 @@ instructions:
            → Always start the into like this: "We are reaching out to you as the head of the company because our lead generation model is unique and disruptive and often requires executive buy-in."
        - If the `lead_title` is NOT in that list:  
            → Start with:  
-             “As the [standardized title], [generic reason for relevance to lead generation].”
+             “As the [title (This can be found in the "Target Lead Info") provided], [generic reason for relevance to lead generation].”
     1b. This paragraph is supposed to tie in the lead’s position and their background and experience with why we reached out to them specifically
     2. I’m going to feed you information about the lead from their linkedin including their title, job description and about us. I’m also going to feed you the job post and about info on the company again. Craft a paragraph that starts with us mentioning their title and then explaining why we reached out to them. Use specific language (words, phrases) from their title. 
     3. If I am unable to find information about them and their position on their linkedin, I will at least have their title. Make an argument specific to their title and what you know about the job responsibilities of a person with their job title - and again tie in why we think they specifically would be interested in our services given their position 
